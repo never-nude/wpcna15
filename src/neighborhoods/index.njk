@@ -1,20 +1,97 @@
 ---
 layout: layouts/base.njk
 title: White Plains Neighborhoods
-metaDescription: A neighborhood-by-neighborhood guide to White Plains, with local context across the city.
+metaDescription: Explore White Plains through an interactive neighborhood map and a citywide neighborhood guide.
 ---
 {% from "components/macros.njk" import neighborhoodCard %}
 
 <section class="page-hero">
   <div class="wrap">
     <p class="eyebrow">Neighborhood Guide</p>
-    <h1>White Plains neighborhoods</h1>
-    <p>{{ neighborhoodStore.count }} neighborhoods, grouped by area. Browse White Plains one neighborhood at a time.</p>
+    <h1>Explore White Plains by neighborhood</h1>
+    <p>Start with the official neighborhood map, then browse the full city guide below. This first interactive pass makes 12 neighborhoods clickable to begin, with Fisher Hill and other key areas live now.</p>
+  </div>
+</section>
+
+<section class="section section-compact neighborhood-map-section" id="neighborhood-map">
+  <div class="wrap">
+    <div class="interactive-map-layout" data-neighborhood-map>
+      <div class="interactive-map-panel">
+        <div class="interactive-map-frame">
+          <img
+            src="{{ featuredNeighborhoodMap.imagePath | withPrefix }}"
+            alt="{{ featuredNeighborhoodMap.imageAlt }}"
+            width="{{ featuredNeighborhoodMap.imageWidth }}"
+            height="{{ featuredNeighborhoodMap.imageHeight }}"
+            loading="eager"
+          >
+          <svg
+            class="interactive-map-svg"
+            viewBox="0 0 {{ featuredNeighborhoodMap.imageWidth }} {{ featuredNeighborhoodMap.imageHeight }}"
+            aria-label="Interactive map of featured White Plains neighborhoods"
+            role="img"
+            focusable="false"
+          >
+            {% for region in featuredNeighborhoodMap.regions %}
+              {% set neighborhood = neighborhoodStore.bySlug[region.slug] %}
+              <a
+                href="{{ neighborhood.detailUrl | withPrefix }}"
+                data-map-region="{{ region.slug }}"
+                aria-label="Open {{ neighborhood.name }}"
+              >
+                <polygon points="{{ region.points }}"></polygon>
+              </a>
+            {% endfor %}
+          </svg>
+        </div>
+        <p class="interactive-map-caption">Hover or tap one of the highlighted neighborhoods to connect the map and the guide cards. More clickable neighborhoods can be added as this map grows.</p>
+      </div>
+
+      <div class="interactive-map-sidebar">
+        <div class="interactive-map-sidebar-intro">
+          <p class="eyebrow">Featured Neighborhoods</p>
+          <h2>12 places to start</h2>
+          <p>This first set leans on neighborhoods that are clearly represented on the official boundary map, so the interactive experience stays clean and legible from day one.</p>
+        </div>
+
+        <div class="map-tile-grid">
+          {% for slug in featuredNeighborhoodMap.featuredSlugs %}
+            {% set neighborhood = neighborhoodStore.bySlug[slug] %}
+            <article class="map-tile" data-map-tile="{{ slug }}">
+              <a href="{{ neighborhood.detailUrl | withPrefix }}">
+                {% if neighborhood.hero %}
+                  <span class="map-tile-media">
+                    <img
+                      src="{{ (neighborhood.hero.cardImagePath or neighborhood.hero.imagePath) | withPrefix }}"
+                      alt="{{ neighborhood.hero.cardAltText or neighborhood.hero.altText }}"
+                      loading="lazy"
+                    >
+                  </span>
+                {% endif %}
+                <span class="map-tile-body">
+                  <span class="map-tile-group">{{ neighborhood.group }}</span>
+                  <strong>{{ neighborhood.name }}</strong>
+                  <span>{{ neighborhood.teaser }}</span>
+                </span>
+              </a>
+            </article>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
 <section class="section">
   <div class="wrap">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">All Neighborhoods</p>
+        <h2>Browse the full White Plains guide</h2>
+        <p>{{ neighborhoodStore.count }} neighborhoods, grouped by area so you can move from the city center out toward the north side, east side, Gedney, and the south side.</p>
+      </div>
+    </div>
+
     {% for group in neighborhoodStore.groups %}
       <section class="neighborhood-group" id="{{ group.slug }}">
         <div class="neighborhood-group-intro">

@@ -6,24 +6,42 @@ const cleanCanonicalPrefix = canonicalPathPrefix === "/" ? "" : canonicalPathPre
 module.exports = {
   name: "White Plains Council of Neighborhood Associations",
   shortName: "WPCNA",
+  brandLines: ["White Plains", "Council of", "Neighborhood", "Associations"],
   tagline: "White Plains civic and neighborhood guide.",
   baseUrl: `${deployBaseUrl.replace(/\/$/, "")}${cleanCanonicalPrefix}`,
   pathPrefix: runtimePathPrefix,
-  themeColor: "#0062B8",
+  themeColor: "#1F3A5F",
   contactName: "Michael Dalton, President",
   email: "info@wpcna.org",
-  emailMailto: "info@wpcna.org",
   contactFormAction: "https://formsubmit.co/info@wpcna.org",
-  // NOTE: CC for form submissions should be configured in the FormSubmit.co dashboard
-  // rather than in page markup. Do not put personal email addresses in client-facing HTML.
-  contactFormCc: "",
   contactFormSubject: "WPCNA website contact",
+  // Posting form submits to a Cloudflare Worker — URL set after worker deploy
+  postingApiUrl: process.env.POSTING_API_URL || "https://wpcna-posting.YOUR_SUBDOMAIN.workers.dev",
   location: "White Plains, New York",
-  defaultOgImage: "/assets/img/photos/white-plains-main.jpeg",
-  heroImage: "/assets/img/photos/white-plains-main.jpeg",
-  heroImageAlt: "Aerial view of downtown White Plains with high-rise buildings, surrounding neighborhoods, and wooded hills beyond the skyline.",
-  aboutImage: "/assets/img/photos/white-plains-main.jpeg",
-  aboutImageAlt: "Aerial view of downtown White Plains with nearby neighborhoods and hills in the background.",
+  defaultOgImage: "/assets/img/home/old-site/WPP-pano.jpg",
+  heroImage: "/assets/img/home/old-site/WPP-pano.jpg",
+  heroImageAlt:
+    "Panoramic view of downtown White Plains with the skyline rising above nearby homes and tree-lined blocks.",
+  aboutImage: "/assets/img/home/old-site/White-Plains.jpeg",
+  aboutImageAlt:
+    "Golden-hour aerial view of White Plains with downtown buildings and surrounding neighborhoods.",
+  homeGallery: [
+    {
+      src: "/assets/img/home/old-site/WPP-pano.jpg",
+      alt: "Panoramic skyline view of White Plains at dusk.",
+      label: "Downtown panorama"
+    },
+    {
+      src: "/assets/img/home/old-site/White-Plains.jpeg",
+      alt: "Golden-hour aerial view of downtown White Plains and nearby neighborhoods.",
+      label: "Golden hour"
+    },
+    {
+      src: "/assets/img/home/legacy/test-crop.jpg",
+      alt: "Daytime aerial view of White Plains with downtown and residential blocks.",
+      label: "Aerial view"
+    }
+  ],
   mission:
     "WPCNA helps keep neighborhood concerns, local events, and civic information easier to follow across White Plains.",
   purpose:

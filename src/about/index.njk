@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 title: About WPCNA
-metaDescription: Learn what WPCNA is and how it connects neighborhoods across White Plains.
+metaDescription: Learn what WPCNA is and how it helps connect neighborhoods across White Plains.
 ---
 {% from "components/macros.njk" import resourceCard %}
 
@@ -9,7 +9,7 @@ metaDescription: Learn what WPCNA is and how it connects neighborhoods across Wh
   <div class="wrap">
     <p class="eyebrow">About</p>
     <h1>About WPCNA</h1>
-    <p>The White Plains Council of Neighborhood Associations brings together neighborhood groups from across the city.</p>
+    <p>The White Plains Council of Neighborhood Associations brings neighborhood groups together across the city.</p>
   </div>
 </section>
 
@@ -17,15 +17,17 @@ metaDescription: Learn what WPCNA is and how it connects neighborhoods across Wh
   <div class="wrap">
     <div class="about-grid">
       <article class="about-copy">
-        <p><strong>WPCNA</strong> is a volunteer council made up of representatives from neighborhood associations throughout White Plains. It serves as a forum for sharing information, raising concerns, and keeping communication open between neighborhoods and the broader community.</p>
+        <h2>What WPCNA is</h2>
+        <p>The White Plains Council of Neighborhood Associations coordinates neighborhood associations across White Plains and helps keep communication open between neighborhoods, city government, and the public.</p>
+        <blockquote class="mission-quote">The White Plains Council of Neighborhood Associations coordinates the neighborhood associations in White Plains, NY. Its purpose is to enhance the quality of life in the City, and in particular, in its neighborhoods. As an advisory council, the WPCNA functions by disseminating information and opinion to the public and public officials, and by encouraging local action.</blockquote>
 
-        <p>Each neighborhood has its own character, concerns, and priorities. WPCNA exists to help those neighborhoods stay connected to each other, to the city, and to what is happening across White Plains.</p>
+        <h2>Why this site exists</h2>
+        <p>White Plains has a busy downtown, active neighborhood associations, public meetings, local organizations, and city notices moving at the same time. This site is meant to pull the most useful pieces together in one place so residents can see what is happening, find neighborhood context, and stay connected to public life around the city.</p>
+        <p>That is why the site brings together what's happening around White Plains, a guide to the city's neighborhoods, meeting agendas, and a few practical pages people tend to need again and again.</p>
 
-        <p>This site is part of that effort. It brings together civic events, meeting agendas, neighborhood information, and community resources in one place — organized with a neighborhood lens so residents can find what matters to them.</p>
-
-        <p>White Plains is the county seat of Westchester and a growing city with a busy downtown, a Metro-North connection to Grand Central, and a wide range of residential neighborhoods. The city carries the energy and diversity you would expect from a place with strong connections to both Westchester County and New York City.</p>
-
-        <p>If you are looking to get a better sense of what is happening in White Plains, or want to get more involved in your neighborhood, you are in the right place.</p>
+        <h2>How residents use it</h2>
+        <p>You can use this site to follow neighborhood-relevant events, get a clearer sense of different parts of White Plains, review WPCNA agendas, and send information to the council for possible posting. It is meant to be useful, plainspoken, and easy to check without digging through several different sites.</p>
+        <p>WPCNA itself is made up of representatives from neighborhood associations throughout White Plains. The council serves as a place to share information, raise concerns, and keep neighborhoods in touch with each other and with the wider community.</p>
       </article>
 
       <div>
@@ -38,7 +40,6 @@ metaDescription: Learn what WPCNA is and how it connects neighborhoods across Wh
           <h3>Get in touch</h3>
           <p>Questions, updates, or neighborhood news can be sent here.</p>
           <form class="contact-form" action="{{ site.contactFormAction }}" method="POST">
-            {% if site.contactFormCc %}<input type="hidden" name="_cc" value="{{ site.contactFormCc }}">{% endif %}
             <input type="hidden" name="_subject" value="{{ site.contactFormSubject }}">
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_template" value="table">
@@ -66,6 +67,26 @@ metaDescription: Learn what WPCNA is and how it connects neighborhoods across Wh
             <button class="btn btn-primary btn-block" type="submit">Send message</button>
           </form>
         </div>
+
+        <div class="sidebar-card" style="margin-top:1.5rem">
+          <p class="eyebrow">Leadership</p>
+          <h3>Archived officer list</h3>
+          <p>Until a current roster is reposted, the archived 2018 WPCNA site listed these officers:</p>
+          <ul class="plain-list">
+            <li><strong>Co-Presidents:</strong> Bill Brady and Andrew Custodio</li>
+            <li><strong>Vice Presidents:</strong> Ron Palmer and Christopher Price</li>
+            <li><strong>Treasurer:</strong> Tom Osbeck</li>
+            <li><strong>Recording Secretary:</strong> Ruthmarie Hicks</li>
+            <li><strong>Corresponding Secretary:</strong> Louis Bruno</li>
+          </ul>
+        </div>
+
+        <div class="sidebar-card" style="margin-top:1.5rem">
+          <p class="eyebrow">How WPCNA works</p>
+          <h3>By-laws and committees</h3>
+          <p>The archived WPCNA site also pointed residents to the council's by-laws and committee work. Those pieces help give neighborhood associations a structure for sharing information, tracking issues, and taking on citywide topics together.</p>
+          <p>If you need help finding governance materials or want to ask how WPCNA is organized, use the contact form and the council can point you in the right direction.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -90,8 +111,8 @@ metaDescription: Learn what WPCNA is and how it connects neighborhoods across Wh
       <div class="spotlight-card">
         <p class="eyebrow">Explore</p>
         <h3>See what's happening</h3>
-        <p>Browse upcoming events, explore neighborhoods, or check out the quick links on the home page.</p>
-        <a class="btn btn-primary btn-block" href="{{ '/events/' | withPrefix }}" style="margin-top:0.75rem">What's happening</a>
+        <p>Browse upcoming events, explore neighborhoods, or send community information to WPCNA for review.</p>
+        <a class="btn btn-primary btn-block" href="{{ '/events/' | withPrefix }}" style="margin-top:0.75rem">Open what's happening</a>
       </div>
     </div>
   </div>

@@ -1,0 +1,94 @@
+---
+layout: layouts/base.njk
+title: Community Posting
+metaDescription: Submit neighborhood news, civic notices, and community-serving information to WPCNA for review.
+---
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Share With Your Neighbors</p>
+    <h1>Community posting</h1>
+    <p>Send local information to WPCNA for review and possible posting on this site.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="about-grid">
+      <article class="about-copy">
+        <h2>A curated community board</h2>
+        <p>This is not an open bulletin board or a classifieds page. WPCNA reviews submissions before posting anything, with an eye toward whether the information is community-serving, non-commercial, and relevant to White Plains residents.</p>
+        <p>If something fits, WPCNA may post it on the site, share it through the council, or use it to help residents stay informed. If it does not fit, it will not be posted.</p>
+
+        <div class="card-grid card-grid-2 posting-grid">
+          <article class="resource-card">
+            <p class="eyebrow">What's welcome</p>
+            <h3>Local, civic, and neighborhood-serving information</h3>
+            <ul class="plain-list">
+              <li>Community events such as school picnics, cleanup days, and neighborhood efforts</li>
+              <li>Civic initiatives such as sustainability newsletters, awareness campaigns, and public-interest updates</li>
+              <li>City-related notices such as hydrant flushing, road work, and other resident-facing information</li>
+            </ul>
+          </article>
+
+          <article class="resource-card">
+            <p class="eyebrow">What is not posted</p>
+            <h3>Not a classifieds or advertising feed</h3>
+            <ul class="plain-list">
+              <li>Yard sales and personal listings</li>
+              <li>Business advertising and commercial promotions</li>
+              <li>Unmoderated open posting or anything that needs to appear without review</li>
+            </ul>
+          </article>
+        </div>
+
+        <h2>What to send</h2>
+        <p>Please include the basics residents will need: what it is, who it is for, when it happens, where it takes place, and any link WPCNA should use if the item is posted. The clearer the information, the easier it is to review.</p>
+      </article>
+
+      <div>
+        <div class="sidebar-card" id="posting-form">
+          <p class="eyebrow">Submission form</p>
+          <h3>Send something for review</h3>
+          <p>Submissions go to WPCNA and are reviewed before anything is posted.</p>
+          <form class="contact-form" data-posting-form data-posting-api="{{ site.postingApiUrl }}">
+            {# Honeypot — hidden from real users, catches bots #}
+            <div style="position:absolute;left:-9999px" aria-hidden="true">
+              <label for="posting-website">Leave blank</label>
+              <input id="posting-website" name="website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+
+            <div class="form-field">
+              <label for="posting-name">Name</label>
+              <input id="posting-name" name="name" type="text" autocomplete="name" required>
+            </div>
+
+            <div class="form-field">
+              <label for="posting-email">Email</label>
+              <input id="posting-email" name="email" type="email" autocomplete="email" required>
+            </div>
+
+            <div class="form-field">
+              <label for="posting-subject">Subject</label>
+              <input id="posting-subject" name="subject" type="text" maxlength="200" required>
+            </div>
+
+            <div class="form-field">
+              <label for="posting-message">Message <span class="char-hint" data-char-count>240 characters</span></label>
+              <textarea id="posting-message" name="message" rows="5" maxlength="240" required></textarea>
+            </div>
+
+            <button class="btn btn-primary btn-block" type="submit" data-posting-submit>Send for review</button>
+
+            <div class="form-status" data-posting-status hidden></div>
+          </form>
+        </div>
+
+        <div class="sidebar-card" style="margin-top:1.5rem">
+          <p class="eyebrow">Review note</p>
+          <h3>Before something goes live</h3>
+          <p>WPCNA reviews submissions for neighborhood relevance, clarity, and fit. Posting is selective so the page stays useful and does not turn into a general-purpose feed.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

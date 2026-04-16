@@ -4,32 +4,27 @@
       <p class="footer-brand">{{ site.shortName }}</p>
       <p>{{ site.mission }}</p>
     </div>
+
     <div>
-      <h3>Contact</h3>
+      <h3>Neighborhood guide</h3>
       <ul>
-        <li>{{ site.location }}</li>
-        <li><a href="{{ '/about/#contact-form' | withPrefix }}">Use the contact form</a></li>
+        <li><a href="{{ '/neighborhoods/' | withPrefix }}">Explore neighborhoods</a></li>
+        <li><a href="{{ '/events/' | withPrefix }}">What's happening</a></li>
+        <li><a href="{{ '/posting/' | withPrefix }}">Community posting</a></li>
       </ul>
     </div>
+
     <div>
       <h3>WPCNA</h3>
       <ul>
-        <li><a href="{{ '/agendas/' | withPrefix }}">Meeting agendas &amp; minutes</a></li>
-        <li><a href="{{ '/workshops/' | withPrefix }}">CNA Workshop Handbook</a></li>
-        <li><a href="{{ '/community-posting/' | withPrefix }}">Community posting</a></li>
-        <li><a href="{{ '/neighborhood-map/' | withPrefix }}">Neighborhood map</a></li>
+        <li><a href="{{ '/agendas/' | withPrefix }}">Agendas</a></li>
+        <li><a href="{{ '/handbook/' | withPrefix }}">CNA Workshop Handbook</a></li>
         <li><a href="{{ '/about/' | withPrefix }}">About WPCNA</a></li>
-      </ul>
-    </div>
-    <div>
-      <h3>Community calendars</h3>
-      <ul>
-        {% for link in site.communityChannels %}
-          <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a></li>
-        {% endfor %}
+        <li><a href="{{ '/about/#contact-form' | withPrefix }}">Contact WPCNA</a></li>
       </ul>
     </div>
   </div>
+
   <div class="footer-bottom">
     <p>{{ site.footerNote }}</p>
   </div>

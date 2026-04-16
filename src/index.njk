@@ -1,19 +1,20 @@
 ---
 layout: layouts/base.njk
-title: White Plains Neighborhood & Civic Hub
-metaDescription: WPCNA is a neighborhood-centered civic hub for White Plains — connecting residents to local events, neighborhood life, and community information.
+title: What's Happening in White Plains
+metaDescription: A neighborhood-centered guide to events, civic life, and useful local information around White Plains.
 ---
 {% from "components/macros.njk" import eventCard, neighborhoodCard, resourceCard %}
 
-<section class="hero">
+<section class="hero hero-home">
   <img src="{{ site.heroImage | withPrefix }}" alt="{{ site.heroImageAlt }}" loading="eager">
   <div class="hero-overlay">
     <div class="wrap">
-      <p class="eyebrow">White Plains Council of Neighborhood Associations</p>
-      <h1>Your neighborhood civic hub</h1>
-      <p>{{ site.mission }}</p>
+      <p class="eyebrow">White Plains, New York</p>
+      <h1>What's happening in White Plains</h1>
+      <p>Events, neighborhoods, and civic life in the county seat of Westchester.</p>
+      <p class="hero-note">{{ site.mission }}</p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="{{ '/events/' | withPrefix }}">What's happening</a>
+        <a class="btn btn-primary" href="{{ '/events/' | withPrefix }}">See what's happening</a>
         <a class="btn btn-outline" href="{{ '/neighborhoods/' | withPrefix }}">Neighborhoods</a>
       </div>
       <ul class="hero-stats">
@@ -25,15 +26,52 @@ metaDescription: WPCNA is a neighborhood-centered civic hub for White Plains —
   </div>
 </section>
 
+<section class="section-compact home-gallery-section">
+  <div class="wrap">
+    <div class="section-header home-gallery-header">
+      <div>
+        <p class="eyebrow">White Plains</p>
+        <h2>A closer look at the city</h2>
+        <p>Views pulled from the older WPCNA site, carried forward here so the homepage feels rooted in the place it serves.</p>
+      </div>
+    </div>
+    <div class="home-gallery-grid" aria-label="White Plains photo gallery">
+      {% for photo in site.homeGallery %}
+        {% if not loop.first %}
+          <figure class="home-gallery-card{% if loop.index == 2 %} home-gallery-card-wide{% endif %}">
+            <img src="{{ photo.src | withPrefix }}" alt="{{ photo.alt }}" loading="lazy">
+            <figcaption>{{ photo.label }}</figcaption>
+          </figure>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <section class="section">
   <div class="wrap">
     <div class="section-header">
       <div>
-        <p class="eyebrow">About WPCNA</p>
-        <h2>Neighborhood voices, citywide view</h2>
-        <p><strong>WPCNA</strong> &mdash; the <strong>White Plains Council of Neighborhood Associations</strong> &mdash; is a volunteer council of neighborhood-association representatives from across the city. {{ site.purpose }}</p>
+        <p class="eyebrow">Coming Up</p>
+        <h2>Upcoming events</h2>
+        <p>A curated selection of public meetings, arts events, downtown happenings, and neighborhood programs.</p>
       </div>
+      <a class="link-arrow" href="{{ '/events/' | withPrefix }}">See all happenings</a>
     </div>
+
+    {% if eventStore.homeUpcoming.length %}
+      <div class="card-grid">
+        {% for event in eventStore.homeUpcoming %}
+          {{ eventCard(event, true) }}
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="empty-state">
+        <h3>No upcoming events right now.</h3>
+        <p>Check back soon or browse past events.</p>
+        <a class="btn btn-primary" href="{{ '/events/' | withPrefix }}">Browse what's happening</a>
+      </div>
+    {% endif %}
   </div>
 </section>
 
@@ -66,36 +104,9 @@ metaDescription: WPCNA is a neighborhood-centered civic hub for White Plains —
   <div class="wrap">
     <div class="section-header">
       <div>
-        <p class="eyebrow">What's Happening</p>
-        <h2>Upcoming events</h2>
-        <p>A curated selection of public meetings, civic events, downtown happenings, and neighborhood programs.</p>
-      </div>
-      <a class="link-arrow" href="{{ '/events/' | withPrefix }}">All events</a>
-    </div>
-
-    {% if eventStore.homeUpcoming.length %}
-      <div class="card-grid">
-        {% for event in eventStore.homeUpcoming %}
-          {{ eventCard(event, true) }}
-        {% endfor %}
-      </div>
-    {% else %}
-      <div class="empty-state">
-        <h3>No upcoming events right now.</h3>
-        <p>Check back soon or browse past events.</p>
-        <a class="btn btn-primary" href="{{ '/events/' | withPrefix }}">Browse events</a>
-      </div>
-    {% endif %}
-  </div>
-</section>
-
-<section class="section section-alt">
-  <div class="wrap">
-    <div class="section-header">
-      <div>
         <p class="eyebrow">Quick Links</p>
         <h2>Useful pages</h2>
-        <p>Pages residents tend to use again and again.</p>
+        <p>Helpful pages for following meetings, sharing updates, and getting oriented around White Plains.</p>
       </div>
     </div>
     <div class="card-grid card-grid-2">
@@ -106,20 +117,20 @@ metaDescription: WPCNA is a neighborhood-centered civic hub for White Plains —
   </div>
 </section>
 
-<section class="section">
+<section class="section section-alt">
   <div class="wrap">
     <div class="spotlight">
       <div>
-        <p class="eyebrow">Get Involved</p>
-        <h2>Attend a meeting</h2>
-        <p>{{ site.meetingNote }}</p>
+        <p class="eyebrow">About</p>
+        <h2>Neighborhood voices, citywide view</h2>
+        <p><strong>WPCNA</strong> &mdash; the <strong>White Plains Council of Neighborhood Associations</strong> &mdash; brings neighborhood associations together, shares information across the city, and helps residents keep track of what matters in White Plains. {{ site.purpose }}</p>
         <p style="margin-top:1rem"><a class="btn btn-primary" href="{{ '/about/' | withPrefix }}">About WPCNA</a></p>
       </div>
       <div class="spotlight-card">
         <p class="eyebrow">Contact</p>
         <h3>Contact WPCNA</h3>
         <p>{{ site.location }}</p>
-        <p>Questions, neighborhood news, or community information? Get in touch.</p>
+        <p>{{ site.meetingNote }}</p>
         <a class="btn btn-outline" href="{{ '/about/#contact-form' | withPrefix }}" style="margin-top:0.75rem">Get in touch</a>
       </div>
     </div>
