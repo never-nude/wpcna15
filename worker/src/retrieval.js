@@ -24,6 +24,17 @@ const STOP_WORDS = new Set([
   "where"
 ]);
 
+const DATE_INTENT_TOKENS = new Set([
+  "when",
+  "next",
+  "upcoming",
+  "today",
+  "tonight",
+  "tomorrow",
+  "date",
+  "time"
+]);
+
 const TOKEN_EXPANSIONS = {
   wpcna: ["white", "plains", "council", "neighborhood", "associations"],
   cna: ["neighborhood", "association", "workshop", "wpcna"],
@@ -117,6 +128,7 @@ function createSearchItem(item) {
 
 function scoreItem(item, query, tokens) {
   let score = 0;
+  const isDateIntent = tokens.some((token) => DATE_INTENT_TOKENS.has(token));
 
   if (item.normalizedTitle.includes(query)) {
     score += 28;
@@ -154,6 +166,16 @@ function scoreItem(item, query, tokens) {
       score += hint.bonus;
     }
   });
+
+  if (isDateIntent && item.type === "event") {
+    if (item.normalizedText.includes("status upcoming")) {
+      score += 10;
+    }
+
+    if (item.normalizedText.includes("status past")) {
+      score -= 6;
+    }
+  }
 
   return score;
 }

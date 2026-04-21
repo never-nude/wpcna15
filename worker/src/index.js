@@ -9,11 +9,49 @@ const ABUSIVE_PATTERN = /\b(?:kill yourself|kys|nigger|faggot|rape|rapist)\b/i;
 const GREETING_PATTERN = /^(?:hi|hello|hey|hiya|good morning|good afternoon|good evening)(?:\s+there)?[!.?]*$/i;
 const CAPABILITY_PATTERN = /^(?:help|what can you do|what do you do|who are you|how can you help|what should i ask)(?:\??)$/i;
 const SHORT_GENERIC_PATTERN = /^(?:thanks|thank you|ok|okay|cool|nice|test|testing)[!.?]*$/i;
+const SCHEDULE_INTENT_PATTERN = /\b(?:when|next|upcoming|today|tonight|tomorrow|date|time)\b/i;
+const EVENT_SUBJECT_PATTERN = /\b(?:meeting|meetings|event|events|session|sessions|hearing|hearings|workshop|workshops|council|board|commission)\b/i;
+const EVENT_FIELD_LABELS = new Set(["Status", "Date", "Time", "Location", "Address", "Source"]);
+const EVENT_FIELD_STOP_LINES = new Set(["More Events", "Related events", "More Resources", "Related resources"]);
+const LOOKUP_STOP_WORDS = new Set([
+  "a",
+  "an",
+  "and",
+  "at",
+  "for",
+  "how",
+  "i",
+  "in",
+  "is",
+  "me",
+  "of",
+  "on",
+  "or",
+  "the",
+  "to",
+  "what",
+  "when",
+  "where"
+]);
 const rateLimitStore = new Map();
 const retrieveSources = createRetriever(contentIndex.items || []);
 
 function normalizeQuestion(value = "") {
   return String(value).replace(/\s+/g, " ").trim();
+}
+
+function normalizeLookupText(value = "") {
+  return String(value)
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function tokenizeLookup(value = "") {
+  return normalizeLookupText(value)
+    .split(" ")
+    .filter((token) => token.length > 1 && !LOOKUP_STOP_WORDS.has(token));
 }
 
 function jsonResponse(body, status = 200, corsHeaders = {}) {
@@ -127,6 +165,206 @@ function dedupeSources(sources) {
   });
 }
 
+function buildVisibleSources(sources) {
+  return dedupeSources(sources).slice(0, 4).map((source) => ({
+    title: source.title,
+    url: source.url,
+    type: source.type,
+    excerpt: source.excerpt
+  }));
+}
+
+function extractEventFields(text = "") {
+  const lines = String(text)
+    .split(/\n+/)
+    .map((line) => line.trim())
+    .filter(Boolean);
+  const fields = {};
+  let inAtAGlance = false;
+
+  for (let index = 0; index < lines.length; index += 1) {
+    const line = lines[index];
+
+    if (line === "At a Glance") {
+      inAtAGlance = true;
+      continue;
+    }
+
+    if (!inAtAGlance || !EVENT_FIELD_LABELS.has(line)) {
+      continue;
+    }
+
+    const values = [];
+
+    for (let cursor = index + 1; cursor < lines.length; cursor += 1) {
+      const candidate = lines[cursor];
+
+      if (EVENT_FIELD_LABELS.has(candidate) || EVENT_FIELD_STOP_LINES.has(candidate)) {
+        break;
+      }
+
+      values.push(candidate);
+    }
+
+    fields[line.toLowerCase()] = values.join(" ").trim();
+  }
+
+  return fields;
+}
+
+function parseEventDate(dateLabel = "", url = "") {
+  const urlMatch = String(url).match(/(\d{4})-(\d{2})-(\d{2})/);
+
+  if (urlMatch) {
+    const [, year, month, day] = urlMatch;
+    return new Date(Date.UTC(Number(year), Number(month) - 1, Number(day)));
+  }
+
+  const parsed = Date.parse(dateLabel);
+  return Number.isNaN(parsed) ? null : new Date(parsed);
+}
+
+function parseEventSource(source) {
+  if (source.type !== "event") {
+    return null;
+  }
+
+  const fields = extractEventFields(source.text);
+  const parsedDate = parseEventDate(fields.date, source.url);
+
+  if (!fields.date && !parsedDate) {
+    return null;
+  }
+
+  return {
+    source,
+    title: source.title,
+    normalizedTitle: normalizeLookupText(source.title),
+    normalizedLocation: normalizeLookupText(fields.location),
+    status: normalizeLookupText(fields.status),
+    date: parsedDate,
+    dateLabel: fields.date || "",
+    time: fields.time || "",
+    location: fields.location || "",
+    address: fields.address || "",
+    publisher: fields.source || ""
+  };
+}
+
+function isScheduleQuestion(question) {
+  return SCHEDULE_INTENT_PATTERN.test(question) && EVENT_SUBJECT_PATTERN.test(question);
+}
+
+function scoreEventCandidate(candidate, question, referenceDate) {
+  const normalizedQuestion = normalizeLookupText(question);
+  const questionTokens = tokenizeLookup(question);
+  const wantsUpcoming = /\b(?:next|upcoming|today|tonight|tomorrow|when)\b/i.test(question);
+  const referenceTime = referenceDate.getTime();
+  let score = Number(candidate.source.score || 0);
+
+  if (candidate.normalizedTitle && normalizedQuestion.includes(candidate.normalizedTitle)) {
+    score += 18;
+  }
+
+  questionTokens.forEach((token) => {
+    if (candidate.normalizedTitle.includes(token)) {
+      score += 6;
+    }
+
+    if (candidate.normalizedLocation.includes(token)) {
+      score += 3;
+    }
+  });
+
+  if (candidate.status === "upcoming") {
+    score += 8;
+  }
+
+  if (candidate.date && candidate.date.getTime() >= referenceTime) {
+    score += 6;
+  }
+
+  if (wantsUpcoming && candidate.date && candidate.date.getTime() >= referenceTime) {
+    score += 14;
+  }
+
+  if (wantsUpcoming && candidate.status === "past") {
+    score -= 12;
+  }
+
+  return score;
+}
+
+function buildStructuredScheduleAnswer(question, sources, referenceDate = new Date()) {
+  if (!isScheduleQuestion(question)) {
+    return null;
+  }
+
+  const referenceDay = new Date(referenceDate);
+  referenceDay.setUTCHours(0, 0, 0, 0);
+
+  const candidates = dedupeSources(sources)
+    .map(parseEventSource)
+    .filter(Boolean);
+
+  if (!candidates.length) {
+    return null;
+  }
+
+  const wantsUpcoming = /\b(?:next|upcoming|today|tonight|tomorrow|when)\b/i.test(question);
+  const futureCandidates = candidates.filter((candidate) => candidate.date && candidate.date.getTime() >= referenceDay.getTime());
+  const upcomingCandidates = candidates.filter((candidate) => candidate.status === "upcoming");
+  const pool = wantsUpcoming
+    ? (futureCandidates.length ? futureCandidates : (upcomingCandidates.length ? upcomingCandidates : candidates))
+    : candidates;
+
+  const ranked = [...pool].sort((left, right) => {
+    const scoreDifference = scoreEventCandidate(right, question, referenceDay) - scoreEventCandidate(left, question, referenceDay);
+
+    if (scoreDifference !== 0) {
+      return scoreDifference;
+    }
+
+    if (left.date && right.date) {
+      return left.date.getTime() - right.date.getTime();
+    }
+
+    return 0;
+  });
+
+  const best = ranked[0];
+
+  if (!best || (!best.dateLabel && !best.time)) {
+    return null;
+  }
+
+  const schedule = [best.dateLabel, best.time ? `at ${best.time}` : ""]
+    .filter(Boolean)
+    .join(" ");
+  const answerParts = [
+    wantsUpcoming
+      ? `The next ${best.title} in the current WPCNA sources is ${schedule}.`
+      : `${best.title} is listed for ${schedule}.`
+  ];
+
+  if (best.location && best.address) {
+    answerParts.push(`It is listed at ${best.location}, ${best.address}.`);
+  } else if (best.location) {
+    answerParts.push(`It is listed at ${best.location}.`);
+  } else if (best.address) {
+    answerParts.push(`It is listed at ${best.address}.`);
+  }
+
+  if (best.publisher) {
+    answerParts.push(`Source: ${best.publisher}.`);
+  }
+
+  return {
+    answer: answerParts.join(" "),
+    sources: [best.source, ...sources.filter((source) => source.url !== best.source.url)]
+  };
+}
+
 export default {
   async fetch(request, env) {
     const origin = request.headers.get("Origin") || "";
@@ -214,6 +452,19 @@ export default {
       );
     }
 
+    const structuredAnswer = buildStructuredScheduleAnswer(question, retrievedSources);
+
+    if (structuredAnswer) {
+      return jsonResponse(
+        {
+          answer: cleanAnswer(structuredAnswer.answer) || FALLBACK_ANSWER,
+          sources: buildVisibleSources(structuredAnswer.sources)
+        },
+        200,
+        corsHeaders || {}
+      );
+    }
+
     let answer;
 
     try {
@@ -227,17 +478,10 @@ export default {
       return errorResponse("The assistant is not available right now.", 502, corsHeaders || {});
     }
 
-    const visibleSources = dedupeSources(retrievedSources).slice(0, 4).map((source) => ({
-      title: source.title,
-      url: source.url,
-      type: source.type,
-      excerpt: source.excerpt
-    }));
-
     return jsonResponse(
       {
         answer: cleanAnswer(answer) || FALLBACK_ANSWER,
-        sources: visibleSources
+        sources: buildVisibleSources(retrievedSources)
       },
       200,
       corsHeaders || {}
