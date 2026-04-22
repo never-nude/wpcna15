@@ -124,6 +124,7 @@ const items = [
 
 module.exports = {
   imagePath: featuredNeighborhoodMap.imagePath,
+  imageVersion: featuredNeighborhoodMap.imageVersion,
   imageAlt:
     "White Plains neighborhood map with clickable highlights for the neighborhoods currently represented through WPCNA.",
   imageWidth: featuredNeighborhoodMap.imageWidth,

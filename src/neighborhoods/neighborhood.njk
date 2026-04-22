@@ -56,7 +56,7 @@ eleventyComputed:
           <div class="detail-minimap">
             <h3>On the map</h3>
             <a class="minimap-frame" href="{{ ('/neighborhood-map/?highlight=' + neighborhood.slug) | withPrefix }}" aria-label="View {{ neighborhood.name }} on the full neighborhood map">
-              <img src="{{ '/assets/img/neighborhood-map.png' | withPrefix }}" alt="Static map of White Plains with {{ neighborhood.name }} highlighted." loading="lazy">
+              <img src="{{ '/assets/img/neighborhood-map.png' | withPrefix }}?v={{ featuredNeighborhoodMap.imageVersion }}" alt="Static map of White Plains with {{ neighborhood.name }} highlighted." loading="lazy">
               <span
                 class="minimap-highlight"
                 style="left:{{ (mapBox[0] / mapBoxes.imageWidth * 100) }}%;top:{{ (mapBox[1] / mapBoxes.imageHeight * 100) }}%;width:{{ (mapBox[2] / mapBoxes.imageWidth * 100) }}%;height:{{ (mapBox[3] / mapBoxes.imageHeight * 100) }}%;"

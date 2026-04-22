@@ -1,5 +1,6 @@
 module.exports = {
   imagePath: "/assets/img/wp-neighborhood-map.png",
+  imageVersion: "20260422-good-counsel",
   imageAlt:
     "Official White Plains neighborhood map with color-coded neighborhood boundaries and labels.",
   imageWidth: 1240,

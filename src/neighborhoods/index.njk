@@ -19,7 +19,7 @@ metaDescription: Explore White Plains through an interactive neighborhood map an
       <div class="interactive-map-panel">
         <div class="interactive-map-frame">
           <img
-            src="{{ featuredNeighborhoodMap.imagePath | withPrefix }}"
+            src="{{ featuredNeighborhoodMap.imagePath | withPrefix }}?v={{ featuredNeighborhoodMap.imageVersion }}"
             alt="{{ featuredNeighborhoodMap.imageAlt }}"
             width="{{ featuredNeighborhoodMap.imageWidth }}"
             height="{{ featuredNeighborhoodMap.imageHeight }}"
