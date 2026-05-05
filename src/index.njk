@@ -5,48 +5,11 @@ metaDescription: The neighborhood-centered civic hub for agendas, events, repres
 ---
 {% from "components/macros.njk" import eventCard, resourceCard %}
 
-<section class="hero hero-home">
+<section class="image-hero image-hero-home">
   <img src="{{ site.heroImage | withPrefix }}" alt="{{ site.heroImageAlt }}" loading="eager">
-  <div class="hero-overlay">
-    <div class="wrap">
-      <p class="eyebrow">White Plains, New York</p>
-      <h1>The Voice of the Neighborhoods</h1>
-      <p>A Forum for Neighborhood Associations of the Great City of White Plains, New York to Share &amp; Exchange Ideas</p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="{{ '/events/' | withPrefix }}">See all events</a>
-        <a class="btn btn-outline" href="{{ '/#neighborhoods' | withPrefix }}">Neighborhoods represented</a>
-      </div>
-      <ul class="hero-stats">
-        <li><span>Upcoming</span><strong>{{ eventStore.upcoming.length }} items</strong></li>
-        <li><span>Neighborhoods</span><strong>{{ neighborhoodStore.count }}</strong></li>
-        <li><span>Sources</span><strong>City, Library, BID, WPPAC</strong></li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="section-compact home-gallery-section">
-  <div class="wrap">
-    <div class="section-header home-gallery-header">
-      <div>
-        <p class="eyebrow">White Plains</p>
-        <h2>A closer look at the city</h2>
-        <p>Scenes from across White Plains that reflect the city's civic character, neighborhoods, and public life.</p>
-      </div>
-    </div>
-    <div class="home-photo-carousel" data-home-carousel aria-label="White Plains photo carousel">
-      <div class="home-photo-stage">
-        {% for photo in site.legacyCarousel %}
-          <figure class="home-photo-slide{% if loop.first %} is-active{% endif %}" data-home-carousel-slide{% if not loop.first %} hidden{% endif %}>
-            <img src="{{ photo.src | withPrefix }}" alt="{{ photo.alt }}" loading="lazy">
-          </figure>
-        {% endfor %}
-      </div>
-      <div class="home-photo-toolbar">
-        <button class="carousel-btn" type="button" data-home-carousel-prev aria-label="Previous photo">&larr;</button>
-        <p class="home-photo-status" aria-live="polite"><span data-home-carousel-status>1 / {{ site.legacyCarousel.length }}</span></p>
-        <button class="carousel-btn" type="button" data-home-carousel-next aria-label="Next photo">&rarr;</button>
-      </div>
+  <div class="image-hero-content">
+    <div class="image-hero-block">
+      <h1>A Forum for Neighborhood Associations of the Great City of White Plains, New York to Share &amp; Exchange Ideas</h1>
     </div>
   </div>
 </section>
@@ -195,7 +158,33 @@ metaDescription: The neighborhood-centered civic hub for agendas, events, repres
   </div>
 </div>
 
-<section class="section" data-upcoming-events>
+<section class="section-compact home-gallery-section">
+  <div class="wrap">
+    <div class="section-header home-gallery-header">
+      <div>
+        <p class="eyebrow">White Plains</p>
+        <h2>A closer look at the city</h2>
+        <p>Scenes from across White Plains that reflect the city&rsquo;s civic character, neighborhoods, and public life.</p>
+      </div>
+    </div>
+    <div class="home-photo-carousel" data-home-carousel aria-label="White Plains photo carousel">
+      <div class="home-photo-stage">
+        {% for photo in site.closerLookCarousel %}
+          <figure class="home-photo-slide{% if loop.first %} is-active{% endif %}" data-home-carousel-slide{% if not loop.first %} hidden{% endif %}>
+            <img src="{{ photo.src | withPrefix }}" alt="{{ photo.alt }}" loading="lazy">
+          </figure>
+        {% endfor %}
+      </div>
+      <div class="home-photo-toolbar">
+        <button class="carousel-btn" type="button" data-home-carousel-prev aria-label="Previous photo">&larr;</button>
+        <p class="home-photo-status" aria-live="polite"><span data-home-carousel-status>1 / {{ site.closerLookCarousel.length }}</span></p>
+        <button class="carousel-btn" type="button" data-home-carousel-next aria-label="Next photo">&rarr;</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-rule" data-upcoming-events>
   <div class="wrap">
     <div class="section-header">
       <div>

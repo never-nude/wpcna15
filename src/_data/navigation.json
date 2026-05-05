@@ -17,7 +17,7 @@
   {
     "id": "community-posting",
     "label": "Community Posting",
-    "url": "/community-posting/"
+    "url": "/posting/"
   },
   {
     "id": "agendas",
@@ -33,5 +33,10 @@
     "id": "about",
     "label": "About",
     "url": "/about/"
+  },
+  {
+    "id": "contact",
+    "label": "Contact WPCNA",
+    "url": "/contact/"
   }
 ]

@@ -3,14 +3,22 @@ const navToggle = document.querySelector("[data-nav-toggle]");
 const navMenu = document.querySelector("[data-nav-menu]");
 
 if (navToggle && navMenu) {
+  const navToggleLabel = navToggle.querySelector("[data-nav-toggle-label]");
+  const setNavState = (open) => {
+    navMenu.classList.toggle("is-open", open);
+    navToggle.classList.toggle("is-open", open);
+    navToggle.setAttribute("aria-expanded", String(open));
+    if (navToggleLabel) {
+      navToggleLabel.textContent = open ? "Close navigation" : "Open navigation";
+    }
+  };
+
   const close = () => {
-    navMenu.classList.remove("is-open");
-    navToggle.setAttribute("aria-expanded", "false");
+    setNavState(false);
   };
 
   navToggle.addEventListener("click", () => {
-    const open = navMenu.classList.toggle("is-open");
-    navToggle.setAttribute("aria-expanded", String(open));
+    setNavState(!navMenu.classList.contains("is-open"));
   });
 
   navMenu.addEventListener("click", (e) => {

@@ -31,12 +31,7 @@
       </div>
       <p class="event-card-summary">{{ event.shortSummary }}</p>
       <div class="event-card-actions">
-        {% if event.primaryAction %}
-          {% set actionUrl = event.primaryAction.url %}
-          {% set isExternalAction = actionUrl.startsWith("http") %}
-          <a class="btn btn-primary" href="{{ actionUrl if isExternalAction else (actionUrl | withPrefix) }}"{% if isExternalAction %} target="_blank" rel="noopener"{% endif %}>{{ event.primaryAction.label }}</a>
-        {% endif %}
-        <a class="link-arrow" href="{{ event.detailUrl | withPrefix }}">Details</a>
+        <a class="btn btn-primary" href="{{ event.detailUrl | withPrefix }}">Details</a>
       </div>
     </div>
   </article>

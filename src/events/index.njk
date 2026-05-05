@@ -5,11 +5,12 @@ metaDescription: A selective calendar of events, meetings, and public life aroun
 ---
 {% from "components/macros.njk" import eventCard %}
 
-<section class="page-hero">
-  <div class="wrap">
-    <p class="eyebrow">Events</p>
-    <h1>Events in White Plains</h1>
-    <p>A curated calendar pulling together events from across the city, with upcoming events first.</p>
+<section class="image-hero image-hero-events">
+  <img src="{{ site.eventHeroImage | withPrefix }}" alt="{{ site.eventHeroImageAlt }}" loading="eager">
+  <div class="image-hero-content">
+    <div class="image-hero-block">
+      <h1>Events in White Plains</h1>
+    </div>
   </div>
 </section>
 

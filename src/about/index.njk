@@ -4,18 +4,13 @@ title: About WPCNA
 metaDescription: Learn what WPCNA is, how it supports White Plains neighborhood associations, and how residents can contact the council.
 ---
 
-<section class="page-hero about-page-hero">
-  <div class="wrap about-hero-grid">
-    <div class="about-hero-copy">
-      <p class="eyebrow">About WPCNA</p>
-      <h1>The Voice of the Neighborhoods</h1>
-      <p class="about-lead">The White Plains Council of Neighborhood Associations brings neighborhood associations together so residents can share information, raise concerns, and stay connected to civic life across the city.</p>
-      <p>White Plains has a busy downtown, active residential neighborhoods, public meetings, local events, and citywide issues moving at the same time. WPCNA helps residents and neighborhood associations keep those pieces in view through a neighborhood-centered lens.</p>
+<section class="image-hero image-hero-about">
+  <img src="{{ site.aboutImage | withPrefix }}" alt="{{ site.aboutImageAlt }}" loading="eager">
+  <div class="image-hero-content">
+    <div class="image-hero-block">
+      <h1 class="sr-only">About WPCNA</h1>
+      <p>The White Plains Council of Neighborhood Associations brings neighborhood associations together so residents can share information, raise concerns, and stay connected to civic life across the city.</p>
     </div>
-
-    <figure class="about-photo">
-      <img src="{{ site.aboutImage | withPrefix }}" alt="{{ site.aboutImageAlt }}" loading="eager">
-    </figure>
   </div>
 </section>
 
@@ -75,45 +70,7 @@ metaDescription: Learn what WPCNA is, how it supports White Plains neighborhood 
       <p class="eyebrow">How WPCNA works</p>
       <h2 id="governance-bylaws-committees">Governance, by-laws, and committees</h2>
       <p>WPCNA&rsquo;s by-laws and committee work help give the council structure. They support regular communication among neighborhood associations, provide a way to track issues, and help organize discussion around citywide topics.</p>
-      <p>If you are looking for governance materials, committee information, or guidance on how the council is organized, contact WPCNA and someone can point you in the right direction.</p>
-    </section>
-
-    <section class="about-contact-section" id="contact-form" aria-labelledby="contact-wpcna">
-      <div class="about-contact-copy">
-        <p class="eyebrow">Contact</p>
-        <h2 id="contact-wpcna">Contact WPCNA</h2>
-        <p>Send questions, corrections, meeting information, or neighborhood news.</p>
-      </div>
-
-      <div class="sidebar-card about-contact-card">
-        <form class="contact-form" action="{{ site.contactFormAction }}" method="POST">
-          <input type="hidden" name="_subject" value="{{ site.contactFormSubject }}">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_template" value="table">
-
-          <div class="form-field">
-            <label for="contact-name">Name</label>
-            <input id="contact-name" name="name" type="text" autocomplete="name" required>
-          </div>
-
-          <div class="form-field">
-            <label for="contact-email">Email</label>
-            <input id="contact-email" name="email" type="email" autocomplete="email" required>
-          </div>
-
-          <div class="form-field">
-            <label for="contact-subject">Subject</label>
-            <input id="contact-subject" name="topic" type="text" required>
-          </div>
-
-          <div class="form-field">
-            <label for="contact-message">Message</label>
-            <textarea id="contact-message" name="message" rows="6" required></textarea>
-          </div>
-
-          <button class="btn btn-primary btn-block" type="submit">Send message</button>
-        </form>
-      </div>
+      <p>If you are looking for governance materials, committee information, or guidance on how the council is organized, <a href="{{ '/contact/' | withPrefix }}">contact WPCNA</a> and someone can point you in the right direction.</p>
     </section>
   </div>
 </section>
