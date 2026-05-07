@@ -73,23 +73,24 @@ metaDescription: The neighborhood-centered civic hub for agendas, events, repres
 
         <div class="represented-neighborhood-grid">
           {% for neighborhood in representedNeighborhoods.items %}
-            {% set thumbSrc = '/assets/img/neighborhoods/placeholders/image-coming-soon.svg' %}
-            {% set thumbAlt = 'Image coming soon for the ' + neighborhood.name + ' neighborhood in White Plains.' %}
-            {% if neighborhood.hero %}
-              {% set thumbSrc = neighborhood.hero.cardImagePath or neighborhood.hero.imagePath %}
-              {% set thumbAlt = neighborhood.hero.cardAltText or neighborhood.hero.altText %}
-            {% endif %}
             <a
               class="represented-neighborhood-card"
               href="{{ neighborhood.detailUrl | withPrefix }}"
               data-map-tile="{{ neighborhood.slug }}"
               aria-label="Open {{ neighborhood.name }} neighborhood profile"
             >
-              <span class="represented-neighborhood-card-thumb">
-                <img src="{{ thumbSrc | withPrefix }}" alt="{{ thumbAlt }}" loading="lazy">
-              </span>
+              {% if neighborhood.profilePlaceholder %}
+                <span class="represented-neighborhood-card-thumb represented-placeholder-thumb" aria-label="{{ neighborhood.guideImageLabel }}">
+                  <span>{{ neighborhood.guideImageLabel }}</span>
+                </span>
+              {% else %}
+                <span class="represented-neighborhood-card-thumb">
+                  <img src="{{ (neighborhood.hero.cardImagePath or neighborhood.hero.imagePath) | withPrefix }}" alt="{{ neighborhood.hero.cardAltText or neighborhood.hero.altText }}" loading="lazy">
+                </span>
+              {% endif %}
               <span>
                 <strong>{{ neighborhood.name }}</strong>
+                <span class="represented-neighborhood-card-description">{{ neighborhood.teaser }}</span>
                 <span class="represented-neighborhood-card-link">View profile</span>
               </span>
             </a>
@@ -106,8 +107,12 @@ metaDescription: The neighborhood-centered civic hub for agendas, events, repres
 
     {% for neighborhood in representedNeighborhoods.items %}
       <article class="represented-modal-panel" data-neighborhood-panel="{{ neighborhood.slug }}" aria-hidden="true" hidden>
-        <div class="represented-modal-layout{% if neighborhood.hero %} represented-modal-layout-media{% endif %}">
-          {% if neighborhood.hero %}
+        <div class="represented-modal-layout{% if neighborhood.hero or neighborhood.profilePlaceholder %} represented-modal-layout-media{% endif %}">
+          {% if neighborhood.profilePlaceholder %}
+            <figure class="represented-modal-figure represented-modal-placeholder" aria-label="{{ neighborhood.guideImageLabel }}">
+              <span>{{ neighborhood.guideImageLabel }}</span>
+            </figure>
+          {% elif neighborhood.hero %}
             <figure class="represented-modal-figure">
               <img src="{{ neighborhood.hero.imagePath | withPrefix }}" alt="{{ neighborhood.hero.altText }}" loading="lazy">
             </figure>
@@ -169,9 +174,15 @@ metaDescription: The neighborhood-centered civic hub for agendas, events, repres
       {% for photo in site.closerLookCarousel %}
         <figure class="home-photo-slide{% if loop.first %} is-active{% endif %}" data-home-carousel-slide{% if not loop.first %} hidden{% endif %}>
           <img src="{{ photo.src | withPrefix }}" alt="{{ photo.alt }}" loading="lazy">
-          {% if photo.sourceUrl and photo.sourceLabel %}
+          {% if photo.sourceLabel %}
+            {% set sourceHref = photo.sourceUrl or "" %}
+            {% set isExternalSource = sourceHref.startsWith("http") %}
             <figcaption class="home-photo-credit">
-              <a href="{{ photo.sourceUrl }}" rel="external noopener" target="_blank">{{ photo.sourceLabel }}</a>
+              {% if sourceHref %}
+                <a href="{{ sourceHref if isExternalSource else (sourceHref | withPrefix) }}"{% if isExternalSource %} rel="external noopener" target="_blank"{% endif %}>{{ photo.sourceLabel }}</a>
+              {% else %}
+                <span>{{ photo.sourceLabel }}</span>
+              {% endif %}
             </figcaption>
           {% endif %}
         </figure>

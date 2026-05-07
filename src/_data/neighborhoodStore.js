@@ -6,6 +6,15 @@ const { createPlaceholderHero, createProvidedHero } = require("./neighborhoodHer
 const mapRegionBySlug = new Map(
   (featuredNeighborhoodMap.allRegions || []).map((region) => [region.slug, region])
 );
+const mapGuideSlugs = new Set(mapRegionBySlug.keys());
+const guideDescriptionPlaceholder = "Description coming soon";
+const guideImagePlaceholder = "Image coming soon";
+const mapDrawingSlugs = new Set([
+  "ferris-avenue-east-section",
+  "white-plains-reservoir-basin",
+  "prospect-park-south-section",
+  "gedney-commons-interior-fill"
+]);
 
 const groupDescriptions = {
   "Central White Plains":
@@ -110,7 +119,7 @@ const heroOverridesBySlug = {
       "Aerial view over Gedney Meadows with White Plains homes and trees in the foreground and the downtown skyline in the distance."
   }),
   highlands: createPlaceholderHero("Highlands"),
-  carhart: createPlaceholderHero("Carhartt"),
+  carhart: createPlaceholderHero("Carhart"),
   "north-broadway": createPlaceholderHero("North Broadway"),
   "north-street": createProvidedHero({
     neighborhoodName: "North Street",
@@ -197,6 +206,7 @@ baseNeighborhoods.forEach((neighborhood) => {
 });
 
 const all = baseNeighborhoods.map((neighborhood) => {
+  const isFisherHill = neighborhood.slug === "fisher-hill";
   const group = groupMap.get(neighborhood.group);
   const relatedNeighborhoods = group.neighborhoods
     .filter((candidate) => candidate.slug !== neighborhood.slug)
@@ -205,15 +215,43 @@ const all = baseNeighborhoods.map((neighborhood) => {
 
   return {
     ...neighborhood,
-    relatedNeighborhoods
+    relatedNeighborhoods,
+    profilePlaceholder: !isFisherHill,
+    displayTeaser: isFisherHill ? neighborhood.teaser : guideDescriptionPlaceholder,
+    displayDetailParagraphs: isFisherHill
+      ? neighborhood.detailParagraphs
+      : [guideDescriptionPlaceholder],
+    displayHero: isFisherHill ? neighborhood.hero : null,
+    displayMetaDescription: isFisherHill
+      ? neighborhood.metaDescription
+      : `${neighborhood.name} profile coming soon.`,
+    guidePlaceholder: !isFisherHill,
+    guideDescription: isFisherHill ? neighborhood.description : guideDescriptionPlaceholder,
+    guideImageLabel: isFisherHill ? "" : guideImagePlaceholder
   };
 });
 
 const bySlug = Object.fromEntries(all.map((neighborhood) => [neighborhood.slug, neighborhood]));
+const guideAll = all
+  .filter((neighborhood) => mapGuideSlugs.has(neighborhood.slug))
+  .filter((neighborhood) => !mapDrawingSlugs.has(neighborhood.slug));
+const guideGroups = groups
+  .map((group) => ({
+    ...group,
+    neighborhoods: guideAll.filter((neighborhood) => neighborhood.group === group.name)
+  }))
+  .filter((group) => group.neighborhoods.length);
+const removedFromMapGuide = all
+  .filter((neighborhood) => !mapGuideSlugs.has(neighborhood.slug))
+  .map(({ name, slug, detailUrl }) => ({ name, slug, detailUrl }));
 
 module.exports = {
   count: all.length,
   all,
   groups,
+  guideCount: guideAll.length,
+  guideAll,
+  guideGroups,
+  removedFromMapGuide,
   bySlug
 };

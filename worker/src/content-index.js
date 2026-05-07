@@ -1,6 +1,6 @@
 export default {
-  "generatedAt": "2026-05-06T23:02:51.511Z",
-  "itemCount": 185,
+  "generatedAt": "2026-05-07T17:33:55.607Z",
+  "itemCount": 188,
   "items": [
     {
       "id": "page:/",
@@ -9,7 +9,7 @@ export default {
       "url": "/",
       "type": "home",
       "excerpt": "The neighborhood-centered civic hub for agendas, events, represented neighborhoods, and useful White Plains information.",
-      "text": "The neighborhood-centered civic hub for agendas, events, represented neighborhoods, and useful White Plains information.\n\nA forum for neighborhood associations of the Great City of White Plains, New York to share & exchange ideas\n\nNeighborhoods\n\nNeighborhoods represented by WPCNA\n\nStart with the neighborhoods currently represented through WPCNA, then open a neighborhood profile to learn more.\n\nHover or focus a represented neighborhood on the map or in the list, then select it to open its profile.\n\nThese neighborhood associations are currently represented through WPCNA.\n\nNorth and Northeast\n\nNorth Broadway\n\nNorth Broadway has one of the most recognizable addresses in White Plains, combining a main route through the city with long-established residential stretches.\n\nIt feels prominent without feeling overly busy, and it carries some of the north side's older character.\n\nWest Side and Near-Downtown Neighborhoods\n\nBattle Hill\n\nBattle Hill is one of the city's signature historic neighborhoods: the 1776 Battle of White Plains took place largely here and on nearby Dusenbury Hill.\n\nToday it is a settled residential area on higher ground, with a strong local identity and a little more history than most parts of the city.\n\nWest Side and Near-Downtown Neighborhoods\n\nFisher Hill\n\nFisher Hill is a historic neighborhood within walking distance of the central business district of White Plains, NY.\n\nResidential development began around 1900, and many of the large vintage homes from that era still define the neighborhood's character today.\n\nFisher Hill is notably diverse in ethnicity, age, and income.\n\nFisher Hill Association\n\nMichael Dalton, President 914-497-7236\n\nJonna Robbins, Vice President\n\nJane Prout, Treasurer\n\nWest Side and Near-Downtown Neighborhoods\n\nHighlands\n\nHighlands is one of the more recognizable close-in residential neighborhoods in White Plains.\n\nIt offers a steady mix of houses, apartment buildings, and local streets, with a mature, lived-in character that keeps it feeling grounded even so close to Downtown.\n\nEast Side and Institutional Anchors\n\nCarhartt\n\nCarhartt is a compact neighborhood area near the middle of White Plains, positioned between the close-in residential blocks, institutional anchors, and larger south-side neighborhoods around it.\n\nIt is one of the neighborhood associations currently represented through WPCNA, giving residents another point of connection within the council.\n\nGedney and the South Side\n\nGedney Farms\n\nGedney Farms is one of the classic residential names in White Plains, with roots that trace back to the 1700s and a neighborhood association now marking its 100th year."
+      "text": "The neighborhood-centered civic hub for agendas, events, represented neighborhoods, and useful White Plains information.\n\nA forum for neighborhood associations of the Great City of White Plains, New York to share & exchange ideas\n\nNeighborhoods\n\nNeighborhoods represented by WPCNA\n\nStart with the neighborhoods currently represented through WPCNA, then open a neighborhood profile to learn more.\n\nHover or focus a represented neighborhood on the map or in the list, then select it to open its profile.\n\nThese neighborhood associations are currently represented through WPCNA.\n\nNorth and Northeast\n\nNorth Broadway\n\nDescription coming soon\n\nWest Side and Near-Downtown Neighborhoods\n\nBattle Hill\n\nDescription coming soon\n\nWest Side and Near-Downtown Neighborhoods\n\nFisher Hill\n\nFisher Hill is a historic neighborhood within walking distance of the central business district of White Plains, NY.\n\nResidential development began around 1900, and many of the large vintage homes from that era still define the neighborhood's character today.\n\nFisher Hill is notably diverse in ethnicity, age, and income.\n\nFisher Hill Association\n\nMichael Dalton, President 914-497-7236\n\nJonna Robbins, Vice President\n\nJane Prout, Treasurer\n\nWest Side and Near-Downtown Neighborhoods\n\nHighlands\n\nDescription coming soon\n\nEast Side and Institutional Anchors\n\nCarhart\n\nDescription coming soon\n\nGedney and the South Side\n\nGedney Farms\n\nDescription coming soon\n\nEast Side and Institutional Anchors\n\nNorth Street\n\nDescription coming soon\n\nGedney and the South Side\n\nRosedale\n\nDescription coming soon\n\nNorth and Northeast\n\nOld Oak Ridge\n\nDescription coming soon\n\nGedney and the South Side\n\nGedney Meadows\n\nDescription coming soon\n\nWhite Plains\n\nA closer look at the city\n\nScenes from across White Plains that reflect the city’s civic character, neighborhoods, and public life.\n\nWPCNA legacy site archive\n\nJawny80, public domain, via Wikimedia Commons\n\nSteve Carrea, public domain, via Wikimedia Commons\n\nYnsalh, CC BY-SA 4.0, via Wikimedia Commons\n\nPaul Sableman, CC BY 2.0, via Wikimedia Commons\n\nReck345, CC BY-SA 4.0, via Wikimedia Commons\n\nDoug Kerr, CC BY-SA 2.0, via Wikimedia Commons\n\nBlithebear, CC0, via Wikimedia Commons\n\nGovernment Center: ajay_suresh via Wikimedia Commons\n\nHealth Center: Jim.henderson via Wikimedia Commons\n\nWinbrook: Gottscho-Schleisner Collection via Library of Congress and Wikimedia Commons\n\nGateway: Metropolitan Transportation Authority via Wikimedia Commons\n\nBattle Hill: CaptJayRuffins via Wikimedia Commons\n\nBronx River: Gilmore D. Clarke via Wikimedia Commons\n\nGood Counsel: Magicpiano via Wikimedia Commons\n\nWhite Plains Reservoir: John Rösch, \"Picturesque White Plains\" (1902), via Internet Archive\n\nWestchester Avenue: Mr. Matté via Wikimedia Commons"
     },
     {
       "id": "page:/about/",
@@ -54,7 +54,7 @@ export default {
       "url": "/events/",
       "type": "events",
       "excerpt": "A selective calendar of events, meetings, and public life around White Plains.",
-      "text": "A selective calendar of events, meetings, and public life around White Plains.\n\nEvents in White Plains\n\nUpcoming\n\nEvents most likely to matter to White Plains residents.\n\nLifting Up Westchester\n\nMay 6, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nVirtual Poetry Open Mic\n\nMay 6, 2026\n\nJoin Zork and Tim for our monthly virtual Poetry Open Mic!\n\nGlenn D. Loucks Track Meet: 5K Road Race\n\nMay 9, 2026\n\nGlenn D. Loucks Track Meet: 5K Road Race at White Plains High School. Details are available from the City.\n\nJill E Solomon Bicycle Helmet Day\n\nMay 9, 2026\n\nJill E Solomon Bicycle Helmet Day at Ebersole Ice Rink. Details are available from the City.\n\nTennis Courts Open\n\nMay 11, 2026\n\nTennis Courts Open at Gillie Park. Details are available from the City.\n\nMeditation Mondays\n\nMay 11, 2026\n\nMeditation Mondays at Renaissance Plaza Park. Details are available from the City.\n\nSave a Life with Narcan Training\n\nMay 12, 2026\n\nLearn how to recognize and respond to an opioid overdose.\n\nMusic at the Market\n\nMay 13, 2026\n\nMusic at the Market at Court Street. Details are available from the City.\n\nShort Story Film Discussion Series\n\nMay 14, 2026\n\nJoin White Plains Librarian Barbara Wenglin to explore compelling readings from the rich anthology, Music Stories (ed.\n\nWhite Plains Sustainability Fair\n\nMay 16, 2026\n\nActivities: Make exploding wildflower seed balls Re-think eating and menus for healthier, sustainable food choices Watch composting demonstrations Learn about…\n\nOver the Rainbow and Through the Woods\n\nMay 17, 2026\n\nPack your (imaginary) bags and join musical educator Rebecca Schoffer for a joyful, interactive sing-along celebrating Jewish Am erican Heritage Month!\n\nMeditation Mondays\n\nMay 18, 2026\n\nMeditation Mondays at Renaissance Plaza Park. Details are available from the City.\n\nDestination College Workshop Series\n\nMay 18, 2026\n\nWorkshop 8: Crafting Your Story (Essays, Resumes & Recommendations) Focus: Standing out through storytelling.\n\nDowntown White Plains Rock the Block 2026\n\nMay 20, 2026 - Aug 19, 2026\n\nDowntown summer street music and dining on Mamaroneck Avenue.\n\nMemorial Day Parade & Ceremony\n\nMay 25, 2026\n\nMemorial Day Parade & Ceremony at Church Street to White Plains Rural Cemetery. Details are available from the City.\n\nBudget Public Hearing and Adoption of Final Budget\n\nMay 25, 2026\n\nPublic city meeting in White Plains. Agenda and updates are available from the City.\n\nMusic at the Market\n\nMay 27, 2026\n\nMusic at the Market at Court Street. Details are available from the City.\n\nThreads of Connection\n\nMay 30, 2026"
+      "text": "A selective calendar of events, meetings, and public life around White Plains.\n\nEvents in White Plains\n\nUpcoming\n\nEvents most likely to matter to White Plains residents.\n\nGlenn D. Loucks Track Meet: 5K Road Race\n\nMay 9, 2026\n\nGlenn D. Loucks Track Meet: 5K Road Race at White Plains High School. Details are available from the City.\n\nJill E Solomon Bicycle Helmet Day\n\nMay 9, 2026\n\nJill E Solomon Bicycle Helmet Day at Ebersole Ice Rink. Details are available from the City.\n\nTennis Courts Open\n\nMay 11, 2026\n\nTennis Courts Open at Gillie Park. Details are available from the City.\n\nMeditation Mondays\n\nMay 11, 2026\n\nMeditation Mondays at Renaissance Plaza Park. Details are available from the City.\n\nSave a Life with Narcan Training\n\nMay 12, 2026\n\nLearn how to recognize and respond to an opioid overdose.\n\nMusic at the Market\n\nMay 13, 2026\n\nMusic at the Market at Court Street. Details are available from the City.\n\nShort Story Film Discussion Series\n\nMay 14, 2026\n\nJoin White Plains Librarian Barbara Wenglin to explore compelling readings from the rich anthology, Music Stories (ed.\n\nWhite Plains Sustainability Fair\n\nMay 16, 2026\n\nActivities: Make exploding wildflower seed balls Re-think eating and menus for healthier, sustainable food choices Watch composting demonstrations Learn about…\n\nOver the Rainbow and Through the Woods\n\nMay 17, 2026\n\nPack your (imaginary) bags and join musical educator Rebecca Schoffer for a joyful, interactive sing-along celebrating Jewish Am erican Heritage Month!\n\nMeditation Mondays\n\nMay 18, 2026\n\nMeditation Mondays at Renaissance Plaza Park. Details are available from the City.\n\nDestination College Workshop Series\n\nMay 18, 2026\n\nWorkshop 8: Crafting Your Story (Essays, Resumes & Recommendations) Focus: Standing out through storytelling.\n\nGraphic Novel Chat & BINGO: Noodle & Bao by Shaina Lu\n\nMay 19, 2026\n\nJoin us for some fun by talking about Noodle & Bao by Shaina Lu!\n\nDowntown White Plains Rock the Block 2026\n\nMay 20, 2026 - Aug 19, 2026\n\nDowntown summer street music and dining on Mamaroneck Avenue.\n\nCreating a Compelling College Application this Summer\n\nMay 20, 2026\n\nProgram for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…\n\nMemorial Day Parade & Ceremony\n\nMay 25, 2026\n\nMemorial Day Parade & Ceremony at Church Street to White Plains Rural Cemetery. Details are available from the City.\n\nBudget Public Hearing and Adoption of Final Budget\n\nMay 25, 2026\n\nPublic city meeting in White Plains. Agenda and updates are available from the City.\n\nMusic at the Market\n\nMay 27, 2026\n\nMusic at the Market at Court Street. Details are available from the City.\n\nThreads of Connection\n\nMay 30, 2026"
     },
     {
       "id": "page:/events/arbor-day-white-plains-2025/",
@@ -696,6 +696,15 @@ export default {
       "text": "Public city meeting in White Plains. Agenda and updates are available from the City.\n\nCivic\n\nZoning Board of Appeals\n\nPublic city meeting in White Plains. Agenda and updates are available from the City.\n\nAbout this event\n\nZoning Board of Appeals is on the City of White Plains calendar.\n\nUse the City listing for the agenda, location updates, and schedule changes.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nWednesday, April 1, 2026\n\nTime\n\n7:00 PM - 9:00 PM\n\nLocation\n\nWhite Plains\n\nAddress\n\nWhite Plains, NY\n\nSource\n\nCity of White Plains\n\nMore Events\n\nRelated events\n\nCommon Council Meeting\n\nMar 4, 2026\n\nPublic meeting at Common Council Chamber. Agenda and updates are available from the City.\n\nZoning Board of Appeals\n\nMar 4, 2026\n\nPublic city meeting in White Plains. Agenda and updates are available from the City.\n\nDesign Review Board\n\nMar 11, 2026\n\nPublic city meeting in White Plains. Agenda and updates are available from the City."
     },
     {
+      "id": "page:/events/city-zoning-board-of-appeals-2026-05-06/",
+      "sourceId": "page:/events/city-zoning-board-of-appeals-2026-05-06/",
+      "title": "Zoning Board of Appeals",
+      "url": "/events/city-zoning-board-of-appeals-2026-05-06/",
+      "type": "event",
+      "excerpt": "Public city meeting in White Plains. Agenda and updates are available from the City.",
+      "text": "Public city meeting in White Plains. Agenda and updates are available from the City.\n\nCivic\n\nZoning Board of Appeals\n\nPublic city meeting in White Plains. Agenda and updates are available from the City.\n\nAbout this event\n\nZoning Board of Appeals is on the City of White Plains calendar.\n\nUse the City listing for the agenda, location updates, and schedule changes.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nWednesday, May 6, 2026\n\nTime\n\n7:00 PM - 9:00 PM\n\nLocation\n\nWhite Plains\n\nAddress\n\nWhite Plains, NY\n\nSource\n\nCity of White Plains\n\nMore Events\n\nRelated events\n\nCommon Council Meeting\n\nMar 4, 2026\n\nPublic meeting at Common Council Chamber. Agenda and updates are available from the City.\n\nZoning Board of Appeals\n\nMar 4, 2026\n\nPublic city meeting in White Plains. Agenda and updates are available from the City.\n\nDesign Review Board\n\nMar 11, 2026\n\nPublic city meeting in White Plains. Agenda and updates are available from the City."
+    },
+    {
       "id": "page:/events/common-council-meeting-april-2026/",
       "sourceId": "page:/events/common-council-meeting-april-2026/",
       "title": "Common Council Meeting",
@@ -801,7 +810,7 @@ export default {
       "url": "/events/library-children-s-village-at-the-sanctuary-2026-04-24/",
       "type": "event",
       "excerpt": "Representatives will be providing information about their program in the Lobby.",
-      "text": "Representatives will be providing information about their program in the Lobby.\n\nLearning\n\nChildren's Village at the Sanctuary\n\nRepresentatives will be providing information about their program in the Lobby.\n\nAbout this event\n\nRepresentatives will be providing information about their program in the Lobby. Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nFriday, April 24, 2026\n\nTime\n\n11:00 AM - 5:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nLifting Up Westchester\n\nApr 17, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nLifting Up Westchester\n\nApr 22, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nVirtual Poetry Open Mic\n\nApr 1, 2026\n\nJoin Zork and Tim for our monthly virtual Poetry Open Mic!"
+      "text": "Representatives will be providing information about their program in the Lobby.\n\nLearning\n\nChildren's Village at the Sanctuary\n\nRepresentatives will be providing information about their program in the Lobby.\n\nAbout this event\n\nRepresentatives will be providing information about their program in the Lobby. Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nFriday, April 24, 2026\n\nTime\n\n11:00 AM - 5:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nLifting Up Westchester\n\nApr 17, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nLifting Up Westchester\n\nApr 22, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nLifting Up Westchester\n\nMay 6, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area."
     },
     {
       "id": "page:/events/library-common-ground-let-s-discuss-local-housing-issues-2026-04-14/",
@@ -819,7 +828,16 @@ export default {
       "url": "/events/library-creating-a-compelling-college-application-this-summer-2026-04-21/",
       "type": "event",
       "excerpt": "Program for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…",
-      "text": "Program for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…\n\nLearning\n\nCreating a Compelling College Application this Summer\n\nProgram for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…\n\nAbout this event\n\nProgram for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and their parents understand how to use the upcoming summer productively to create a compelling college application. We will cover the college application process, including current admissions trends, writing the personal statement and supplemental essays, securing strong teacher recommendations, and understanding how students can position themselves to increase their chances of admission. We will also explore why a student's ability to express insights, experiences, and personal growth through their essays is more important than ever. Our presentation will include application strategies, such as the advantages and disadvantages of early decision, early action, and regular decision. We will review the factors students should consider when deciding whether to submit standardized test scores for test optional colleges and universities. We will also explain the different pathways through which students can be admitted to a particular school. We will examine the holistic admissions review process, what admissions officers consider important when evaluating applicants, and how students can develop a compelling narrative that strengthens their applications. We will also discuss the importance of community service and how it offers opportunities for personal growth and character development. Admissions officers place significant emphasis on a student's character and the ways they have contributed to their communities. This program provides a detailed and strategic overview of what students should focus on to make their college applications as compelling as possible. The presentation will be led by Ron Feuchs and Jackie Tepper, partners at Stand Out For College, LLC (www.standoutforcollege.com). Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nTuesday, April 21, 2026\n\nTime\n\n7:30 PM - 8:30 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nCommon Ground: Let's Discuss Local Housing Issues\n\nApr 14, 2026\n\nAll viewpoints are welcome in this respectful, inclusive space designed to foster dialogue, reflection, and understanding."
+      "text": "Program for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…\n\nLearning\n\nCreating a Compelling College Application this Summer\n\nProgram for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…\n\nAbout this event\n\nProgram for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and their parents understand how to use the upcoming summer productively to create a compelling college application. We will cover the college application process, including current admissions trends, writing the personal statement and supplemental essays, securing strong teacher recommendations, and understanding how students can position themselves to increase their chances of admission. We will also explore why a student's ability to express insights, experiences, and personal growth through their essays is more important than ever. Our presentation will include application strategies, such as the advantages and disadvantages of early decision, early action, and regular decision. We will review the factors students should consider when deciding whether to submit standardized test scores for test optional colleges and universities. We will also explain the different pathways through which students can be admitted to a particular school. We will examine the holistic admissions review process, what admissions officers consider important when evaluating applicants, and how students can develop a compelling narrative that strengthens their applications. We will also discuss the importance of community service and how it offers opportunities for personal growth and character development. Admissions officers place significant emphasis on a student's character and the ways they have contributed to their communities. This program provides a detailed and strategic overview of what students should focus on to make their college applications as compelling as possible. The presentation will be led by Ron Feuchs and Jackie Tepper, partners at Stand Out For College, LLC (www.standoutforcollege.com). Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nTuesday, April 21, 2026\n\nTime\n\n7:30 PM - 8:30 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nCreating a Compelling College Application this Summer\n\nMay 20, 2026"
+    },
+    {
+      "id": "page:/events/library-creating-a-compelling-college-application-this-summer-2026-05-20/",
+      "sourceId": "page:/events/library-creating-a-compelling-college-application-this-summer-2026-05-20/",
+      "title": "Creating a Compelling College Application this Summer",
+      "url": "/events/library-creating-a-compelling-college-application-this-summer-2026-05-20/",
+      "type": "event",
+      "excerpt": "Program for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…",
+      "text": "Program for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…\n\nLearning\n\nCreating a Compelling College Application this Summer\n\nProgram for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…\n\nAbout this event\n\nProgram for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and their parents understand how to use the upcoming summer productively to create a compelling college application. We will cover the college application process, including current admissions trends, writing the personal statement and supplemental essays, securing strong teacher recommendations, and understanding how students can position themselves to increase their chances of admission. We will also explore why a student?s ability to express insights, experiences, and personal growth through their essays is more important than ever. Our presentation will include application strategies, such as the advantages and disadvantages of early decision, early action, and regular decision. We will review the factors students should consider when deciding whether to submit standardized test scores for test optional colleges and universities. We will also explain the different pathways through which students can be admitted to a particular school. We will examine the holistic admissions review process, what admissions officers consider important when evaluating applicants, and how students can develop a compelling narrative that strengthens their applications. We will also discuss the importance of community service and how it offers opportunities for personal growth and character development. Admissions officers place significant emphasis on a student?s character and the ways they have contributed to their communities. This program provides a detailed and strategic overview of what students should focus on to make their college applications as compelling as possible. The presentation will be led by Ron Feuchs and Jackie Tepper, partners at Stand Out For College, LLC (www.standoutforcollege.com). Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nUpcoming\n\nDate\n\nWednesday, May 20, 2026\n\nTime\n\n7:30 PM - 8:30 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nCreating a Compelling College Application this Summer\n\nApr 21, 2026"
     },
     {
       "id": "page:/events/library-destination-college-workshop-series-2026-05-18/",
@@ -894,13 +912,22 @@ export default {
       "text": "Join educator and genealogist Dennis Richmond, Jr.\n\nWorkshop\n\nGetting Started with Genealogy\n\nJoin educator and genealogist Dennis Richmond, Jr.\n\nAbout this event\n\nJoin educator and genealogist Dennis Richmond, Jr. for an engaging workshop titled \"Getting Started with Genealogy\" at the White Plains Public Library. This presentation will introduce participants to the basics of family history research, including how to use Ancestry.com, Family Search, and physical records to trace your ancestors. Participants will also view real historical documents from Dennis and learn practical tips for building a family tree from the soil up. Laptops will be available so attendees can begin exploring their own family history during the session. Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nThursday, April 23, 2026\n\nTime\n\n7:00 PM - 8:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nTips for Successful Interviewing\n\nApr 29, 2026\n\nCareer Coaching Services and White Plains Public Library present a free in-person workshop, 'Tips for Successful Interviewing'.\n\nFinancial Aid Workshop\n\nMar 30, 2026\n\nPrepare for your financial future with our FAFSA, Scholarship, and Financial Literacy Workshop for high school seniors!\n\nSoap Making Class\n\nApr 26, 2026\n\nEver wondered how a few simple oils can turn into a luxurious, bubbly bar of soap?"
     },
     {
+      "id": "page:/events/library-graphic-novel-chat-and-bingo-noodle-and-bao-by-shaina-lu-2026-05-19/",
+      "sourceId": "page:/events/library-graphic-novel-chat-and-bingo-noodle-and-bao-by-shaina-lu-2026-05-19/",
+      "title": "Graphic Novel Chat &amp; BINGO: Noodle &amp; Bao by Shaina Lu",
+      "url": "/events/library-graphic-novel-chat-and-bingo-noodle-and-bao-by-shaina-lu-2026-05-19/",
+      "type": "event",
+      "excerpt": "Join us for some fun by talking about Noodle &amp; Bao by Shaina Lu!",
+      "text": "Join us for some fun by talking about Noodle &amp; Bao by Shaina Lu!\n\nLearning\n\nGraphic Novel Chat & BINGO: Noodle & Bao by Shaina Lu\n\nJoin us for some fun by talking about Noodle & Bao by Shaina Lu!\n\nAbout this event\n\nJoin us for some fun by talking about Noodle & Bao by Shaina Lu! The first 4 students to register will receive a free copy of the graphic novel. Upon registration, please come to the Trove reference desk to pick up your free copy of the graphic novel. Other participants can have a copy placed on hold for them. For best discussion results, please make sure to read the graphic novel before coming to the program. We will also be playing a BINGO game based on Noodle & Bao and snacking on treats. About the Book Noodle & Bao: Momo has lived in Town 99 her entire life. She knows all its quirks and rhythms: the best places to buy fruit, practice tai-chi in the park, and, most of all, get the best meal: Noodle & Bao, run by Momo's best friend, Bao, and their am ah, Noodle. But Town 99 is changing. Rent is becoming unaffordable for Momo and her parents, and even Noodle & Bao has been edged out of its storefront, which was just recently bought out by a new business venture--Fanc&eacute; Cafe. Fanc&eacute; is run by the am bitious Ms. Jujube and her henchmen, who claim they're only beautifying Town 99 with good business. Momo knows that's not true, and knows that if she doesn't do something, she'll lose everything she loves about her neighborhood. Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nUpcoming\n\nDate\n\nTuesday, May 19, 2026\n\nTime\n\n5:00 PM - 6:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nGraphic Novel Chat & BINGO: Shiny Misfits by Maysoon Zayid\n\nApr 28, 2026\n\nJoin us for some fun by talking about Shiny Misfits by Maysoon Zayid!\n\nOver the Rainbow and Through the Woods\n\nMay 17, 2026\n\nPack your (imaginary) bags and join musical educator Rebecca Schoffer for a joyful, interactive sing-along celebrating Jewish Am erican Heritage Month!\n\nEarth Day: Stories & Stuff\n\nApr 9, 2026\n\nAfternoon stories and craft for grades K-2."
+    },
+    {
       "id": "page:/events/library-graphic-novel-chat-and-bingo-shiny-misfits-by-maysoon-zayid-2026-04-28/",
       "sourceId": "page:/events/library-graphic-novel-chat-and-bingo-shiny-misfits-by-maysoon-zayid-2026-04-28/",
       "title": "Graphic Novel Chat &amp; BINGO: Shiny Misfits by Maysoon Zayid",
       "url": "/events/library-graphic-novel-chat-and-bingo-shiny-misfits-by-maysoon-zayid-2026-04-28/",
       "type": "event",
       "excerpt": "Join us for some fun by talking about Shiny Misfits by Maysoon Zayid!",
-      "text": "Join us for some fun by talking about Shiny Misfits by Maysoon Zayid!\n\nLearning\n\nGraphic Novel Chat & BINGO: Shiny Misfits by Maysoon Zayid\n\nJoin us for some fun by talking about Shiny Misfits by Maysoon Zayid!\n\nAbout this event\n\nJoin us for some fun by talking about Shiny Misfits by Maysoon Zayid! The first 4 students to register will receive a free copy of the graphic novel. Upon registration, please come to the Trove reference desk to pick up your free copy of the graphic novel. Other participants will have a copy placed on hold for them. For best discussion results, please make sure to read the graphic novel before coming to the program. We will also be playing a BINGO game based on Shiny Misfits and snacking on treats. About the Book Shiny Misfits: Bay Ann wants to shine. No matter what. She's sure her moment in the spotlight has arrived when she wins the school talent show with a show stopping tap routine! But then her classmate and crush, Alyee Maq, causes her to wobble and almost fall. The video of him catching her goes viral, making Alyee an overnight sensation for \"helping her.\" Bay Ann is reduced to her disability and her talent is ignored. Bay Ann doesn't want her classmate to get all the fame, and she is NOT satisfied being anything but the best. She'll do everything in her power to beat Alyee at his own attention-seeking game. With the help of her two best friends, Michelle and Davey Matt, she'll go up against Alyee and his crew to prove she's number one. But as Bay Ann tries to find the thing that really makes her stand out, everything she tries goes disastrously wrong. What if the only way to beat her enemy. is to join him? Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nTuesday, April 28, 2026\n\nTime\n\n5:00 PM - 6:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nEarth Day: Stories & Stuff\n\nApr 9, 2026\n\nAfternoon stories and craft for grades K-2.\n\nRobert the Guitar Guy\n\nApr 29, 2026\n\nLocal favorite Robert the Guitar Guy comes to the Library!\n\nThe Revolutionary: Samuel Adams by Stacy Schiff\n\nApr 25, 2026\n\nSpace is limited for this free event."
+      "text": "Join us for some fun by talking about Shiny Misfits by Maysoon Zayid!\n\nLearning\n\nGraphic Novel Chat & BINGO: Shiny Misfits by Maysoon Zayid\n\nJoin us for some fun by talking about Shiny Misfits by Maysoon Zayid!\n\nAbout this event\n\nJoin us for some fun by talking about Shiny Misfits by Maysoon Zayid! The first 4 students to register will receive a free copy of the graphic novel. Upon registration, please come to the Trove reference desk to pick up your free copy of the graphic novel. Other participants will have a copy placed on hold for them. For best discussion results, please make sure to read the graphic novel before coming to the program. We will also be playing a BINGO game based on Shiny Misfits and snacking on treats. About the Book Shiny Misfits: Bay Ann wants to shine. No matter what. She's sure her moment in the spotlight has arrived when she wins the school talent show with a show stopping tap routine! But then her classmate and crush, Alyee Maq, causes her to wobble and almost fall. The video of him catching her goes viral, making Alyee an overnight sensation for \"helping her.\" Bay Ann is reduced to her disability and her talent is ignored. Bay Ann doesn't want her classmate to get all the fame, and she is NOT satisfied being anything but the best. She'll do everything in her power to beat Alyee at his own attention-seeking game. With the help of her two best friends, Michelle and Davey Matt, she'll go up against Alyee and his crew to prove she's number one. But as Bay Ann tries to find the thing that really makes her stand out, everything she tries goes disastrously wrong. What if the only way to beat her enemy. is to join him? Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nTuesday, April 28, 2026\n\nTime\n\n5:00 PM - 6:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nEarth Day: Stories & Stuff\n\nApr 9, 2026\n\nAfternoon stories and craft for grades K-2.\n\nRobert the Guitar Guy\n\nApr 29, 2026\n\nLocal favorite Robert the Guitar Guy comes to the Library!\n\nGraphic Novel Chat & BINGO: Noodle & Bao by Shaina Lu\n\nMay 19, 2026\n\nJoin us for some fun by talking about Noodle & Bao by Shaina Lu!"
     },
     {
       "id": "page:/events/library-how-to-protect-yourself-against-housing-discrimination-2026-05-04/",
@@ -927,7 +954,7 @@ export default {
       "url": "/events/library-lifting-up-westchester-2026-04-17/",
       "type": "event",
       "excerpt": "Victor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.",
-      "text": "Victor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nLearning\n\nLifting Up Westchester\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nAbout this event\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area. Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nFriday, April 17, 2026\n\nTime\n\n11:30 AM - 1:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nLifting Up Westchester\n\nApr 22, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nCreating a Compelling College Application this Summer\n\nApr 21, 2026\n\nProgram for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…\n\nLifting Up Westchester\n\nMay 6, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area."
+      "text": "Victor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nLearning\n\nLifting Up Westchester\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nAbout this event\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area. Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nFriday, April 17, 2026\n\nTime\n\n11:30 AM - 1:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nLifting Up Westchester\n\nApr 22, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nLifting Up Westchester\n\nMay 6, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nCreating a Compelling College Application this Summer\n\nApr 21, 2026\n\nProgram for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…"
     },
     {
       "id": "page:/events/library-lifting-up-westchester-2026-04-22/",
@@ -936,7 +963,7 @@ export default {
       "url": "/events/library-lifting-up-westchester-2026-04-22/",
       "type": "event",
       "excerpt": "Victor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.",
-      "text": "Victor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nLearning\n\nLifting Up Westchester\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nAbout this event\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area. Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nWednesday, April 22, 2026\n\nTime\n\n12:30 PM - 2:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nLifting Up Westchester\n\nApr 17, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nCreating a Compelling College Application this Summer\n\nApr 21, 2026\n\nProgram for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…\n\nLifting Up Westchester\n\nMay 6, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area."
+      "text": "Victor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nLearning\n\nLifting Up Westchester\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nAbout this event\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area. Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nWednesday, April 22, 2026\n\nTime\n\n12:30 PM - 2:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nLifting Up Westchester\n\nApr 17, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nLifting Up Westchester\n\nMay 6, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nCreating a Compelling College Application this Summer\n\nApr 21, 2026\n\nProgram for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…"
     },
     {
       "id": "page:/events/library-lifting-up-westchester-2026-05-06/",
@@ -945,7 +972,7 @@ export default {
       "url": "/events/library-lifting-up-westchester-2026-05-06/",
       "type": "event",
       "excerpt": "Victor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.",
-      "text": "Victor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nLearning\n\nLifting Up Westchester\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nAbout this event\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area. Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nUpcoming\n\nDate\n\nWednesday, May 6, 2026\n\nTime\n\n1:30 PM - 3:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nWhite Plains Sustainability Fair\n\nMay 16, 2026\n\nActivities: Make exploding wildflower seed balls Re-think eating and menus for healthier, sustainable food choices Watch composting demonstrations Learn about…\n\nLifting Up Westchester\n\nApr 17, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nLifting Up Westchester\n\nApr 22, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area."
+      "text": "Victor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nLearning\n\nLifting Up Westchester\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nAbout this event\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area. Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nWednesday, May 6, 2026\n\nTime\n\n1:30 PM - 3:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nLifting Up Westchester\n\nApr 17, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nLifting Up Westchester\n\nApr 22, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nCreating a Compelling College Application this Summer\n\nApr 21, 2026\n\nProgram for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…"
     },
     {
       "id": "page:/events/library-over-the-rainbow-and-through-the-woods-2026-05-17/",
@@ -1035,7 +1062,7 @@ export default {
       "url": "/events/library-virtual-poetry-open-mic-2026-04-01/",
       "type": "event",
       "excerpt": "Join Zork and Tim for our monthly virtual Poetry Open Mic!",
-      "text": "Join Zork and Tim for our monthly virtual Poetry Open Mic!\n\nLearning\n\nVirtual Poetry Open Mic\n\nJoin Zork and Tim for our monthly virtual Poetry Open Mic!\n\nAbout this event\n\nJoin Zork and Tim for our monthly virtual Poetry Open Mic! If you plan to share your writings and are reading for the first time, please email Tim with a short bio at the address below. This is a virtual event using the Zoom platform. To join, Click This Zoom Link. You can also use the following phone number to call in: +1 929 436 2866 US (New York). Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nWednesday, April 1, 2026\n\nTime\n\n7:00 PM - 9:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nCommon Ground: Let's Discuss Local Housing Issues\n\nApr 14, 2026\n\nAll viewpoints are welcome in this respectful, inclusive space designed to foster dialogue, reflection, and understanding.\n\nLifting Up Westchester\n\nApr 17, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nCreating a Compelling College Application this Summer\n\nApr 21, 2026\n\nProgram for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…"
+      "text": "Join Zork and Tim for our monthly virtual Poetry Open Mic!\n\nLearning\n\nVirtual Poetry Open Mic\n\nJoin Zork and Tim for our monthly virtual Poetry Open Mic!\n\nAbout this event\n\nJoin Zork and Tim for our monthly virtual Poetry Open Mic! If you plan to share your writings and are reading for the first time, please email Tim with a short bio at the address below. This is a virtual event using the Zoom platform. To join, Click This Zoom Link. You can also use the following phone number to call in: +1 929 436 2866 US (New York). Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nWednesday, April 1, 2026\n\nTime\n\n7:00 PM - 9:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nVirtual Poetry Open Mic\n\nMay 6, 2026\n\nJoin Zork and Tim for our monthly virtual Poetry Open Mic!\n\nCommon Ground: Let's Discuss Local Housing Issues\n\nApr 14, 2026\n\nAll viewpoints are welcome in this respectful, inclusive space designed to foster dialogue, reflection, and understanding.\n\nLifting Up Westchester\n\nApr 17, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area."
     },
     {
       "id": "page:/events/library-virtual-poetry-open-mic-2026-05-06/",
@@ -1044,7 +1071,7 @@ export default {
       "url": "/events/library-virtual-poetry-open-mic-2026-05-06/",
       "type": "event",
       "excerpt": "Join Zork and Tim for our monthly virtual Poetry Open Mic!",
-      "text": "Join Zork and Tim for our monthly virtual Poetry Open Mic!\n\nLearning\n\nVirtual Poetry Open Mic\n\nJoin Zork and Tim for our monthly virtual Poetry Open Mic!\n\nAbout this event\n\nJoin Zork and Tim for our monthly virtual Poetry Open Mic! If you plan to share your writings and are reading for the first time, please email Tim with a short bio at the address below. This is a virtual event using the Zoom platform. To join, Click This Zoom Link. You can also use the following phone number to call in: +1 929 436 2866 US (New York). Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nUpcoming\n\nDate\n\nWednesday, May 6, 2026\n\nTime\n\n7:00 PM - 9:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nVirtual Poetry Open Mic\n\nApr 1, 2026\n\nJoin Zork and Tim for our monthly virtual Poetry Open Mic!\n\nLifting Up Westchester\n\nMay 6, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nWhite Plains Sustainability Fair\n\nMay 16, 2026\n\nActivities: Make exploding wildflower seed balls Re-think eating and menus for healthier, sustainable food choices Watch composting demonstrations Learn about…"
+      "text": "Join Zork and Tim for our monthly virtual Poetry Open Mic!\n\nLearning\n\nVirtual Poetry Open Mic\n\nJoin Zork and Tim for our monthly virtual Poetry Open Mic!\n\nAbout this event\n\nJoin Zork and Tim for our monthly virtual Poetry Open Mic! If you plan to share your writings and are reading for the first time, please email Tim with a short bio at the address below. This is a virtual event using the Zoom platform. To join, Click This Zoom Link. You can also use the following phone number to call in: +1 929 436 2866 US (New York). Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nPast\n\nDate\n\nWednesday, May 6, 2026\n\nTime\n\n7:00 PM - 9:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nVirtual Poetry Open Mic\n\nApr 1, 2026\n\nJoin Zork and Tim for our monthly virtual Poetry Open Mic!\n\nCommon Ground: Let's Discuss Local Housing Issues\n\nApr 14, 2026\n\nAll viewpoints are welcome in this respectful, inclusive space designed to foster dialogue, reflection, and understanding.\n\nLifting Up Westchester\n\nApr 17, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area."
     },
     {
       "id": "page:/events/library-white-plains-in-1776-history-via-igloo-2026-04-22/",
@@ -1062,7 +1089,7 @@ export default {
       "url": "/events/library-white-plains-sustainability-fair-2026-05-16/",
       "type": "event",
       "excerpt": "Activities: Make exploding wildflower seed balls Re-think eating and menus for healthier, sustainable food choices Watch composting demonstrations Learn about…",
-      "text": "Activities: Make exploding wildflower seed balls Re-think eating and menus for healthier, sustainable food choices Watch composting demonstrations Learn about…\n\nLearning\n\nWhite Plains Sustainability Fair\n\nActivities: Make exploding wildflower seed balls Re-think eating and menus for healthier, sustainable food choices Watch composting demonstrations Learn about…\n\nAbout this event\n\nActivities: Make exploding wildflower seed balls Re-think eating and menus for healthier, sustainable food choices Watch composting demonstrations Learn about steps White Plains is undertaking to make it a greener city Discover ways to reduce utility bills and your carbon footprint Get inspired to participate in many Westchester County activities Celebrate community, creativity and conscious living Take home eco-friendly freebies Learn more about EV incentives and credits Connect with new and returning exhibitors All are welcome, no registration is required! Questions? Email whiteplainssustainability@gmail.com Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nUpcoming\n\nDate\n\nSaturday, May 16, 2026\n\nTime\n\n1:00 PM - 4:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nLifting Up Westchester\n\nMay 6, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nLifting Up Westchester\n\nApr 17, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nCreating a Compelling College Application this Summer\n\nApr 21, 2026\n\nProgram for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…"
+      "text": "Activities: Make exploding wildflower seed balls Re-think eating and menus for healthier, sustainable food choices Watch composting demonstrations Learn about…\n\nLearning\n\nWhite Plains Sustainability Fair\n\nActivities: Make exploding wildflower seed balls Re-think eating and menus for healthier, sustainable food choices Watch composting demonstrations Learn about…\n\nAbout this event\n\nActivities: Make exploding wildflower seed balls Re-think eating and menus for healthier, sustainable food choices Watch composting demonstrations Learn about steps White Plains is undertaking to make it a greener city Discover ways to reduce utility bills and your carbon footprint Get inspired to participate in many Westchester County activities Celebrate community, creativity and conscious living Take home eco-friendly freebies Learn more about EV incentives and credits Connect with new and returning exhibitors All are welcome, no registration is required! Questions? Email whiteplainssustainability@gmail.com Check the library page for registration, tickets, and any schedule updates.\n\nAt a Glance\n\nStatus\n\nUpcoming\n\nDate\n\nSaturday, May 16, 2026\n\nTime\n\n1:00 PM - 4:00 PM\n\nLocation\n\nWhite Plains Public Library\n\nAddress\n\n100 Martine Avenue, White Plains, NY 10601\n\nSource\n\nWhite Plains Public Library\n\nMore Events\n\nRelated events\n\nCreating a Compelling College Application this Summer\n\nMay 20, 2026\n\nProgram for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…\n\nLifting Up Westchester\n\nApr 17, 2026\n\nVictor Ortiz of Lifting Up Westchester will be available to provide information about essential social services available to patrons in the White Plains area.\n\nCreating a Compelling College Application this Summer\n\nApr 21, 2026\n\nProgram for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…"
     },
     {
       "id": "page:/events/library-wuthering-heights-tea-party-and-discussion-2026-04-28/",
@@ -1215,7 +1242,7 @@ export default {
       "url": "/history/",
       "type": "history",
       "excerpt": "Historical context connected to White Plains neighborhoods, civic life, and current history-related events.",
-      "text": "Historical context connected to White Plains neighborhoods, civic life, and current history-related events.\n\nWhite Plains\n\nWhite Plains history\n\nA short guide to historical threads connected to White Plains neighborhoods and civic life.\n\nScope\n\nHistorical context in the guide\n\nThe current site is mainly a civic guide, not a full local history archive, but some neighborhood pages already point to important historical threads in White Plains.\n\nThose threads include the Battle of White Plains, long-standing institutions and campuses, and neighborhoods with roots in the 1700s, early 1900s, and 1950s.\n\nThe events calendar also picks up history and genealogy programs when current partner sources publish them.\n\nNeighborhood Guide\n\nKeep exploring White Plains\n\nThe neighborhood guide brings together the parts of White Plains where local history, civic life, and neighborhood identity overlap most clearly.\n\nHistoric threads in the neighborhood guide\n\nThese neighborhood pages include visible historical context tied to White Plains.\n\nWest Side and Near-Downtown Neighborhoods\n\nBattle Hill\n\nBattle Hill is one of the city's signature historic neighborhoods: the 1776 Battle of White Plains took place largely here and on nearby Dusenbury Hill.\n\nNorth and Northeast\n\nGood Counsel\n\nGood Counsel takes much of its identity from the Good Counsel Complex on North Broadway, a White Plains landmark listed on the State and National Registers of Historic Places.\n\nEast Side and Institutional Anchors\n\nKirkbride Asylum\n\nKirkbride Asylum has one of the most distinctive names on the map, and the area carries a sense of older institutional history and larger grounds.\n\nEast Side and Institutional Anchors\n\nBurke Institute\n\nBurke Institute is anchored by the Burke campus on Mamaroneck Avenue, whose rehabilitation hospital opened in 1915.\n\nEast Side and Institutional Anchors\n\nBryant Gardens\n\nBryant Gardens is best known for the garden-style cooperative community built there in the early 1950s, with landscaped grounds and a strong sense of internal identity.\n\nGedney and the South Side\n\nGedney Farms\n\nGedney Farms is one of the classic residential names in White Plains, with roots that trace back to the 1700s and a neighborhood association now marking its 100th year.\n\nHistory-related events on the calendar\n\nCurrent listings from approved site sources that touch on local history, preservation, or genealogy.\n\nOver the Rainbow and Through the Woods\n\nMay 17, 2026\n\nPack your (imaginary) bags and join musical educator Rebecca Schoffer for a joyful, interactive sing-along celebrating Jewish Am erican Heritage Month!\n\nSchool Of Rock: Young Actors\n\nJul 20, 2026 - Aug 8, 2026"
+      "text": "Historical context connected to White Plains neighborhoods, civic life, and current history-related events.\n\nWhite Plains\n\nWhite Plains history\n\nA short guide to historical threads connected to White Plains neighborhoods and civic life.\n\nScope\n\nHistorical context in the guide\n\nThe current site is mainly a civic guide, not a full local history archive, but some neighborhood pages already point to important historical threads in White Plains.\n\nThose threads include the Battle of White Plains, long-standing institutions and campuses, and neighborhoods with roots in the 1700s, early 1900s, and 1950s.\n\nThe events calendar also picks up history and genealogy programs when current partner sources publish them.\n\nNeighborhood Guide\n\nKeep exploring White Plains\n\nThe neighborhood guide brings together the parts of White Plains where local history, civic life, and neighborhood identity overlap most clearly.\n\nHistoric threads in the neighborhood guide\n\nThese neighborhood pages include visible historical context tied to White Plains.\n\nWest Side and Near-Downtown Neighborhoods\n\nBattle Hill\n\nDescription coming soon\n\nNorth and Northeast\n\nGood Counsel\n\nDescription coming soon\n\nEast Side and Institutional Anchors\n\nKirkbride Asylum\n\nDescription coming soon\n\nEast Side and Institutional Anchors\n\nBurke Institute\n\nDescription coming soon\n\nEast Side and Institutional Anchors\n\nBryant Gardens\n\nDescription coming soon\n\nGedney and the South Side\n\nGedney Farms\n\nDescription coming soon\n\nHistory-related events on the calendar\n\nCurrent listings from approved site sources that touch on local history, preservation, or genealogy.\n\nOver the Rainbow and Through the Woods\n\nMay 17, 2026\n\nPack your (imaginary) bags and join musical educator Rebecca Schoffer for a joyful, interactive sing-along celebrating Jewish Am erican Heritage Month!\n\nSchool Of Rock: Young Actors\n\nJul 20, 2026 - Aug 8, 2026\n\nAndrew Lloyd Webber’s School of Rock: Young Actors Edition is a dynamic, one-hour version of the musical based on the hit movie."
     },
     {
       "id": "page:/neighborhood-map/",
@@ -1232,8 +1259,8 @@ export default {
       "title": "White Plains Neighborhoods",
       "url": "/neighborhoods/",
       "type": "neighborhoods",
-      "excerpt": "Explore White Plains through an interactive neighborhood map and a citywide neighborhood guide.",
-      "text": "Explore White Plains through an interactive neighborhood map and a citywide neighborhood guide.\n\nNeighborhood Guide\n\nExplore White Plains by neighborhood\n\nStart with the official neighborhood map, then browse the full city guide below.\n\nHover or tap one of the highlighted WPCNA-represented neighborhoods to connect the map and the guide cards.\n\nFeatured Neighborhoods\n\nWPCNA-represented neighborhoods\n\nThese featured neighborhoods are currently represented through WPCNA.\n\nAll Neighborhoods\n\nBrowse the full White Plains guide\n\n44 neighborhoods, grouped by area so you can move from the city center out toward the north side, east side, Gedney, and the south side.\n\nCentral White Plains\n\nThe city's core, where Downtown, civic buildings, transit, and close-in residential blocks meet.\n\nCentral White Plains\n\nDowntown\n\nDowntown is the most walkable and built-up part of White Plains, centered on the Metro-North station, Mamaroneck Avenue, restaurants, shopping, and a growing collection of newer apartment buildings.\n\nCentral White Plains\n\nChurch Street\n\nChurch Street sits just off Downtown and shares much of its convenience, but at a slightly calmer scale.\n\nCentral White Plains\n\nGovernment Center\n\nGovernment Center is one of the most central parts of White Plains and gives the surrounding streets an established, civic feel.\n\nCentral White Plains\n\nHealth Center\n\nHealth Center is shaped by White Plains Hospital and the medical offices around it, which gives the area a familiar, everyday rhythm.\n\nCentral White Plains\n\nWinbrook\n\nWinbrook is close to the center of the city and has long been one of White Plains' better-known residential areas.\n\nCentral White Plains\n\nGateway\n\nGateway lives up to its name as the stretch between the city center and the residential neighborhoods around it.\n\nWest Side and Near-Downtown Neighborhoods\n\nResidential areas west of the center, plus nearby blocks that stay closely tied to Downtown.\n\nWest Side and Near-Downtown Neighborhoods\n\nBattle Hill\n\nBattle Hill is one of the city's signature historic neighborhoods: the 1776 Battle of White Plains took place largely here and on nearby Dusenbury Hill.\n\nWest Side and Near-Downtown Neighborhoods\n\nFisher Hill\n\nFisher Hill is a historic neighborhood within walking distance of the central business district of White Plains, NY.\n\nWest Side and Near-Downtown Neighborhoods\n\nHighlands\n\nHighlands is one of the more recognizable close-in residential neighborhoods in White Plains.\n\nWest Side and Near-Downtown Neighborhoods\n\nFulton Street\n\nFulton Street is a smaller west-side neighborhood with a long-standing residential feel.\n\nWest Side and Near-Downtown Neighborhoods\n\nFerris Avenue\n\nFerris Avenue follows one of the city's main north-south routes and feels closely tied to the surrounding west side."
+      "excerpt": "Explore White Plains through an interactive neighborhood map and a map-aligned neighborhood guide.",
+      "text": "Explore White Plains through an interactive neighborhood map and a map-aligned neighborhood guide.\n\nNeighborhood Guide\n\nExplore White Plains by neighborhood\n\nStart with the updated neighborhood map, then browse neighborhood areas grouped by part of the city.\n\nHover or tap one of the highlighted WPCNA-represented neighborhoods to connect the map and the guide cards.\n\nFeatured Neighborhoods\n\nWPCNA-represented neighborhoods\n\nThese featured neighborhoods are currently represented through WPCNA.\n\nNeighborhood Areas\n\nNeighborhoods grouped by area\n\nThese neighborhood areas match the updated White Plains map. Fisher Hill is currently populated; other profiles are being normalized.\n\nCentral White Plains\n\nThe city's core, where Downtown, civic buildings, transit, and close-in residential blocks meet.\n\nChurch Street\n\nGovernment Center\n\nHealth Center\n\nWinbrook\n\nWest Side and Near-Downtown Neighborhoods\n\nResidential areas west of the center, plus nearby blocks that stay closely tied to Downtown.\n\nBattle Hill\n\nFisher Hill\n\nHighlands\n\nFulton Street\n\nFerris Avenue\n\nProspect Park\n\nNorth and Northeast\n\nNeighborhoods north and east of the center, ranging from prominent corridors to quieter hillside pockets.\n\nNorth Broadway\n\nGood Counsel\n\nWestminster Ridge\n\nWoodcrest Heights\n\nWhite Plains Reservoir\n\nEastview\n\nOld Oak Ridge\n\nWestchester Avenue\n\nEast Side and Institutional Anchors\n\nEast-side neighborhoods shaped by longtime roads, campuses, and landmark institutions.\n\nOld Mamaroneck Road\n\nCarhart\n\nBryant Gardens\n\nHavilands Manor\n\nNorth Street\n\nGedney and the South Side\n\nThe south side of White Plains, including the Gedney neighborhoods and other established residential pockets.\n\nGedney Park\n\nGedney Farms\n\nGedney Circle\n\nGedney Commons\n\nGedney Manor\n\nGedney Meadows\n\nBrook Hills\n\nHolbrooke\n\nReynal Park\n\nHillair Circle\n\nColonial Corners\n\nRocky Dell\n\nSoundview\n\nRosedale\n\nSaxon Woods\n\nIdle Forest"
     },
     {
       "id": "page:/neighborhoods/battle-hill/",
@@ -1241,8 +1268,8 @@ export default {
       "title": "Battle Hill",
       "url": "/neighborhoods/battle-hill/",
       "type": "neighborhood",
-      "excerpt": "Learn about Battle Hill, part of West Side and Near-Downtown Neighborhoods.",
-      "text": "Learn about Battle Hill, part of West Side and Near-Downtown Neighborhoods.\n\nWest Side and Near-Downtown Neighborhoods\n\nBattle Hill\n\nBattle Hill is one of the city's signature historic neighborhoods: the 1776 Battle of White Plains took place largely here and on nearby Dusenbury Hill.\n\nCaptJayRuffins via Wikimedia Commons Source CC BY-SA 4.0\n\nLocal feel\n\nToday it is a settled residential area on higher ground, with a strong local identity and a little more history than most parts of the city.\n\nIn the wider picture\n\nResidential areas west of the center, plus nearby blocks that stay closely tied to Downtown.\n\nThis part of White Plains sits close to the center while keeping a more residential feel, especially on the west side and the blocks just beyond Downtown.\n\nOn the map\n\nBattle Hill outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nBattle Hill\n\nSection\n\nWest Side and Near-Downtown Neighborhoods\n\nLocal anchors\n\nBattle of White Plains, Dusenbury Hill\n\nCity\n\nWhite Plains"
+      "excerpt": "Battle Hill profile coming soon.",
+      "text": "Battle Hill profile coming soon.\n\nBattle Hill\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/bronx-river/",
@@ -1250,8 +1277,8 @@ export default {
       "title": "Bronx River",
       "url": "/neighborhoods/bronx-river/",
       "type": "neighborhood",
-      "excerpt": "Learn about Bronx River, part of West Side and Near-Downtown Neighborhoods.",
-      "text": "Learn about Bronx River, part of West Side and Near-Downtown Neighborhoods.\n\nWest Side and Near-Downtown Neighborhoods\n\nBronx River\n\nBronx River is a narrow edge neighborhood along the western side of White Plains.\n\nGilmore D. Clarke via Wikimedia Commons Source Public domain\n\nLocal feel\n\nIts position gives it a tucked-along-the-corridor feel, with easy access to central White Plains while still feeling a little set apart.\n\nIn the wider picture\n\nResidential areas west of the center, plus nearby blocks that stay closely tied to Downtown.\n\nThis part of White Plains sits close to the center while keeping a more residential feel, especially on the west side and the blocks just beyond Downtown.\n\nAt a Glance\n\nNeighborhood\n\nBronx River\n\nSection\n\nWest Side and Near-Downtown Neighborhoods\n\nCity\n\nWhite Plains"
+      "excerpt": "Bronx River profile coming soon.",
+      "text": "Bronx River profile coming soon.\n\nBronx River\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/brook-hills/",
@@ -1259,8 +1286,8 @@ export default {
       "title": "Brook Hills",
       "url": "/neighborhoods/brook-hills/",
       "type": "neighborhood",
-      "excerpt": "Learn about Brook Hills, part of Gedney and the South Side.",
-      "text": "Learn about Brook Hills, part of Gedney and the South Side.\n\nGedney and the South Side\n\nBrook Hills\n\nBrook Hills is a small southeastern pocket that feels compact and residential.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nIts setting near the lower edge of the city gives it a bit of separation, while the neighborhood itself reads as neat and self-contained.\n\nIn the wider picture\n\nThe south side of White Plains, including the Gedney neighborhoods and other established residential pockets.\n\nThis part of White Plains covers the Gedney area and the south side, where many neighborhoods feel greener, calmer, and more residential than the city center.\n\nOn the map\n\nBrook Hills outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nBrook Hills\n\nSection\n\nGedney and the South Side\n\nCity\n\nWhite Plains"
+      "excerpt": "Brook Hills profile coming soon.",
+      "text": "Brook Hills profile coming soon.\n\nBrook Hills\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/bryant-gardens/",
@@ -1268,8 +1295,8 @@ export default {
       "title": "Bryant Gardens",
       "url": "/neighborhoods/bryant-gardens/",
       "type": "neighborhood",
-      "excerpt": "Learn about Bryant Gardens, part of East Side and Institutional Anchors.",
-      "text": "Learn about Bryant Gardens, part of East Side and Institutional Anchors.\n\nEast Side and Institutional Anchors\n\nBryant Gardens\n\nBryant Gardens is best known for the garden-style cooperative community built there in the early 1950s, with landscaped grounds and a strong sense of internal identity.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nThe name still carries that orderly, residential feel, and it remains one of the more recognizable small-scale neighborhoods in White Plains.\n\nIn the wider picture\n\nEast-side neighborhoods shaped by longtime roads, campuses, and landmark institutions.\n\nThis part of White Plains is shaped by long-established roads, campuses, and institutions alongside residential neighborhoods.\n\nOn the map\n\nBryant Gardens outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nBryant Gardens\n\nSection\n\nEast Side and Institutional Anchors\n\nCity\n\nWhite Plains"
+      "excerpt": "Bryant Gardens profile coming soon.",
+      "text": "Bryant Gardens profile coming soon.\n\nBryant Gardens\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/burke-institute/",
@@ -1277,17 +1304,17 @@ export default {
       "title": "Burke Institute",
       "url": "/neighborhoods/burke-institute/",
       "type": "neighborhood",
-      "excerpt": "Learn about Burke Institute, part of East Side and Institutional Anchors.",
-      "text": "Learn about Burke Institute, part of East Side and Institutional Anchors.\n\nEast Side and Institutional Anchors\n\nBurke Institute\n\nBurke Institute is anchored by the Burke campus on Mamaroneck Avenue, whose rehabilitation hospital opened in 1915.\n\nBoston Public Library via Wikimedia Commons Source CC BY 2.0\n\nLocal feel\n\nThat longstanding institution gives the area a clear identity and a campus-like feel within the larger residential section around it.\n\nIn the wider picture\n\nEast-side neighborhoods shaped by longtime roads, campuses, and landmark institutions.\n\nThis part of White Plains is shaped by long-established roads, campuses, and institutions alongside residential neighborhoods.\n\nAt a Glance\n\nNeighborhood\n\nBurke Institute\n\nSection\n\nEast Side and Institutional Anchors\n\nLocal anchors\n\nMamaroneck Avenue, Burke campus\n\nCity\n\nWhite Plains"
+      "excerpt": "Burke Institute profile coming soon.",
+      "text": "Burke Institute profile coming soon.\n\nBurke Institute\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/carhart/",
       "sourceId": "page:/neighborhoods/carhart/",
-      "title": "Carhartt",
+      "title": "Carhart",
       "url": "/neighborhoods/carhart/",
       "type": "neighborhood",
-      "excerpt": "Learn about Carhartt, part of East Side and Institutional Anchors.",
-      "text": "Learn about Carhartt, part of East Side and Institutional Anchors.\n\nEast Side and Institutional Anchors\n\nCarhartt\n\nCarhartt is a compact neighborhood area near the middle of White Plains, positioned between the close-in residential blocks, institutional anchors, and larger south-side neighborhoods around it.\n\nWPCNA Source Image coming soon\n\nLocal feel\n\nIt is one of the neighborhood associations currently represented through WPCNA, giving residents another point of connection within the council.\n\nIn the wider picture\n\nEast-side neighborhoods shaped by longtime roads, campuses, and landmark institutions.\n\nThis part of White Plains is shaped by long-established roads, campuses, and institutions alongside residential neighborhoods.\n\nOn the map\n\nCarhartt outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nCarhartt\n\nSection\n\nEast Side and Institutional Anchors\n\nCity\n\nWhite Plains"
+      "excerpt": "Carhart profile coming soon.",
+      "text": "Carhart profile coming soon.\n\nCarhart\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/church-street/",
@@ -1295,8 +1322,8 @@ export default {
       "title": "Church Street",
       "url": "/neighborhoods/church-street/",
       "type": "neighborhood",
-      "excerpt": "Learn about Church Street, part of Central White Plains.",
-      "text": "Learn about Church Street, part of Central White Plains.\n\nCentral White Plains\n\nChurch Street\n\nChurch Street sits just off Downtown and shares much of its convenience, but at a slightly calmer scale.\n\nPaul Sableman via Wikimedia Commons Source CC BY 2.0\n\nLocal feel\n\nThe mix of apartment buildings, smaller residential blocks, and longtime local institutions gives it a central location with a more settled feel.\n\nIn the wider picture\n\nThe city's core, where Downtown, civic buildings, transit, and close-in residential blocks meet.\n\nThis part of White Plains is where the city feels most concentrated, with public buildings, major streets, and close-in residential blocks all close together.\n\nOn the map\n\nChurch Street outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nChurch Street\n\nSection\n\nCentral White Plains\n\nLocal anchors\n\nDowntown\n\nCity\n\nWhite Plains"
+      "excerpt": "Church Street profile coming soon.",
+      "text": "Church Street profile coming soon.\n\nChurch Street\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/colonial-corners/",
@@ -1304,8 +1331,8 @@ export default {
       "title": "Colonial Corners",
       "url": "/neighborhoods/colonial-corners/",
       "type": "neighborhood",
-      "excerpt": "Learn about Colonial Corners, part of Gedney and the South Side.",
-      "text": "Learn about Colonial Corners, part of Gedney and the South Side.\n\nGedney and the South Side\n\nColonial Corners\n\nColonial Corners is a compact residential section near the southern middle of the city.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nIt feels traditional and familiar, with a straightforward neighborhood presence that fits naturally among the Gedney areas.\n\nIn the wider picture\n\nThe south side of White Plains, including the Gedney neighborhoods and other established residential pockets.\n\nThis part of White Plains covers the Gedney area and the south side, where many neighborhoods feel greener, calmer, and more residential than the city center.\n\nOn the map\n\nColonial Corners outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nColonial Corners\n\nSection\n\nGedney and the South Side\n\nCity\n\nWhite Plains"
+      "excerpt": "Colonial Corners profile coming soon.",
+      "text": "Colonial Corners profile coming soon.\n\nColonial Corners\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/downtown/",
@@ -1313,8 +1340,8 @@ export default {
       "title": "Downtown",
       "url": "/neighborhoods/downtown/",
       "type": "neighborhood",
-      "excerpt": "Learn about Downtown, part of Central White Plains.",
-      "text": "Learn about Downtown, part of Central White Plains.\n\nCentral White Plains\n\nDowntown\n\nDowntown is the most walkable and built-up part of White Plains, centered on the Metro-North station, Mamaroneck Avenue, restaurants, shopping, and a growing collection of newer apartment buildings.\n\nPaul Sableman via Wikimedia Commons Source CC BY 2.0\n\nLocal feel\n\nIt has the most day-to-night energy in the city and the strongest sense of White Plains as a compact urban center.\n\nIn the wider picture\n\nThe city's core, where Downtown, civic buildings, transit, and close-in residential blocks meet.\n\nThis part of White Plains is where the city feels most concentrated, with public buildings, major streets, and close-in residential blocks all close together.\n\nAt a Glance\n\nNeighborhood\n\nDowntown\n\nSection\n\nCentral White Plains\n\nLocal anchors\n\nMetro-North station, Mamaroneck Avenue\n\nCity\n\nWhite Plains"
+      "excerpt": "Downtown profile coming soon.",
+      "text": "Downtown profile coming soon.\n\nDowntown\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/eastview/",
@@ -1322,8 +1349,8 @@ export default {
       "title": "Eastview",
       "url": "/neighborhoods/eastview/",
       "type": "neighborhood",
-      "excerpt": "Learn about Eastview, part of North and Northeast.",
-      "text": "Learn about Eastview, part of North and Northeast.\n\nNorth and Northeast\n\nEastview\n\nEastview sits east of Downtown and works as one of the city's steady residential neighborhoods.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nIt has a practical, everyday feel, with a location that keeps the center of White Plains and the eastern side of town close by.\n\nIn the wider picture\n\nNeighborhoods north and east of the center, ranging from prominent corridors to quieter hillside pockets.\n\nThis part of White Plains stretches north and northeast from the center, mixing major corridors with quieter hillside and residential areas.\n\nOn the map\n\nEastview outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nEastview\n\nSection\n\nNorth and Northeast\n\nLocal anchors\n\nDowntown\n\nCity\n\nWhite Plains"
+      "excerpt": "Eastview profile coming soon.",
+      "text": "Eastview profile coming soon.\n\nEastview\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/ferris-avenue/",
@@ -1331,8 +1358,8 @@ export default {
       "title": "Ferris Avenue",
       "url": "/neighborhoods/ferris-avenue/",
       "type": "neighborhood",
-      "excerpt": "Learn about Ferris Avenue, part of West Side and Near-Downtown Neighborhoods.",
-      "text": "Learn about Ferris Avenue, part of West Side and Near-Downtown Neighborhoods.\n\nWest Side and Near-Downtown Neighborhoods\n\nFerris Avenue\n\nFerris Avenue follows one of the city's main north-south routes and feels closely tied to the surrounding west side.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nThe area mixes housing with local activity, and its main draw is how easily it links Battle Hill, Downtown, and the neighborhoods to the north.\n\nIn the wider picture\n\nResidential areas west of the center, plus nearby blocks that stay closely tied to Downtown.\n\nThis part of White Plains sits close to the center while keeping a more residential feel, especially on the west side and the blocks just beyond Downtown.\n\nOn the map\n\nFerris Avenue outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nFerris Avenue\n\nSection\n\nWest Side and Near-Downtown Neighborhoods\n\nLocal anchors\n\nDowntown\n\nCity\n\nWhite Plains"
+      "excerpt": "Ferris Avenue profile coming soon.",
+      "text": "Ferris Avenue profile coming soon.\n\nFerris Avenue\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/fisher-hill/",
@@ -1341,7 +1368,7 @@ export default {
       "url": "/neighborhoods/fisher-hill/",
       "type": "neighborhood",
       "excerpt": "Learn about Fisher Hill, part of West Side and Near-Downtown Neighborhoods.",
-      "text": "Learn about Fisher Hill, part of West Side and Near-Downtown Neighborhoods.\n\nWest Side and Near-Downtown Neighborhoods\n\nFisher Hill\n\nFisher Hill is a historic neighborhood within walking distance of the central business district of White Plains, NY.\n\nWPCNA Source Site photo\n\nLocal feel\n\nResidential development began around 1900, and many of the large vintage homes from that era still define the neighborhood's character today.\n\nFisher Hill is notably diverse in ethnicity, age, and income.\n\nFisher Hill Association\n\nMichael Dalton, President 914-497-7236\n\nJonna Robbins, Vice President\n\nJane Prout, Treasurer\n\nIn the wider picture\n\nResidential areas west of the center, plus nearby blocks that stay closely tied to Downtown.\n\nThis part of White Plains sits close to the center while keeping a more residential feel, especially on the west side and the blocks just beyond Downtown.\n\nOn the map\n\nFisher Hill outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nFisher Hill\n\nSection\n\nWest Side and Near-Downtown Neighborhoods\n\nCity\n\nWhite Plains"
+      "text": "Learn about Fisher Hill, part of West Side and Near-Downtown Neighborhoods.\n\nFisher Hill\n\nFisher Hill is a historic neighborhood within walking distance of the central business district of White Plains, NY. Residential development began around 1900, and many of the large vintage homes from that era still define the neighborhood's character today. Fisher Hill is notably diverse in ethnicity, age, and income.\n\nFisher Hill Association\n\nMichael Dalton, President 914-497-7236\n\nJonna Robbins, Vice President\n\nJane Prout, Treasurer"
     },
     {
       "id": "page:/neighborhoods/fulton-street/",
@@ -1349,8 +1376,8 @@ export default {
       "title": "Fulton Street",
       "url": "/neighborhoods/fulton-street/",
       "type": "neighborhood",
-      "excerpt": "Learn about Fulton Street, part of West Side and Near-Downtown Neighborhoods.",
-      "text": "Learn about Fulton Street, part of West Side and Near-Downtown Neighborhoods.\n\nWest Side and Near-Downtown Neighborhoods\n\nFulton Street\n\nFulton Street is a smaller west-side neighborhood with a long-standing residential feel.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nIt is shaped more by familiar blocks and older housing than by large new development, which gives it a straightforward and established character.\n\nIn the wider picture\n\nResidential areas west of the center, plus nearby blocks that stay closely tied to Downtown.\n\nThis part of White Plains sits close to the center while keeping a more residential feel, especially on the west side and the blocks just beyond Downtown.\n\nOn the map\n\nFulton Street outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nFulton Street\n\nSection\n\nWest Side and Near-Downtown Neighborhoods\n\nCity\n\nWhite Plains"
+      "excerpt": "Fulton Street profile coming soon.",
+      "text": "Fulton Street profile coming soon.\n\nFulton Street\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/gateway/",
@@ -1358,8 +1385,8 @@ export default {
       "title": "Gateway",
       "url": "/neighborhoods/gateway/",
       "type": "neighborhood",
-      "excerpt": "Learn about Gateway, part of Central White Plains.",
-      "text": "Learn about Gateway, part of Central White Plains.\n\nCentral White Plains\n\nGateway\n\nGateway lives up to its name as the stretch between the city center and the residential neighborhoods around it.\n\nMetropolitan Transportation Authority via Wikimedia Commons Source CC BY 2.0\n\nLocal feel\n\nIt feels connected and convenient, with a little breathing room from the busiest blocks while still staying close to them.\n\nIn the wider picture\n\nThe city's core, where Downtown, civic buildings, transit, and close-in residential blocks meet.\n\nThis part of White Plains is where the city feels most concentrated, with public buildings, major streets, and close-in residential blocks all close together.\n\nAt a Glance\n\nNeighborhood\n\nGateway\n\nSection\n\nCentral White Plains\n\nCity\n\nWhite Plains"
+      "excerpt": "Gateway profile coming soon.",
+      "text": "Gateway profile coming soon.\n\nGateway\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/gedney-circle/",
@@ -1367,8 +1394,8 @@ export default {
       "title": "Gedney Circle",
       "url": "/neighborhoods/gedney-circle/",
       "type": "neighborhood",
-      "excerpt": "Learn about Gedney Circle, part of Gedney and the South Side.",
-      "text": "Learn about Gedney Circle, part of Gedney and the South Side.\n\nGedney and the South Side\n\nGedney Circle\n\nGedney Circle is small enough to feel like an enclave, which is part of its appeal.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nThe name suggests a clearly defined pocket within the larger Gedney area, with a residential tone and a strong sense of place.\n\nIn the wider picture\n\nThe south side of White Plains, including the Gedney neighborhoods and other established residential pockets.\n\nThis part of White Plains covers the Gedney area and the south side, where many neighborhoods feel greener, calmer, and more residential than the city center.\n\nOn the map\n\nGedney Circle outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nGedney Circle\n\nSection\n\nGedney and the South Side\n\nCity\n\nWhite Plains"
+      "excerpt": "Gedney Circle profile coming soon.",
+      "text": "Gedney Circle profile coming soon.\n\nGedney Circle\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/gedney-commons/",
@@ -1376,8 +1403,8 @@ export default {
       "title": "Gedney Commons",
       "url": "/neighborhoods/gedney-commons/",
       "type": "neighborhood",
-      "excerpt": "Learn about Gedney Commons, part of Gedney and the South Side.",
-      "text": "Learn about Gedney Commons, part of Gedney and the South Side.\n\nGedney and the South Side\n\nGedney Commons\n\nGedney Commons is one of the smaller Gedney sections, compact and closely tied to its surrounding streets.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nIt feels approachable and neighborhood-scaled, with the established look that runs through much of the south side.\n\nIn the wider picture\n\nThe south side of White Plains, including the Gedney neighborhoods and other established residential pockets.\n\nThis part of White Plains covers the Gedney area and the south side, where many neighborhoods feel greener, calmer, and more residential than the city center.\n\nOn the map\n\nGedney Commons outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nGedney Commons\n\nSection\n\nGedney and the South Side\n\nCity\n\nWhite Plains"
+      "excerpt": "Gedney Commons profile coming soon.",
+      "text": "Gedney Commons profile coming soon.\n\nGedney Commons\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/gedney-farms/",
@@ -1385,8 +1412,8 @@ export default {
       "title": "Gedney Farms",
       "url": "/neighborhoods/gedney-farms/",
       "type": "neighborhood",
-      "excerpt": "Learn about Gedney Farms, part of Gedney and the South Side.",
-      "text": "Learn about Gedney Farms, part of Gedney and the South Side.\n\nGedney and the South Side\n\nGedney Farms\n\nGedney Farms is one of the classic residential names in White Plains, with roots that trace back to the 1700s and a neighborhood association now marking its 100th year.\n\nPhoto provided to WPCNA Source Used with permission\n\nLocal feel\n\nIt is known for quiet, tree-lined streets, larger homes, and the kind of traditional character that has made it one of the city's most established addresses.\n\nIn the wider picture\n\nThe south side of White Plains, including the Gedney neighborhoods and other established residential pockets.\n\nThis part of White Plains covers the Gedney area and the south side, where many neighborhoods feel greener, calmer, and more residential than the city center.\n\nOn the map\n\nGedney Farms outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nGedney Farms\n\nSection\n\nGedney and the South Side\n\nCity\n\nWhite Plains"
+      "excerpt": "Gedney Farms profile coming soon.",
+      "text": "Gedney Farms profile coming soon.\n\nGedney Farms\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/gedney-manor/",
@@ -1394,8 +1421,8 @@ export default {
       "title": "Gedney Manor",
       "url": "/neighborhoods/gedney-manor/",
       "type": "neighborhood",
-      "excerpt": "Learn about Gedney Manor, part of Gedney and the South Side.",
-      "text": "Learn about Gedney Manor, part of Gedney and the South Side.\n\nGedney and the South Side\n\nGedney Manor\n\nGedney Manor has a steady, settled feel and sits close to several of the other Gedney neighborhoods.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nIt reads as residential and long established, with a quieter tone than the city center.\n\nIn the wider picture\n\nThe south side of White Plains, including the Gedney neighborhoods and other established residential pockets.\n\nThis part of White Plains covers the Gedney area and the south side, where many neighborhoods feel greener, calmer, and more residential than the city center.\n\nOn the map\n\nGedney Manor outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nGedney Manor\n\nSection\n\nGedney and the South Side\n\nCity\n\nWhite Plains"
+      "excerpt": "Gedney Manor profile coming soon.",
+      "text": "Gedney Manor profile coming soon.\n\nGedney Manor\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/gedney-meadows/",
@@ -1403,8 +1430,8 @@ export default {
       "title": "Gedney Meadows",
       "url": "/neighborhoods/gedney-meadows/",
       "type": "neighborhood",
-      "excerpt": "Learn about Gedney Meadows, part of Gedney and the South Side.",
-      "text": "Learn about Gedney Meadows, part of Gedney and the South Side.\n\nGedney and the South Side\n\nGedney Meadows\n\nGedney Meadows has a softer, more tucked-away feel than some of the busier south-side corridors.\n\nPhoto provided to WPCNA Source Used with permission\n\nLocal feel\n\nThe area comes across as calm and residential, with a name that fits its gentler character.\n\nIn the wider picture\n\nThe south side of White Plains, including the Gedney neighborhoods and other established residential pockets.\n\nThis part of White Plains covers the Gedney area and the south side, where many neighborhoods feel greener, calmer, and more residential than the city center.\n\nOn the map\n\nGedney Meadows outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nGedney Meadows\n\nSection\n\nGedney and the South Side\n\nCity\n\nWhite Plains"
+      "excerpt": "Gedney Meadows profile coming soon.",
+      "text": "Gedney Meadows profile coming soon.\n\nGedney Meadows\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/gedney-park/",
@@ -1412,8 +1439,8 @@ export default {
       "title": "Gedney Park",
       "url": "/neighborhoods/gedney-park/",
       "type": "neighborhood",
-      "excerpt": "Learn about Gedney Park, part of Gedney and the South Side.",
-      "text": "Learn about Gedney Park, part of Gedney and the South Side.\n\nGedney and the South Side\n\nGedney Park\n\nGedney Park sits between the Old Mamaroneck Road corridor and the larger Gedney neighborhoods around it.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nIt feels central within the south side of White Plains, with a settled residential character and easy connections in several directions.\n\nIn the wider picture\n\nThe south side of White Plains, including the Gedney neighborhoods and other established residential pockets.\n\nThis part of White Plains covers the Gedney area and the south side, where many neighborhoods feel greener, calmer, and more residential than the city center.\n\nOn the map\n\nGedney Park outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nGedney Park\n\nSection\n\nGedney and the South Side\n\nLocal anchors\n\nOld Mamaroneck Road\n\nCity\n\nWhite Plains"
+      "excerpt": "Gedney Park profile coming soon.",
+      "text": "Gedney Park profile coming soon.\n\nGedney Park\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/good-counsel/",
@@ -1421,8 +1448,8 @@ export default {
       "title": "Good Counsel",
       "url": "/neighborhoods/good-counsel/",
       "type": "neighborhood",
-      "excerpt": "Learn about Good Counsel, part of North and Northeast.",
-      "text": "Learn about Good Counsel, part of North and Northeast.\n\nNorth and Northeast\n\nGood Counsel\n\nGood Counsel takes much of its identity from the Good Counsel Complex on North Broadway, a White Plains landmark listed on the State and National Registers of Historic Places.\n\nMagicpiano via Wikimedia Commons Source CC BY-SA 4.0\n\nLocal feel\n\nThat historic campus gives the area a distinctive look and a sense of permanence that sets it apart from the tighter street grid closer to Downtown.\n\nIn the wider picture\n\nNeighborhoods north and east of the center, ranging from prominent corridors to quieter hillside pockets.\n\nThis part of White Plains stretches north and northeast from the center, mixing major corridors with quieter hillside and residential areas.\n\nOn the map\n\nGood Counsel outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nGood Counsel\n\nSection\n\nNorth and Northeast\n\nLocal anchors\n\nNorth Broadway, Good Counsel Complex, Downtown\n\nCity\n\nWhite Plains"
+      "excerpt": "Good Counsel profile coming soon.",
+      "text": "Good Counsel profile coming soon.\n\nGood Counsel\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/government-center/",
@@ -1430,8 +1457,8 @@ export default {
       "title": "Government Center",
       "url": "/neighborhoods/government-center/",
       "type": "neighborhood",
-      "excerpt": "Learn about Government Center, part of Central White Plains.",
-      "text": "Learn about Government Center, part of Central White Plains.\n\nCentral White Plains\n\nGovernment Center\n\nGovernment Center is one of the most central parts of White Plains and gives the surrounding streets an established, civic feel.\n\najay_suresh via Wikimedia Commons Source CC BY 2.0\n\nLocal feel\n\nIt is easy to place on the map and easy to move through, with Downtown and several nearby neighborhoods close by.\n\nIn the wider picture\n\nThe city's core, where Downtown, civic buildings, transit, and close-in residential blocks meet.\n\nThis part of White Plains is where the city feels most concentrated, with public buildings, major streets, and close-in residential blocks all close together.\n\nOn the map\n\nGovernment Center outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nGovernment Center\n\nSection\n\nCentral White Plains\n\nLocal anchors\n\nDowntown\n\nCity\n\nWhite Plains"
+      "excerpt": "Government Center profile coming soon.",
+      "text": "Government Center profile coming soon.\n\nGovernment Center\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/havilands-manor/",
@@ -1439,8 +1466,8 @@ export default {
       "title": "Havilands Manor",
       "url": "/neighborhoods/havilands-manor/",
       "type": "neighborhood",
-      "excerpt": "Learn about Havilands Manor, part of East Side and Institutional Anchors.",
-      "text": "Learn about Havilands Manor, part of East Side and Institutional Anchors.\n\nEast Side and Institutional Anchors\n\nHavilands Manor\n\nHavilands Manor has a tucked-in east-side setting and a polished residential feel.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nIt comes across as quiet, well established, and a little removed from the busiest parts of White Plains in a way that gives it its own character.\n\nIn the wider picture\n\nEast-side neighborhoods shaped by longtime roads, campuses, and landmark institutions.\n\nThis part of White Plains is shaped by long-established roads, campuses, and institutions alongside residential neighborhoods.\n\nOn the map\n\nHavilands Manor outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nHavilands Manor\n\nSection\n\nEast Side and Institutional Anchors\n\nCity\n\nWhite Plains"
+      "excerpt": "Havilands Manor profile coming soon.",
+      "text": "Havilands Manor profile coming soon.\n\nHavilands Manor\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/health-center/",
@@ -1448,8 +1475,8 @@ export default {
       "title": "Health Center",
       "url": "/neighborhoods/health-center/",
       "type": "neighborhood",
-      "excerpt": "Learn about Health Center, part of Central White Plains.",
-      "text": "Learn about Health Center, part of Central White Plains.\n\nCentral White Plains\n\nHealth Center\n\nHealth Center is shaped by White Plains Hospital and the medical offices around it, which gives the area a familiar, everyday rhythm.\n\nJim.henderson via Wikimedia Commons Source CC BY 3.0\n\nLocal feel\n\nIt feels central, active, and well connected, with Downtown and nearby residential streets close at hand.\n\nIn the wider picture\n\nThe city's core, where Downtown, civic buildings, transit, and close-in residential blocks meet.\n\nThis part of White Plains is where the city feels most concentrated, with public buildings, major streets, and close-in residential blocks all close together.\n\nOn the map\n\nHealth Center outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nHealth Center\n\nSection\n\nCentral White Plains\n\nLocal anchors\n\nWhite Plains Hospital, Downtown\n\nCity\n\nWhite Plains"
+      "excerpt": "Health Center profile coming soon.",
+      "text": "Health Center profile coming soon.\n\nHealth Center\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/highlands/",
@@ -1457,8 +1484,8 @@ export default {
       "title": "Highlands",
       "url": "/neighborhoods/highlands/",
       "type": "neighborhood",
-      "excerpt": "Learn about Highlands, part of West Side and Near-Downtown Neighborhoods.",
-      "text": "Learn about Highlands, part of West Side and Near-Downtown Neighborhoods.\n\nWest Side and Near-Downtown Neighborhoods\n\nHighlands\n\nHighlands is one of the more recognizable close-in residential neighborhoods in White Plains.\n\nWPCNA Source Image coming soon\n\nLocal feel\n\nIt offers a steady mix of houses, apartment buildings, and local streets, with a mature, lived-in character that keeps it feeling grounded even so close to Downtown.\n\nIn the wider picture\n\nResidential areas west of the center, plus nearby blocks that stay closely tied to Downtown.\n\nThis part of White Plains sits close to the center while keeping a more residential feel, especially on the west side and the blocks just beyond Downtown.\n\nOn the map\n\nHighlands outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nHighlands\n\nSection\n\nWest Side and Near-Downtown Neighborhoods\n\nLocal anchors\n\nDowntown\n\nCity\n\nWhite Plains"
+      "excerpt": "Highlands profile coming soon.",
+      "text": "Highlands profile coming soon.\n\nHighlands\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/hillair-circle/",
@@ -1466,8 +1493,8 @@ export default {
       "title": "Hillair Circle",
       "url": "/neighborhoods/hillair-circle/",
       "type": "neighborhood",
-      "excerpt": "Learn about Hillair Circle, part of Gedney and the South Side.",
-      "text": "Learn about Hillair Circle, part of Gedney and the South Side.\n\nGedney and the South Side\n\nHillair Circle\n\nHillair Circle is one of the more clearly enclosed-feeling neighborhoods on the map.\n\nJohn Rösch, \"Picturesque White Plains\" (1902), via Internet Archive Source Public domain\n\nLocal feel\n\nThat small scale gives it a private, neighborhood-first character that stands out in a city with many larger, looser districts.\n\nIn the wider picture\n\nThe south side of White Plains, including the Gedney neighborhoods and other established residential pockets.\n\nThis part of White Plains covers the Gedney area and the south side, where many neighborhoods feel greener, calmer, and more residential than the city center.\n\nOn the map\n\nHillair Circle outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nHillair Circle\n\nSection\n\nGedney and the South Side\n\nCity\n\nWhite Plains"
+      "excerpt": "Hillair Circle profile coming soon.",
+      "text": "Hillair Circle profile coming soon.\n\nHillair Circle\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/holbrooke/",
@@ -1475,8 +1502,8 @@ export default {
       "title": "Holbrooke",
       "url": "/neighborhoods/holbrooke/",
       "type": "neighborhood",
-      "excerpt": "Learn about Holbrooke, part of Gedney and the South Side.",
-      "text": "Learn about Holbrooke, part of Gedney and the South Side.\n\nGedney and the South Side\n\nHolbrooke\n\nHolbrooke sits among several south-side neighborhoods and feels modest, established, and local.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nIt is the kind of small residential section that tends to come into focus once someone starts learning the White Plains map.\n\nIn the wider picture\n\nThe south side of White Plains, including the Gedney neighborhoods and other established residential pockets.\n\nThis part of White Plains covers the Gedney area and the south side, where many neighborhoods feel greener, calmer, and more residential than the city center.\n\nOn the map\n\nHolbrooke outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nHolbrooke\n\nSection\n\nGedney and the South Side\n\nCity\n\nWhite Plains"
+      "excerpt": "Holbrooke profile coming soon.",
+      "text": "Holbrooke profile coming soon.\n\nHolbrooke\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/idle-forest/",
@@ -1484,8 +1511,8 @@ export default {
       "title": "Idle Forest",
       "url": "/neighborhoods/idle-forest/",
       "type": "neighborhood",
-      "excerpt": "Learn about Idle Forest, part of Gedney and the South Side.",
-      "text": "Learn about Idle Forest, part of Gedney and the South Side.\n\nGedney and the South Side\n\nIdle Forest\n\nIdle Forest is one of the quieter-sounding names on the map, and the area matches that impression.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nIt feels tucked in and residential, with a softer, lower-profile presence than some of the more prominent White Plains neighborhoods.\n\nIn the wider picture\n\nThe south side of White Plains, including the Gedney neighborhoods and other established residential pockets.\n\nThis part of White Plains covers the Gedney area and the south side, where many neighborhoods feel greener, calmer, and more residential than the city center.\n\nOn the map\n\nIdle Forest outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nIdle Forest\n\nSection\n\nGedney and the South Side\n\nCity\n\nWhite Plains"
+      "excerpt": "Idle Forest profile coming soon.",
+      "text": "Idle Forest profile coming soon.\n\nIdle Forest\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/kirkbride-asylum/",
@@ -1493,8 +1520,8 @@ export default {
       "title": "Kirkbride Asylum",
       "url": "/neighborhoods/kirkbride-asylum/",
       "type": "neighborhood",
-      "excerpt": "Learn about Kirkbride Asylum, part of East Side and Institutional Anchors.",
-      "text": "Learn about Kirkbride Asylum, part of East Side and Institutional Anchors.\n\nEast Side and Institutional Anchors\n\nKirkbride Asylum\n\nKirkbride Asylum has one of the most distinctive names on the map, and the area carries a sense of older institutional history and larger grounds.\n\nJohn Rösch, \"Picturesque White Plains\" (1902), via Internet Archive Source Public domain\n\nLocal feel\n\nIt feels different from the tighter city blocks nearby, with a more open layout and a character shaped by place as much as by housing.\n\nIn the wider picture\n\nEast-side neighborhoods shaped by longtime roads, campuses, and landmark institutions.\n\nThis part of White Plains is shaped by long-established roads, campuses, and institutions alongside residential neighborhoods.\n\nAt a Glance\n\nNeighborhood\n\nKirkbride Asylum\n\nSection\n\nEast Side and Institutional Anchors\n\nCity\n\nWhite Plains"
+      "excerpt": "Kirkbride Asylum profile coming soon.",
+      "text": "Kirkbride Asylum profile coming soon.\n\nKirkbride Asylum\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/north-broadway/",
@@ -1502,8 +1529,8 @@ export default {
       "title": "North Broadway",
       "url": "/neighborhoods/north-broadway/",
       "type": "neighborhood",
-      "excerpt": "Learn about North Broadway, part of North and Northeast.",
-      "text": "Learn about North Broadway, part of North and Northeast.\n\nNorth and Northeast\n\nNorth Broadway\n\nNorth Broadway has one of the most recognizable addresses in White Plains, combining a main route through the city with long-established residential stretches.\n\nWPCNA Source Image coming soon\n\nLocal feel\n\nIt feels prominent without feeling overly busy, and it carries some of the north side's older character.\n\nIn the wider picture\n\nNeighborhoods north and east of the center, ranging from prominent corridors to quieter hillside pockets.\n\nThis part of White Plains stretches north and northeast from the center, mixing major corridors with quieter hillside and residential areas.\n\nOn the map\n\nNorth Broadway outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nNorth Broadway\n\nSection\n\nNorth and Northeast\n\nCity\n\nWhite Plains"
+      "excerpt": "North Broadway profile coming soon.",
+      "text": "North Broadway profile coming soon.\n\nNorth Broadway\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/north-street/",
@@ -1511,8 +1538,8 @@ export default {
       "title": "North Street",
       "url": "/neighborhoods/north-street/",
       "type": "neighborhood",
-      "excerpt": "Learn about North Street, part of East Side and Institutional Anchors.",
-      "text": "Learn about North Street, part of East Side and Institutional Anchors.\n\nEast Side and Institutional Anchors\n\nNorth Street\n\nNorth Street covers a broad stretch of the east and southeast side and is one of the roomier-feeling sections of White Plains.\n\nPhoto provided to WPCNA Source Used with permission\n\nLocal feel\n\nParts of it are known for larger homes and longer blocks, and the overall impression is residential, established, and spacious.\n\nIn the wider picture\n\nEast-side neighborhoods shaped by longtime roads, campuses, and landmark institutions.\n\nThis part of White Plains is shaped by long-established roads, campuses, and institutions alongside residential neighborhoods.\n\nOn the map\n\nNorth Street outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nNorth Street\n\nSection\n\nEast Side and Institutional Anchors\n\nCity\n\nWhite Plains"
+      "excerpt": "North Street profile coming soon.",
+      "text": "North Street profile coming soon.\n\nNorth Street\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/old-mamaroneck-road/",
@@ -1520,8 +1547,8 @@ export default {
       "title": "Old Mamaroneck Road",
       "url": "/neighborhoods/old-mamaroneck-road/",
       "type": "neighborhood",
-      "excerpt": "Learn about Old Mamaroneck Road, part of East Side and Institutional Anchors.",
-      "text": "Learn about Old Mamaroneck Road, part of East Side and Institutional Anchors.\n\nEast Side and Institutional Anchors\n\nOld Mamaroneck Road\n\nOld Mamaroneck Road feels defined by one of the city's long-running routes.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nIt sits in a useful middle ground between central White Plains and the southeastern residential areas, with a familiar, well-established neighborhood feel.\n\nIn the wider picture\n\nEast-side neighborhoods shaped by longtime roads, campuses, and landmark institutions.\n\nThis part of White Plains is shaped by long-established roads, campuses, and institutions alongside residential neighborhoods.\n\nOn the map\n\nOld Mamaroneck Road outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nOld Mamaroneck Road\n\nSection\n\nEast Side and Institutional Anchors\n\nCity\n\nWhite Plains"
+      "excerpt": "Old Mamaroneck Road profile coming soon.",
+      "text": "Old Mamaroneck Road profile coming soon.\n\nOld Mamaroneck Road\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/old-oak-ridge/",
@@ -1529,8 +1556,8 @@ export default {
       "title": "Old Oak Ridge",
       "url": "/neighborhoods/old-oak-ridge/",
       "type": "neighborhood",
-      "excerpt": "Learn about Old Oak Ridge, part of North and Northeast.",
-      "text": "Learn about Old Oak Ridge, part of North and Northeast.\n\nNorth and Northeast\n\nOld Oak Ridge\n\nOld Oak Ridge is a small east-side pocket with a tucked-in, private feel.\n\nWPCNA Source Image coming soon\n\nLocal feel\n\nIt reads as residential and somewhat apart from the busier blocks closer to the core, while still staying well placed for getting around.\n\nIn the wider picture\n\nNeighborhoods north and east of the center, ranging from prominent corridors to quieter hillside pockets.\n\nThis part of White Plains stretches north and northeast from the center, mixing major corridors with quieter hillside and residential areas.\n\nOn the map\n\nOld Oak Ridge outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nOld Oak Ridge\n\nSection\n\nNorth and Northeast\n\nCity\n\nWhite Plains"
+      "excerpt": "Old Oak Ridge profile coming soon.",
+      "text": "Old Oak Ridge profile coming soon.\n\nOld Oak Ridge\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/prospect-park/",
@@ -1538,8 +1565,8 @@ export default {
       "title": "Prospect Park",
       "url": "/neighborhoods/prospect-park/",
       "type": "neighborhood",
-      "excerpt": "Learn about Prospect Park, part of West Side and Near-Downtown Neighborhoods.",
-      "text": "Learn about Prospect Park, part of West Side and Near-Downtown Neighborhoods.\n\nWest Side and Near-Downtown Neighborhoods\n\nProspect Park\n\nProspect Park is a small southwest pocket with a calm, local feel.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nIt sits between busier parts of the city, but the neighborhood itself reads as modest, residential, and easygoing.\n\nIn the wider picture\n\nResidential areas west of the center, plus nearby blocks that stay closely tied to Downtown.\n\nThis part of White Plains sits close to the center while keeping a more residential feel, especially on the west side and the blocks just beyond Downtown.\n\nOn the map\n\nProspect Park outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nProspect Park\n\nSection\n\nWest Side and Near-Downtown Neighborhoods\n\nCity\n\nWhite Plains"
+      "excerpt": "Prospect Park profile coming soon.",
+      "text": "Prospect Park profile coming soon.\n\nProspect Park\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/reynal-park/",
@@ -1547,8 +1574,8 @@ export default {
       "title": "Reynal Park",
       "url": "/neighborhoods/reynal-park/",
       "type": "neighborhood",
-      "excerpt": "Learn about Reynal Park, part of Gedney and the South Side.",
-      "text": "Learn about Reynal Park, part of Gedney and the South Side.\n\nGedney and the South Side\n\nReynal Park\n\nReynal Park is a small neighborhood with a distinctly local feel.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nThe name gives it a bit of identity of its own, and the area reads as calm, residential, and tucked into the south side.\n\nIn the wider picture\n\nThe south side of White Plains, including the Gedney neighborhoods and other established residential pockets.\n\nThis part of White Plains covers the Gedney area and the south side, where many neighborhoods feel greener, calmer, and more residential than the city center.\n\nOn the map\n\nReynal Park outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nReynal Park\n\nSection\n\nGedney and the South Side\n\nCity\n\nWhite Plains"
+      "excerpt": "Reynal Park profile coming soon.",
+      "text": "Reynal Park profile coming soon.\n\nReynal Park\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/rocky-dell/",
@@ -1556,8 +1583,8 @@ export default {
       "title": "Rocky Dell",
       "url": "/neighborhoods/rocky-dell/",
       "type": "neighborhood",
-      "excerpt": "Learn about Rocky Dell, part of Gedney and the South Side.",
-      "text": "Learn about Rocky Dell, part of Gedney and the South Side.\n\nGedney and the South Side\n\nRocky Dell\n\nRocky Dell is a tucked-away south-side neighborhood with a slightly more hidden feel.\n\nJohn Rösch, \"Picturesque White Plains\" (1902), via Internet Archive Source Public domain\n\nLocal feel\n\nIts smaller footprint and position near the edge of the city give it a quiet, off-the-main-route quality.\n\nIn the wider picture\n\nThe south side of White Plains, including the Gedney neighborhoods and other established residential pockets.\n\nThis part of White Plains covers the Gedney area and the south side, where many neighborhoods feel greener, calmer, and more residential than the city center.\n\nOn the map\n\nRocky Dell outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nRocky Dell\n\nSection\n\nGedney and the South Side\n\nCity\n\nWhite Plains"
+      "excerpt": "Rocky Dell profile coming soon.",
+      "text": "Rocky Dell profile coming soon.\n\nRocky Dell\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/rosedale/",
@@ -1565,8 +1592,8 @@ export default {
       "title": "Rosedale",
       "url": "/neighborhoods/rosedale/",
       "type": "neighborhood",
-      "excerpt": "Learn about Rosedale, part of Gedney and the South Side.",
-      "text": "Learn about Rosedale, part of Gedney and the South Side.\n\nGedney and the South Side\n\nRosedale\n\nRosedale is one of the larger and better-known southern neighborhoods in White Plains.\n\nPhoto provided to WPCNA Source Used with permission\n\nLocal feel\n\nIt feels residential, green, and well established, with a calmer pace and a strong sense of continuity from block to block.\n\nIn the wider picture\n\nThe south side of White Plains, including the Gedney neighborhoods and other established residential pockets.\n\nThis part of White Plains covers the Gedney area and the south side, where many neighborhoods feel greener, calmer, and more residential than the city center.\n\nLocal resources\n\nRosedale local resources\n\nOn the map\n\nRosedale outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nRosedale\n\nSection\n\nGedney and the South Side\n\nCity\n\nWhite Plains"
+      "excerpt": "Rosedale profile coming soon.",
+      "text": "Rosedale profile coming soon.\n\nRosedale\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/saxon-woods/",
@@ -1574,8 +1601,8 @@ export default {
       "title": "Saxon Woods",
       "url": "/neighborhoods/saxon-woods/",
       "type": "neighborhood",
-      "excerpt": "Learn about Saxon Woods, part of Gedney and the South Side.",
-      "text": "Learn about Saxon Woods, part of Gedney and the South Side.\n\nGedney and the South Side\n\nSaxon Woods\n\nSaxon Woods sits at the southern edge of the city near Saxon Woods Park, whose golf course, trails, pool, and recreation areas give this part of White Plains a greener identity.\n\nGottscho-Schleisner Collection via Library of Congress and Wikimedia Commons Source Public domain\n\nLocal feel\n\nThe neighborhood feels more open than the center and carries some of the outdoors-oriented appeal of the park beside it.\n\nIn the wider picture\n\nThe south side of White Plains, including the Gedney neighborhoods and other established residential pockets.\n\nThis part of White Plains covers the Gedney area and the south side, where many neighborhoods feel greener, calmer, and more residential than the city center.\n\nOn the map\n\nSaxon Woods outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nSaxon Woods\n\nSection\n\nGedney and the South Side\n\nLocal anchors\n\nSaxon Woods Park, golf course, recreation areas, trails, pool\n\nCity\n\nWhite Plains"
+      "excerpt": "Saxon Woods profile coming soon.",
+      "text": "Saxon Woods profile coming soon.\n\nSaxon Woods\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/soundview/",
@@ -1583,8 +1610,8 @@ export default {
       "title": "Soundview",
       "url": "/neighborhoods/soundview/",
       "type": "neighborhood",
-      "excerpt": "Learn about Soundview, part of Gedney and the South Side.",
-      "text": "Learn about Soundview, part of Gedney and the South Side.\n\nGedney and the South Side\n\nSoundview\n\nSoundview is a long-established residential neighborhood on the southwest side of White Plains.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nIt has a plainspoken, lived-in feel and comes across as solid, familiar, and easy to understand.\n\nIn the wider picture\n\nThe south side of White Plains, including the Gedney neighborhoods and other established residential pockets.\n\nThis part of White Plains covers the Gedney area and the south side, where many neighborhoods feel greener, calmer, and more residential than the city center.\n\nOn the map\n\nSoundview outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nSoundview\n\nSection\n\nGedney and the South Side\n\nCity\n\nWhite Plains"
+      "excerpt": "Soundview profile coming soon.",
+      "text": "Soundview profile coming soon.\n\nSoundview\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/westchester-avenue/",
@@ -1592,8 +1619,8 @@ export default {
       "title": "Westchester Avenue",
       "url": "/neighborhoods/westchester-avenue/",
       "type": "neighborhood",
-      "excerpt": "Learn about Westchester Avenue, part of North and Northeast.",
-      "text": "Learn about Westchester Avenue, part of North and Northeast.\n\nNorth and Northeast\n\nWestchester Avenue\n\nWestchester Avenue is shaped by one of White Plains' main east-west routes, so convenience is a big part of its identity.\n\nMr. Matté via Wikimedia Commons Source CC BY-SA 4.0\n\nLocal feel\n\nIt feels connected, visible, and easy to place, with quick links to the eastern neighborhoods and the center of the city.\n\nIn the wider picture\n\nNeighborhoods north and east of the center, ranging from prominent corridors to quieter hillside pockets.\n\nThis part of White Plains stretches north and northeast from the center, mixing major corridors with quieter hillside and residential areas.\n\nOn the map\n\nWestchester Avenue outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nWestchester Avenue\n\nSection\n\nNorth and Northeast\n\nCity\n\nWhite Plains"
+      "excerpt": "Westchester Avenue profile coming soon.",
+      "text": "Westchester Avenue profile coming soon.\n\nWestchester Avenue\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/westminster-ridge/",
@@ -1601,8 +1628,8 @@ export default {
       "title": "Westminster Ridge",
       "url": "/neighborhoods/westminster-ridge/",
       "type": "neighborhood",
-      "excerpt": "Learn about Westminster Ridge, part of North and Northeast.",
-      "text": "Learn about Westminster Ridge, part of North and Northeast.\n\nNorth and Northeast\n\nWestminster Ridge\n\nWestminster Ridge sits just north of the city center and has a quiet hillside feel.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nIt comes across as settled and residential, with a little separation from Downtown while still staying close to it.\n\nIn the wider picture\n\nNeighborhoods north and east of the center, ranging from prominent corridors to quieter hillside pockets.\n\nThis part of White Plains stretches north and northeast from the center, mixing major corridors with quieter hillside and residential areas.\n\nOn the map\n\nWestminster Ridge outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nWestminster Ridge\n\nSection\n\nNorth and Northeast\n\nLocal anchors\n\nDowntown\n\nCity\n\nWhite Plains"
+      "excerpt": "Westminster Ridge profile coming soon.",
+      "text": "Westminster Ridge profile coming soon.\n\nWestminster Ridge\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/white-plains-reservoir/",
@@ -1610,8 +1637,8 @@ export default {
       "title": "White Plains Reservoir",
       "url": "/neighborhoods/white-plains-reservoir/",
       "type": "neighborhood",
-      "excerpt": "Learn about White Plains Reservoir, part of North and Northeast.",
-      "text": "Learn about White Plains Reservoir, part of North and Northeast.\n\nNorth and Northeast\n\nWhite Plains Reservoir\n\nWhite Plains Reservoir occupies the far northern part of the map and feels more open than the middle of the city.\n\nJohn Rösch, \"Picturesque White Plains\" (1902), via Internet Archive Source Public domain\n\nLocal feel\n\nIts position gives it a sense of extra space and a more outlying, edge-of-town character.\n\nIn the wider picture\n\nNeighborhoods north and east of the center, ranging from prominent corridors to quieter hillside pockets.\n\nThis part of White Plains stretches north and northeast from the center, mixing major corridors with quieter hillside and residential areas.\n\nOn the map\n\nWhite Plains Reservoir outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nWhite Plains Reservoir\n\nSection\n\nNorth and Northeast\n\nCity\n\nWhite Plains"
+      "excerpt": "White Plains Reservoir profile coming soon.",
+      "text": "White Plains Reservoir profile coming soon.\n\nWhite Plains Reservoir\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/winbrook/",
@@ -1619,8 +1646,8 @@ export default {
       "title": "Winbrook",
       "url": "/neighborhoods/winbrook/",
       "type": "neighborhood",
-      "excerpt": "Learn about Winbrook, part of Central White Plains.",
-      "text": "Learn about Winbrook, part of Central White Plains.\n\nCentral White Plains\n\nWinbrook\n\nWinbrook is close to the center of the city and has long been one of White Plains' better-known residential areas.\n\nGottscho-Schleisner Collection via Library of Congress and Wikimedia Commons Source Public domain\n\nLocal feel\n\nThe Brookfield Commons redevelopment has added new affordable housing and community space, so the neighborhood now combines an established presence with visible new investment.\n\nIn the wider picture\n\nThe city's core, where Downtown, civic buildings, transit, and close-in residential blocks meet.\n\nThis part of White Plains is where the city feels most concentrated, with public buildings, major streets, and close-in residential blocks all close together.\n\nOn the map\n\nWinbrook outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nWinbrook\n\nSection\n\nCentral White Plains\n\nLocal anchors\n\nBrookfield Commons\n\nCity\n\nWhite Plains"
+      "excerpt": "Winbrook profile coming soon.",
+      "text": "Winbrook profile coming soon.\n\nWinbrook\n\nDescription coming soon"
     },
     {
       "id": "page:/neighborhoods/woodcrest-heights/",
@@ -1628,8 +1655,8 @@ export default {
       "title": "Woodcrest Heights",
       "url": "/neighborhoods/woodcrest-heights/",
       "type": "neighborhood",
-      "excerpt": "Learn about Woodcrest Heights, part of North and Northeast.",
-      "text": "Learn about Woodcrest Heights, part of North and Northeast.\n\nNorth and Northeast\n\nWoodcrest Heights\n\nWoodcrest Heights has a northeast setting that feels more tucked away than the city core.\n\nWPCNA Source Site illustration\n\nLocal feel\n\nThe name fits the area well: it reads as residential, slightly elevated, and a little quieter than the neighborhoods closer to the station.\n\nIn the wider picture\n\nNeighborhoods north and east of the center, ranging from prominent corridors to quieter hillside pockets.\n\nThis part of White Plains stretches north and northeast from the center, mixing major corridors with quieter hillside and residential areas.\n\nOn the map\n\nWoodcrest Heights outlined on the White Plains neighborhood map. Open full map →\n\nAt a Glance\n\nNeighborhood\n\nWoodcrest Heights\n\nSection\n\nNorth and Northeast\n\nCity\n\nWhite Plains"
+      "excerpt": "Woodcrest Heights profile coming soon.",
+      "text": "Woodcrest Heights profile coming soon.\n\nWoodcrest Heights\n\nDescription coming soon"
     },
     {
       "id": "page:/posting/",

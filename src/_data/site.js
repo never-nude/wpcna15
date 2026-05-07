@@ -1,5 +1,7 @@
+const neighborhoodStore = require("./neighborhoodStore");
+
 const runtimePathPrefix = process.env.SITE_PATH_PREFIX || "/";
-const canonicalPathPrefix = process.env.CANONICAL_PATH_PREFIX || process.env.SITE_PATH_PREFIX || "/wpcna9";
+const canonicalPathPrefix = process.env.CANONICAL_PATH_PREFIX || process.env.SITE_PATH_PREFIX || "/wpcna10";
 const deployBaseUrl = process.env.SITE_BASE_URL || "https://never-nude.github.io";
 const cleanCanonicalPrefix = canonicalPathPrefix === "/" ? "" : canonicalPathPrefix.replace(/\/$/, "");
 const homeHeroImage = "/assets/img/home/legacy-carousel/White-Plains.jpeg";
@@ -17,35 +19,43 @@ const pageHeroImages = new Set([
 const legacyCarousel = [
   {
     src: "/assets/img/home/legacy-carousel/white-plains-new-york-pano.jpg",
-    alt: "Aerial view across White Plains with downtown towers rising above nearby homes and tree-lined streets."
+    alt: "Aerial view across White Plains with downtown towers rising above nearby homes and tree-lined streets.",
+    sourceLabel: "WPCNA legacy site archive"
   },
   {
     src: "/assets/img/home/legacy-carousel/Wp.pm.jpg",
-    alt: "Downtown White Plains at twilight with office towers, apartment buildings, and the city skyline lit against a deep blue sky."
+    alt: "Downtown White Plains at twilight with office towers, apartment buildings, and the city skyline lit against a deep blue sky.",
+    sourceLabel: "WPCNA legacy site archive"
   },
   {
     src: homeHeroImage,
-    alt: "Golden-hour aerial view of downtown White Plains with neighborhoods, treetops, and streets stretching toward the horizon."
+    alt: "Golden-hour aerial view of downtown White Plains with neighborhoods, treetops, and streets stretching toward the horizon.",
+    sourceLabel: "WPCNA legacy site archive"
   },
   {
     src: "/assets/img/home/legacy-carousel/CityHall.jfif",
-    alt: "Historic civic building and columned facade in White Plains with a modern downtown tower rising behind it."
+    alt: "Historic civic building and columned facade in White Plains with a modern downtown tower rising behind it.",
+    sourceLabel: "WPCNA legacy site archive"
   },
   {
     src: "/assets/img/home/legacy-carousel/white-plains-farmers-market.jpg",
-    alt: "Residents walking between vendor tents at the White Plains farmers market downtown."
+    alt: "Residents walking between vendor tents at the White Plains farmers market downtown.",
+    sourceLabel: "WPCNA legacy site archive"
   },
   {
     src: "/assets/img/home/legacy-carousel/white-plains-archway-dusk.jpeg",
-    alt: "White Plains residence at dusk with a stone archway entrance, iron gates, and warm exterior lighting."
+    alt: "White Plains residence at dusk with a stone archway entrance, iron gates, and warm exterior lighting.",
+    sourceLabel: "WPCNA legacy site archive"
   },
   {
     src: "/assets/img/home/legacy-carousel/white-plains-brick-building-cupola.jpeg",
-    alt: "Historic brick building in White Plains with a cupola, arched windows, and spring trees."
+    alt: "Historic brick building in White Plains with a cupola, arched windows, and spring trees.",
+    sourceLabel: "WPCNA legacy site archive"
   },
   {
     src: "/assets/img/home/legacy-carousel/white-plains-tudor-home-evening.jpeg",
-    alt: "Tudor-style home on a White Plains street in soft evening light with mature trees in front."
+    alt: "Tudor-style home on a White Plains street in soft evening light with mature trees in front.",
+    sourceLabel: "WPCNA legacy site archive"
   }
 ];
 const commonsCarousel = [
@@ -98,6 +108,53 @@ const commonsCarousel = [
     sourceUrl: "https://commons.wikimedia.org/wiki/File:Fountain_in_White_Plains,_NY.jpg"
   }
 ];
+const photoStatuses = new Set(["approved", "photo"]);
+const sourceUrlForPhoto = (url = "") => (String(url).startsWith("http") ? url : "");
+const isProvidedWpcnaPhoto = (hero = {}) =>
+  /photo provided to wpcna/i.test(hero.attributionText || "");
+const neighborhoodCarouselPhotos = neighborhoodStore.all
+  .filter((neighborhood) => {
+    const hero = neighborhood.hero;
+
+    return (
+      neighborhood.slug !== "fisher-hill" &&
+      hero &&
+      photoStatuses.has(hero.status) &&
+      !isProvidedWpcnaPhoto(hero) &&
+      hero.imagePath
+    );
+  })
+  .map((neighborhood) => ({
+    src: neighborhood.hero.imagePath,
+    alt: neighborhood.hero.altText,
+    sourceLabel: `${neighborhood.name}: ${neighborhood.hero.attributionText || "WPCNA"}`,
+    sourceUrl: sourceUrlForPhoto(neighborhood.hero.attributionUrl || neighborhood.hero.sourceUrl)
+  }));
+
+function uniqueCarouselPhotos(photos) {
+  const seen = new Set();
+
+  return photos.filter((photo) => {
+    const srcKey = `src:${photo.src}`;
+    const sourceKey = photo.sourceUrl ? `source:${photo.sourceUrl}` : "";
+
+    if (seen.has(srcKey) || (sourceKey && seen.has(sourceKey))) {
+      return false;
+    }
+
+    seen.add(srcKey);
+    if (sourceKey) {
+      seen.add(sourceKey);
+    }
+
+    return true;
+  });
+}
+const closerLookCarousel = uniqueCarouselPhotos([
+  ...legacyCarousel,
+  ...commonsCarousel,
+  ...neighborhoodCarouselPhotos
+]).filter((photo) => !pageHeroImages.has(photo.src));
 
 module.exports = {
   name: "White Plains Council of Neighborhood Associations",
@@ -130,9 +187,8 @@ module.exports = {
   postingHeroImageAlt: "WPCNA members and neighbors holding a WPCNA banner during a White Plains parade.",
   legacyCarousel,
   commonsCarousel,
-  closerLookCarousel: [...legacyCarousel, ...commonsCarousel].filter(
-    (photo) => !pageHeroImages.has(photo.src)
-  ),
+  neighborhoodCarouselPhotos,
+  closerLookCarousel,
   mission:
     "WPCNA brings neighborhood associations together, shares civic information across the city, and helps residents stay connected to public life in White Plains.",
   purpose:

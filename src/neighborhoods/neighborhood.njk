@@ -7,111 +7,61 @@ permalink: "neighborhoods/{{ neighborhood.slug }}/index.html"
 layout: layouts/base.njk
 eleventyComputed:
   title: "{{ neighborhood.name }}"
-  metaDescription: "{{ neighborhood.metaDescription }}"
-  ogImage: "{{ neighborhood.hero and neighborhood.hero.imagePath or site.defaultOgImage }}"
+  metaDescription: "{{ neighborhood.displayMetaDescription }}"
+  ogImage: "{{ neighborhood.displayHero and neighborhood.displayHero.imagePath or site.defaultOgImage }}"
 ---
-<section class="page-hero">
-  <div class="wrap{% if neighborhood.hero %} page-hero-media{% endif %}">
-    <div>
-      <a class="back-link" href="{{ '/neighborhoods/' | withPrefix }}">Neighborhoods</a>
-      <p class="eyebrow">{{ neighborhood.group }}</p>
-      <h1>{{ neighborhood.name }}</h1>
-      <p>{{ neighborhood.teaser }}</p>
+<section class="neighborhood-detail-hero{% if neighborhood.profilePlaceholder %} neighborhood-detail-hero-placeholder{% endif %}">
+  {% if neighborhood.profilePlaceholder %}
+    <div class="neighborhood-detail-hero-media neighborhood-detail-hero-placeholder-media" aria-label="{{ neighborhood.guideImageLabel }}">
+      <span>{{ neighborhood.guideImageLabel }}</span>
     </div>
-    {% if neighborhood.hero %}
-      <figure class="page-hero-figure">
-        <img src="{{ neighborhood.hero.imagePath | withPrefix }}" alt="{{ neighborhood.hero.altText }}" loading="eager">
-        {% set heroAttributionUrl = neighborhood.hero.attributionUrl or '' %}
-        {% set heroAttributionExternal = heroAttributionUrl.startsWith('http') %}
-        <figcaption class="page-hero-credit">
-          <span>{{ neighborhood.hero.attributionText }}</span>
-          <a href="{{ heroAttributionUrl if heroAttributionExternal else (heroAttributionUrl | withPrefix) }}"{% if heroAttributionExternal %} rel="external noopener"{% endif %}>Source</a>
-          <span>{{ neighborhood.hero.license }}</span>
-        </figcaption>
-      </figure>
-    {% endif %}
+  {% elif neighborhood.displayHero %}
+    <img class="neighborhood-detail-hero-media" src="{{ neighborhood.displayHero.imagePath | withPrefix }}" alt="{{ neighborhood.displayHero.altText }}" loading="eager">
+  {% endif %}
+
+  <div class="neighborhood-detail-hero-overlay">
+    <div class="image-hero-block neighborhood-detail-hero-block">
+      <h1>{{ neighborhood.name }}</h1>
+    </div>
   </div>
 </section>
 
-<section class="section">
+{% if not neighborhood.profilePlaceholder and neighborhood.displayHero %}
+  {% set heroAttributionUrl = neighborhood.displayHero.attributionUrl or '' %}
+  {% set heroAttributionExternal = heroAttributionUrl.startsWith('http') %}
+  <div class="neighborhood-hero-creditbar">
+    <span>{{ neighborhood.displayHero.attributionText }}</span>
+    <a href="{{ heroAttributionUrl if heroAttributionExternal else (heroAttributionUrl | withPrefix) }}"{% if heroAttributionExternal %} rel="external noopener"{% endif %}>Source</a>
+    <span>{{ neighborhood.displayHero.license }}</span>
+  </div>
+{% endif %}
+
+<section class="section neighborhood-profile-section">
   <div class="wrap">
-    <div class="detail-grid">
-      <article class="detail-main">
-        <div class="detail-meta">
-          <span class="tag">Neighborhood</span>
-          <span class="detail-organizer">{{ neighborhood.group }}</span>
+    <a class="back-link" href="{{ '/neighborhoods/' | withPrefix }}">Neighborhoods</a>
+
+    <article class="neighborhood-profile-copy">
+      {% if neighborhood.profilePlaceholder %}
+        <p>{{ neighborhood.displayDetailParagraphs[0] }}</p>
+      {% else %}
+        <p>{{ neighborhood.description }}</p>
+      {% endif %}
+
+      {% if neighborhood.association %}
+        <div class="association-block">
+          <h2><span>{{ neighborhood.association.name }}</span></h2>
+          <ul>
+            {% for officer in neighborhood.association.officers %}
+              <li>
+                <strong>{{ officer.name }}</strong>, {{ officer.role }}
+                {% if officer.phone %}
+                  <a href="tel:{{ officer.phone | replace('-', '') }}">{{ officer.phone }}</a>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
         </div>
-
-        <h2>Local feel</h2>
-        {% for paragraph in neighborhood.detailParagraphs %}
-          <p>{{ paragraph }}</p>
-        {% endfor %}
-
-        {% if neighborhood.association %}
-          <div class="association-block">
-            <h3><span>{{ neighborhood.association.name }}</span></h3>
-            <ul>
-              {% for officer in neighborhood.association.officers %}
-                <li>
-                  <strong>{{ officer.name }}</strong>, {{ officer.role }}
-                  {% if officer.phone %}
-                    <a href="tel:{{ officer.phone | replace('-', '') }}">{{ officer.phone }}</a>
-                  {% endif %}
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
-        {% endif %}
-
-        <div class="detail-links">
-          <h3>In the wider picture</h3>
-          <p>{{ neighborhood.groupDescription }}</p>
-          <p>{{ neighborhood.orientationNote }}</p>
-          {% if neighborhood.resourceLinks and neighborhood.resourceLinks.length %}
-            <div class="detail-resource-links">
-              <h3>Local resources</h3>
-              <ul>
-                {% for link in neighborhood.resourceLinks %}
-                  <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a></li>
-                {% endfor %}
-              </ul>
-            </div>
-          {% endif %}
-        </div>
-
-        {% if neighborhood.mapRegion %}
-          <div class="detail-minimap">
-            <h3>On the map</h3>
-            <a class="minimap-frame" href="{{ ('/neighborhood-map/?highlight=' + neighborhood.slug) | withPrefix }}" aria-label="View {{ neighborhood.name }} on the full neighborhood map">
-              <img src="{{ featuredNeighborhoodMap.imagePath | withPrefix }}?v={{ featuredNeighborhoodMap.imageVersion }}" alt="Static map of White Plains with {{ neighborhood.name }} outlined." loading="lazy">
-              <svg
-                class="minimap-svg"
-                viewBox="0 0 {{ featuredNeighborhoodMap.viewBoxWidth }} {{ featuredNeighborhoodMap.viewBoxHeight }}"
-                aria-hidden="true"
-                focusable="false"
-                preserveAspectRatio="xMidYMid meet"
-              >
-                <path class="minimap-polygon" d="{{ neighborhood.mapRegion.pathD }}"></path>
-              </svg>
-            </a>
-            <p class="minimap-caption">{{ neighborhood.name }} outlined on the White Plains neighborhood map. <a href="{{ ('/neighborhood-map/?highlight=' + neighborhood.slug) | withPrefix }}">Open full map →</a></p>
-          </div>
-        {% endif %}
-      </article>
-
-      <aside class="detail-sidebar">
-        <div class="sidebar-card">
-          <p class="eyebrow">At a Glance</p>
-          <dl>
-            <div><dt>Neighborhood</dt><dd>{{ neighborhood.name }}</dd></div>
-            <div><dt>Section</dt><dd>{{ neighborhood.group }}</dd></div>
-            {% if neighborhood.referencePoints.length %}
-              <div><dt>Local anchors</dt><dd>{{ neighborhood.referencePoints | join(", ") }}</dd></div>
-            {% endif %}
-            <div><dt>City</dt><dd>White Plains</dd></div>
-          </dl>
-        </div>
-      </aside>
-    </div>
+      {% endif %}
+    </article>
   </div>
 </section>

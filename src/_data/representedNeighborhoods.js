@@ -36,16 +36,21 @@ function buildExisting(slug, overrides = {}) {
   const neighborhood = neighborhoodStore.bySlug[slug];
   const mapSlug = overrides.mapSlug || slug;
   const mapRegion = mapRegionBySlug.get(mapSlug) || null;
-  const teaser = overrides.teaser || neighborhood.teaser;
+  const isFisherHill = slug === "fisher-hill";
+  const teaser = isFisherHill
+    ? overrides.teaser || neighborhood.teaser
+    : neighborhood.displayTeaser || "Description coming soon";
 
   if (!neighborhood) {
     throw new Error(`Missing represented neighborhood data for slug: ${slug}`);
   }
 
-  const bodyParagraphs = removeLeadDupes(
-    uniqueParagraphs(overrides.bodyParagraphs || neighborhood.detailParagraphs || []),
-    teaser
-  );
+  const bodyParagraphs = isFisherHill
+    ? removeLeadDupes(
+        uniqueParagraphs(overrides.bodyParagraphs || neighborhood.detailParagraphs || []),
+        teaser
+      )
+    : [];
 
   return {
     slug: overrides.slug || slug,
@@ -53,7 +58,9 @@ function buildExisting(slug, overrides = {}) {
     group: overrides.group || neighborhood.group,
     teaser,
     bodyParagraphs,
-    hero: neighborhood.hero
+    profilePlaceholder: !isFisherHill,
+    guideImageLabel: neighborhood.guideImageLabel || "Image coming soon",
+    hero: isFisherHill && neighborhood.hero
       ? {
           imagePath: neighborhood.hero.imagePath,
           cardImagePath: neighborhood.hero.cardImagePath,
@@ -62,7 +69,7 @@ function buildExisting(slug, overrides = {}) {
         }
       : null,
     resourceLinks: neighborhood.resourceLinks || [],
-    association: overrides.association || neighborhood.association || null,
+    association: isFisherHill ? overrides.association || neighborhood.association || null : null,
     detailUrl: neighborhood.detailUrl,
     reviewNote: overrides.reviewNote || "",
     aliases: overrides.aliases || [],
@@ -82,7 +89,7 @@ const items = [
   buildExisting("battle-hill"),
   buildExisting("fisher-hill"),
   buildExisting("highlands"),
-  buildExisting("carhart", { aliases: ["Carhart"] }),
+  buildExisting("carhart"),
   buildExisting("gedney-farms"),
   buildExisting("north-street"),
   buildExisting("rosedale"),

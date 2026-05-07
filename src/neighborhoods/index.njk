@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 title: White Plains Neighborhoods
-metaDescription: Explore White Plains through an interactive neighborhood map and a citywide neighborhood guide.
+metaDescription: Explore White Plains through an interactive neighborhood map and a map-aligned neighborhood guide.
 ---
 {% from "components/macros.njk" import neighborhoodCard %}
 
@@ -9,7 +9,7 @@ metaDescription: Explore White Plains through an interactive neighborhood map an
   <div class="wrap">
     <p class="eyebrow">Neighborhood Guide</p>
     <h1>Explore White Plains by neighborhood</h1>
-    <p>Start with the official neighborhood map, then browse the full city guide below.</p>
+    <p>Start with the updated neighborhood map, then browse neighborhood areas grouped by part of the city.</p>
   </div>
 </section>
 
@@ -74,7 +74,11 @@ metaDescription: Explore White Plains through an interactive neighborhood map an
               {% else %}
                 <div class="map-tile-card" aria-hidden="true">
               {% endif %}
-                {% if neighborhood.hero %}
+                {% if neighborhood.profilePlaceholder %}
+                  <span class="map-tile-media map-tile-placeholder" aria-label="{{ neighborhood.guideImageLabel }}">
+                    <span>{{ neighborhood.guideImageLabel }}</span>
+                  </span>
+                {% elif neighborhood.hero %}
                   <span class="map-tile-media">
                     <img
                       src="{{ (neighborhood.hero.cardImagePath or neighborhood.hero.imagePath) | withPrefix }}"
@@ -83,13 +87,8 @@ metaDescription: Explore White Plains through an interactive neighborhood map an
                     >
                   </span>
                 {% endif %}
-                <span class="map-tile-body">
-                  <span class="map-tile-group">{{ neighborhood.group }}</span>
+                <span class="map-tile-body map-tile-body-simple">
                   <strong>{{ neighborhood.name }}</strong>
-                  <span>{{ neighborhood.teaser }}</span>
-                  {% if not neighborhood.detailUrl %}
-                    <span class="map-tile-status">Profile under review</span>
-                  {% endif %}
                 </span>
               {% if neighborhood.detailUrl %}
                 </a>
@@ -108,13 +107,13 @@ metaDescription: Explore White Plains through an interactive neighborhood map an
   <div class="wrap">
     <div class="section-header">
       <div>
-        <p class="eyebrow">All Neighborhoods</p>
-        <h2>Browse the full White Plains guide</h2>
-        <p>{{ neighborhoodStore.count }} neighborhoods, grouped by area so you can move from the city center out toward the north side, east side, Gedney, and the south side.</p>
+        <p class="eyebrow">Neighborhood Areas</p>
+        <h2>Neighborhoods grouped by area</h2>
+        <p>These neighborhood areas match the updated White Plains map. Fisher Hill is currently populated; other profiles are being normalized.</p>
       </div>
     </div>
 
-    {% for group in neighborhoodStore.groups %}
+    {% for group in neighborhoodStore.guideGroups %}
       <section class="neighborhood-group" id="{{ group.slug }}">
         <div class="neighborhood-group-intro">
           <p class="eyebrow">{{ group.name }}</p>
@@ -123,7 +122,7 @@ metaDescription: Explore White Plains through an interactive neighborhood map an
         </div>
         <div class="neighborhood-grid">
           {% for neighborhood in group.neighborhoods %}
-            {{ neighborhoodCard(neighborhood) }}
+            {{ neighborhoodCard(neighborhood, true, true) }}
           {% endfor %}
         </div>
       </section>

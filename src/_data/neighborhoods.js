@@ -173,10 +173,10 @@ module.exports = [
   },
   {
     slug: "carhart",
-    name: "Carhartt",
+    name: "Carhart",
     group: "East Side and Institutional Anchors",
     description:
-      "Carhartt is a compact neighborhood area near the middle of White Plains, positioned between the close-in residential blocks, institutional anchors, and larger south-side neighborhoods around it. It is one of the neighborhood associations currently represented through WPCNA, giving residents another point of connection within the council."
+      "Carhart is a compact neighborhood area near the middle of White Plains, positioned between the close-in residential blocks, institutional anchors, and larger south-side neighborhoods around it. It is one of the neighborhood associations currently represented through WPCNA, giving residents another point of connection within the council."
   },
   {
     slug: "kirkbride-asylum",

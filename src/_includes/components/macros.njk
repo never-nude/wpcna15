@@ -49,20 +49,40 @@
   </article>
 {% endmacro %}
 
-{% macro neighborhoodCard(neighborhood, compact=true) %}
+{% macro neighborhoodCard(neighborhood, compact=true, guideMode=false) %}
   <article class="neighborhood-card">
-    <a href="{{ neighborhood.detailUrl | withPrefix }}" aria-label="Open {{ neighborhood.name }} profile">
-      {% if neighborhood.hero %}
+    {% if neighborhood.detailUrl %}
+      <a href="{{ neighborhood.detailUrl | withPrefix }}" aria-label="Open {{ neighborhood.name }} profile">
+    {% else %}
+      <div class="neighborhood-card-static" role="group" aria-label="{{ neighborhood.name }} profile coming soon">
+    {% endif %}
+      {% if (guideMode and neighborhood.guidePlaceholder) or neighborhood.profilePlaceholder %}
+        <span class="neighborhood-card-img neighborhood-card-placeholder" aria-label="{{ neighborhood.guideImageLabel }}">
+          <span>{{ neighborhood.guideImageLabel }}</span>
+        </span>
+      {% elif neighborhood.hero %}
         <span class="neighborhood-card-img">
           <img src="{{ (neighborhood.hero.cardImagePath or neighborhood.hero.imagePath) | withPrefix }}" alt="{{ neighborhood.hero.cardAltText or neighborhood.hero.altText }}" loading="lazy">
         </span>
       {% endif %}
-      <span class="neighborhood-card-body">
-        <p class="neighborhood-card-group">{{ neighborhood.group }}</p>
+      <span class="neighborhood-card-body{% if guideMode %} neighborhood-card-body-simple{% endif %}">
+        {% if not guideMode %}
+          <p class="neighborhood-card-group">{{ neighborhood.group }}</p>
+        {% endif %}
         <h3>{{ neighborhood.name }}</h3>
-        <p class="neighborhood-card-teaser">{{ neighborhood.teaser }}</p>
-        <span class="neighborhood-card-cta">View neighborhood</span>
+        {% if not guideMode %}
+          <p class="neighborhood-card-teaser">{{ neighborhood.guideDescription if neighborhood.profilePlaceholder else neighborhood.teaser }}</p>
+          {% if neighborhood.detailUrl %}
+            <span class="neighborhood-card-cta">View neighborhood</span>
+          {% else %}
+            <span class="neighborhood-card-cta neighborhood-card-cta-muted">Profile coming soon</span>
+          {% endif %}
+        {% endif %}
       </span>
-    </a>
+    {% if neighborhood.detailUrl %}
+      </a>
+    {% else %}
+      </div>
+    {% endif %}
   </article>
 {% endmacro %}
