@@ -949,15 +949,6 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
   line-height: 1.2;
 }
 
-.represented-neighborhood-card-description {
-  display: block;
-  margin-top: 0.25rem;
-  padding-right: 0.85rem;
-  color: var(--ink-muted);
-  font-size: 0.78rem;
-  line-height: 1.35;
-}
-
 .represented-neighborhood-card-link {
   display: inline-block;
   margin-top: 0.25rem;
