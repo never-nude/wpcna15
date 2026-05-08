@@ -192,13 +192,13 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 }
 
 .site-nav a:hover {
-  background: transparent;
+  background: transparent !important;
   color: #fff;
   text-decoration: none;
 }
 
 .site-nav a[aria-current="page"] {
-  background: rgba(255,255,255,0.14);
+  background: transparent !important;
   color: #fff;
   border-color: rgba(255,255,255,0.2);
 }
@@ -2638,12 +2638,12 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
   }
 
   .site-nav a:hover {
-    background: transparent;
+    background: transparent !important;
     color: #fff;
   }
 
   .site-nav a[aria-current="page"] {
-    background: transparent;
+    background: transparent !important;
     color: #fff;
   }
 }
@@ -2699,13 +2699,13 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
   }
 
   .site-nav a:hover {
-    background: transparent;
+    background: transparent !important;
     color: var(--ink);
   }
 
   .site-nav a[aria-current="page"] {
-    background: var(--ink);
-    color: #fff;
+    background: transparent !important;
+    color: var(--ink);
   }
 
   .image-hero {
