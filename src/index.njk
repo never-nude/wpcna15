@@ -153,43 +153,6 @@ metaDescription: The neighborhood-centered civic hub for agendas, events, repres
   </div>
 </div>
 
-<section class="section-compact home-gallery-section">
-  <div class="wrap">
-    <div class="section-header home-gallery-header">
-      <div>
-        <p class="eyebrow">White Plains</p>
-        <h2>A closer look at the city</h2>
-        <p>Scenes from across White Plains that reflect the city&rsquo;s civic character, neighborhoods, and public life.</p>
-      </div>
-    </div>
-  </div>
-  <div class="home-photo-carousel" data-home-carousel aria-label="White Plains photo carousel">
-    <div class="home-photo-stage">
-      {% for photo in site.closerLookCarousel %}
-        <figure class="home-photo-slide{% if loop.first %} is-active{% endif %}" data-home-carousel-slide{% if not loop.first %} hidden{% endif %}>
-          <img src="{{ photo.src | withPrefix }}" alt="{{ photo.alt }}" loading="lazy">
-          {% if photo.sourceLabel %}
-            {% set sourceHref = photo.sourceUrl or "" %}
-            {% set isExternalSource = sourceHref.startsWith("http") %}
-            <figcaption class="home-photo-credit">
-              {% if sourceHref %}
-                <a href="{{ sourceHref if isExternalSource else (sourceHref | withPrefix) }}"{% if isExternalSource %} rel="external noopener" target="_blank"{% endif %}>{{ photo.sourceLabel }}</a>
-              {% else %}
-                <span>{{ photo.sourceLabel }}</span>
-              {% endif %}
-            </figcaption>
-          {% endif %}
-        </figure>
-      {% endfor %}
-    </div>
-    <div class="home-photo-toolbar">
-      <button class="carousel-btn" type="button" data-home-carousel-prev aria-label="Previous photo">&larr;</button>
-      <p class="home-photo-status" aria-live="polite"><span data-home-carousel-status>1 / {{ site.closerLookCarousel.length }}</span></p>
-      <button class="carousel-btn" type="button" data-home-carousel-next aria-label="Next photo">&rarr;</button>
-    </div>
-  </div>
-</section>
-
 <section class="section section-rule" data-upcoming-events data-upcoming-limit="{{ eventStore.homeUpcomingLimit }}">
   <div class="wrap">
     <div class="section-header">

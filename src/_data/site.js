@@ -6,7 +6,7 @@ const deployBaseUrl = process.env.SITE_BASE_URL || "https://never-nude.github.io
 const cleanCanonicalPrefix = canonicalPathPrefix === "/" ? "" : canonicalPathPrefix.replace(/\/$/, "");
 const homeHeroImage = "/assets/img/home/legacy-carousel/White-Plains.jpeg";
 const neighborhoodsHeroImage = "/assets/img/home/legacy-carousel/white-plains-new-york-pano.jpg";
-const aboutImage = "/assets/img/home/old-site/WPP-pano.jpg";
+const aboutImage = "/assets/img/home/legacy-carousel/Wp.pm.jpg";
 const eventHeroImage = "/assets/img/heroes/events-community-picnic.jpg";
 const handbookHeroImage = "/assets/img/heroes/cna-workshop-classroom.jpg";
 const postingHeroImage = "/assets/img/heroes/wpcna-parade-community-posting.png";
@@ -166,7 +166,7 @@ module.exports = {
   baseUrl: `${deployBaseUrl.replace(/\/$/, "")}${cleanCanonicalPrefix}`,
   pathPrefix: runtimePathPrefix,
   themeColor: "#d65f22",
-  assetVersion: "2026-05-08-ai-home-template",
+  assetVersion: "2026-05-08-about-hero-no-home-carousel",
   contactName: "Michael Dalton, President",
   email: "info@wpcna.org",
   contactFormAction: "https://formsubmit.co/info@wpcna.org",
@@ -184,7 +184,7 @@ module.exports = {
     "Aerial view across White Plains with downtown towers rising above nearby homes and tree-lined streets.",
   aboutImage,
   aboutImageAlt:
-    "Panoramic view of downtown White Plains with the skyline rising above nearby homes and tree-lined blocks.",
+    "Downtown White Plains at twilight with office towers, apartment buildings, and the city skyline lit against a deep blue sky.",
   eventHeroImage,
   eventHeroImageAlt: "Children and families gathered on a park lawn during an outdoor community picnic.",
   handbookHeroImage,
