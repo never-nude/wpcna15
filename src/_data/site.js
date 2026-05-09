@@ -168,7 +168,7 @@ module.exports = {
   baseUrl: `${deployBaseUrl.replace(/\/$/, "")}${cleanCanonicalPrefix}`,
   pathPrefix: runtimePathPrefix,
   themeColor: "#d65f22",
-  assetVersion: "2026-05-09-formsubmit-token",
+  assetVersion: "2026-05-09-home-hero-two-line",
   contactName: "Michael Dalton, President",
   email: "michael.kushman@gmail.com",
   contactFormAction: "https://formsubmit.co/d3e6b1864b641c2a285418e86d7465c8",

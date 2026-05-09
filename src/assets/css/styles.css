@@ -555,9 +555,9 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
   --home-hero-label-right: 3.4375vw;
   right: var(--home-hero-label-right);
   bottom: 6.375vw;
-  width: min(42.9375vw, calc(50% - var(--home-hero-label-right)));
+  width: calc(50% - var(--home-hero-label-right));
   min-height: 7.125vw;
-  max-width: calc(50% - var(--home-hero-label-right));
+  max-width: 58rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -571,6 +571,12 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 
 .image-hero-home .image-hero-label span {
   white-space: normal;
+}
+
+@media (min-width: 1350px) {
+  .image-hero-home .image-hero-label span {
+    white-space: nowrap;
+  }
 }
 
 .image-hero-home img {
