@@ -3,12 +3,9 @@ layout: layouts/base.njk
 title: Meeting Agendas & Minutes
 metaDescription: WPCNA monthly meeting agendas, minutes, and recordings.
 ---
-<section class="page-hero">
-  <div class="wrap">
-    <p class="eyebrow">WPCNA</p>
-    <h1>Meeting agendas &amp; minutes</h1>
-    <p>{{ agendas.intro }}</p>
-  </div>
+<section class="image-hero image-hero-agendas">
+  <img src="{{ site.agendasHeroImage | withPrefix }}" alt="{{ site.agendasHeroImageAlt }}" loading="eager">
+  <h1 class="image-hero-label">Agendas</h1>
 </section>
 
 <section class="section">

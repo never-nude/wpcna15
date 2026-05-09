@@ -1,13 +1,14 @@
 const neighborhoodStore = require("./neighborhoodStore");
 
 const runtimePathPrefix = process.env.SITE_PATH_PREFIX || "/";
-const canonicalPathPrefix = process.env.CANONICAL_PATH_PREFIX || process.env.SITE_PATH_PREFIX || "/wpcna14";
+const canonicalPathPrefix = process.env.CANONICAL_PATH_PREFIX || process.env.SITE_PATH_PREFIX || "/wpcna15";
 const deployBaseUrl = process.env.SITE_BASE_URL || "https://never-nude.github.io";
 const cleanCanonicalPrefix = canonicalPathPrefix === "/" ? "" : canonicalPathPrefix.replace(/\/$/, "");
 const homeHeroImage = "/assets/img/home/legacy-carousel/White-Plains.jpeg";
-const neighborhoodsHeroImage = "/assets/img/home/legacy-carousel/white-plains-new-york-pano.jpg";
+const neighborhoodsHeroImage = "/assets/img/heroes/cna-neighborhoods-hero.png";
 const aboutImage = "/assets/img/home/legacy-carousel/Wp.pm.jpg";
-const eventHeroImage = "/assets/img/heroes/events-community-picnic.jpg";
+const eventHeroImage = "/assets/img/heroes/cna-events-hero.png";
+const agendasHeroImage = "/assets/img/heroes/cna-agenda-hero.jpg";
 const handbookHeroImage = "/assets/img/heroes/cna-workshop-classroom.jpg";
 const postingHeroImage = "/assets/img/heroes/wpcna-parade-community-posting.png";
 const pageHeroImages = new Set([
@@ -15,6 +16,7 @@ const pageHeroImages = new Set([
   neighborhoodsHeroImage,
   aboutImage,
   eventHeroImage,
+  agendasHeroImage,
   handbookHeroImage,
   postingHeroImage
 ]);
@@ -166,10 +168,10 @@ module.exports = {
   baseUrl: `${deployBaseUrl.replace(/\/$/, "")}${cleanCanonicalPrefix}`,
   pathPrefix: runtimePathPrefix,
   themeColor: "#d65f22",
-  assetVersion: "2026-05-08-wpcna14-events-tight",
+  assetVersion: "2026-05-09-test-contact-email",
   contactName: "Michael Dalton, President",
-  email: "info@wpcna.org",
-  contactFormAction: "https://formsubmit.co/info@wpcna.org",
+  email: "michael.kushman@gmail.com",
+  contactFormAction: "https://formsubmit.co/michael.kushman@gmail.com",
   contactFormSubject: "WPCNA website contact",
   askWhitePlainsApiUrl: process.env.ASK_WHITE_PLAINS_API_URL || "",
   // Posting form submits to a Cloudflare Worker — URL set after worker deploy
@@ -186,7 +188,9 @@ module.exports = {
   aboutImageAlt:
     "Downtown White Plains at twilight with office towers, apartment buildings, and the city skyline lit against a deep blue sky.",
   eventHeroImage,
-  eventHeroImageAlt: "Children and families gathered on a park lawn during an outdoor community picnic.",
+  eventHeroImageAlt: "Families gathered in a park for an outdoor community event with children holding large balloons.",
+  agendasHeroImage,
+  agendasHeroImageAlt: "Residents seated in a public meeting room while a presenter speaks at the front.",
   handbookHeroImage,
   handbookHeroImageAlt: "An instructor teaching adults in a classroom during a workshop.",
   postingHeroImage,

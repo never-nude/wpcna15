@@ -38,6 +38,38 @@
   </article>
 {% endmacro %}
 
+{% macro postingCard(posting) %}
+  <article
+    class="event-card posting-card"
+    data-posting-card
+    data-month="{{ posting.monthKey }}"
+    data-status="{{ posting.status }}"
+  >
+    <div class="event-card-body">
+      {% if posting.category or posting.status == "past" %}
+        <div class="event-card-top">
+          {% if posting.category %}
+            <span class="tag">{{ posting.category }}</span>
+          {% endif %}
+          {% if posting.status == "past" %}
+            <span class="tag tag-muted">Past</span>
+          {% endif %}
+        </div>
+      {% endif %}
+      <h3><a href="{{ posting.detailUrl | withPrefix }}">{{ posting.title }}</a></h3>
+      <p class="event-card-date">{{ posting | shortDateLabel }}</p>
+      <div class="event-card-meta">
+        <span>{{ posting.displayTime or (posting | timeLabel) }}</span>
+        <span>{{ posting.locationName }}</span>
+      </div>
+      <p class="event-card-summary">{{ posting.shortSummary }}</p>
+      <div class="event-card-actions">
+        <a class="btn btn-primary" href="{{ posting.detailUrl | withPrefix }}" aria-label="View posting details for {{ posting.title }}">{{ posting.cardActionLabel or "Posting details" }}</a>
+      </div>
+    </div>
+  </article>
+{% endmacro %}
+
 {% macro resourceCard(resource) %}
   {% set isExternal = resource.url.startsWith("http") %}
   {% set href = resource.url if isExternal else (resource.url | withPrefix) %}

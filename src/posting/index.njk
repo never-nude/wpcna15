@@ -1,15 +1,35 @@
 ---
 layout: layouts/base.njk
-title: Community Posting
-metaDescription: Send community-serving White Plains information to WPCNA for review.
+title: Community Postings
+metaDescription: Community-serving White Plains information reviewed through WPCNA posting standards.
 eleventyExcludeFromCollections: true
 ---
+{% from "components/macros.njk" import postingCard %}
+
 <section class="image-hero image-hero-posting">
   <img src="{{ site.postingHeroImage | withPrefix }}" alt="{{ site.postingHeroImageAlt }}" loading="eager">
   <h1 class="image-hero-label">Community Postings</h1>
 </section>
 
-<section class="section">
+<section class="section posting-listing-section">
+  <div class="wrap">
+    <div class="section-header">
+      <div>
+        <h2>Community Postings</h2>
+        <p>Neighborhood notices, workshops, and local updates reviewed through WPCNA&rsquo;s posting standards.</p>
+      </div>
+      <span class="archive-count">{{ communityPostings.all.length }} postings</span>
+    </div>
+
+    <div class="card-grid">
+      {% for posting in communityPostings.all %}
+        {{ postingCard(posting) }}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="posting-guidelines">
   <div class="wrap posting-page">
     <section class="posting-intro" aria-labelledby="posting-resource-heading">
       <h2 id="posting-resource-heading">A curated community resource</h2>
@@ -54,7 +74,11 @@ eleventyExcludeFromCollections: true
       <p>Use this form to send community information to WPCNA. Submissions are reviewed before posting.</p>
       <p class="form-note">Your email address is used for follow-up and will not be published unless you specifically ask WPCNA to include it.</p>
 
-      <form class="contact-form" data-posting-form data-posting-api="{{ site.postingApiUrl }}">
+      <form class="contact-form" action="{{ site.contactFormAction }}" method="POST">
+        <input type="hidden" name="_subject" value="WPCNA community posting submission">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+
         {# Honeypot hidden from real users; catches automated submissions. #}
         <div class="form-honeypot" hidden aria-hidden="true">
           <input id="posting-website" name="website" type="text" tabindex="-1" autocomplete="off" aria-label="Website">
@@ -82,8 +106,6 @@ eleventyExcludeFromCollections: true
 
         <button class="btn btn-primary btn-block" type="submit" data-posting-submit>Send for review</button>
         <p class="form-note">Submitting an item does not guarantee posting.</p>
-
-        <div class="form-status" data-posting-status hidden></div>
       </form>
     </section>
   </div>

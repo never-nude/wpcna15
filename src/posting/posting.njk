@@ -1,0 +1,55 @@
+---
+pagination:
+  data: communityPostings.all
+  size: 1
+  alias: posting
+permalink: "posting/{{ posting.slug }}/index.html"
+layout: layouts/base.njk
+eleventyComputed:
+  title: "{{ posting.title }}"
+  metaDescription: "{{ posting.shortSummary }}"
+  ogType: "article"
+---
+<section class="page-hero">
+  <div class="wrap">
+    <h1>{{ posting.title }}</h1>
+    <p>{{ posting.shortSummary }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="detail-grid">
+      <article class="detail-main">
+        <div class="detail-meta">
+          <span class="detail-organizer">{{ posting.sourceLabel }}</span>
+          {% if posting.status == "past" %}
+            <span class="tag tag-muted">Past posting</span>
+          {% endif %}
+        </div>
+
+        <h2 id="about-this-posting">About this posting</h2>
+        {{ posting.fullDescription | paragraphs | safe }}
+      </article>
+
+      <aside class="detail-sidebar">
+        <div class="sidebar-card">
+          <p class="eyebrow">At a Glance</p>
+          <dl>
+            <div><dt>Status</dt><dd>{% if posting.status == "upcoming" %}Upcoming{% else %}Past{% endif %}</dd></div>
+            <div><dt>Date</dt><dd>{{ posting | dateLabel }}</dd></div>
+            <div><dt>Time</dt><dd>{{ posting.displayTime or (posting | timeLabel) }}</dd></div>
+            <div><dt>Location</dt><dd>{{ posting.locationName }}</dd></div>
+            <div><dt>Address</dt><dd>{{ posting.locationAddress }}</dd></div>
+            <div><dt>Source</dt><dd>{{ posting.sourceLabel }}</dd></div>
+          </dl>
+          {% if posting.primaryAction %}
+            {% set paUrl = posting.primaryAction.url %}
+            {% set paExternal = paUrl.startsWith("http") %}
+            <a class="btn btn-primary btn-block" href="{{ paUrl if paExternal else (paUrl | withPrefix) }}"{% if paExternal %} target="_blank" rel="noopener"{% endif %}>{{ posting.primaryAction.label }}</a>
+          {% endif %}
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>

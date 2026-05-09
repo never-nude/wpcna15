@@ -33,6 +33,7 @@
   --radius-lg: 0;
   --max-w: 1180px;
   --header-h: clamp(108px, 10.6875vw, 220px);
+  --hero-image-aspect: 1500 / 923;
 }
 
 @font-face {
@@ -504,9 +505,10 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 
 .image-hero {
   position: relative;
+  width: 100%;
   min-height: 0;
-  aspect-ratio: auto;
-  height: 53.5625vw;
+  aspect-ratio: var(--hero-image-aspect);
+  height: auto;
   display: grid;
   align-items: end;
   overflow: hidden;
@@ -526,19 +528,23 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
   right: clamp(1rem, 3.25vw, 2.5rem);
   bottom: clamp(1rem, 3.25vw, 2.5rem);
   z-index: 1;
-  width: max-content;
+  width: fit-content;
   max-width: calc(50% - clamp(1rem, 3.25vw, 2.5rem));
   margin: 0;
   padding: 0.85rem clamp(1rem, 1.6vw, 1.35rem);
   box-sizing: border-box;
   background: var(--brand);
   color: #fff;
-  font-family: "WPCNA Franklin Heavy", "Franklin Gothic Heavy", "Franklin Gothic Demi", "Arial Black", sans-serif;
-  font-size: 16pt;
+  font-family: "Arial Black", "WPCNA Franklin Heavy", "Franklin Gothic Heavy", "Franklin Gothic Demi", sans-serif;
+  font-size: clamp(27pt, 2.175vw, 30pt);
   font-weight: 900;
   line-height: 1.1;
   letter-spacing: 0;
   text-align: left;
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: none;
+  text-wrap: balance;
 }
 
 .image-hero-label span {
@@ -557,22 +563,27 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
   align-items: center;
   justify-content: center;
   padding: clamp(0.9rem, 1.65vw, 2.2rem) clamp(1rem, 1.8vw, 2.4rem);
-  font-size: clamp(1rem, 1.52vw, 2rem);
+  font-family: "WPCNA Franklin Heavy", "Franklin Gothic Heavy", "Franklin Gothic Demi", "Arial Black", sans-serif;
+  font-size: clamp(17pt, 1.45vw, 20pt);
   line-height: 1.25;
   text-align: center;
 }
 
 .image-hero-home .image-hero-label span {
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .image-hero-home img {
   object-position: center center;
-  filter: brightness(1.12) contrast(1.04) saturate(1.24);
+  filter: brightness(1.08) contrast(0.92) saturate(0.9);
 }
 
 .image-hero-events img {
-  object-position: center 30%;
+  object-position: center center;
+}
+
+.image-hero-agendas img {
+  object-position: center center;
 }
 
 .image-hero-posting img {
@@ -597,12 +608,11 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 
 .image-hero-neighborhoods img {
   object-position: center 38%;
-  filter: brightness(1.04) contrast(0.92) saturate(1.12) sepia(0.06);
 }
 
 .neighborhood-detail-hero {
   position: relative;
-  aspect-ratio: 4032 / 2394;
+  aspect-ratio: var(--hero-image-aspect);
   min-height: 0;
   display: grid;
   align-items: end;
@@ -757,9 +767,14 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 }
 
 .represented-neighborhoods-section {
+  padding-bottom: clamp(2rem, 3.5vw, 3.25rem);
   background: var(--bg);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
+}
+
+.represented-neighborhoods-section + .section-rule {
+  padding-top: clamp(2rem, 3.5vw, 3.25rem);
 }
 
 .represented-neighborhoods-layout {
@@ -824,7 +839,7 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 }
 
 .represented-map-caption {
-  margin-top: 0.9rem;
+  margin-top: 0.55rem;
   color: var(--ink-secondary);
   font-size: 0.93rem;
 }
@@ -834,7 +849,15 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 }
 
 .represented-neighborhoods-intro p {
-  color: var(--ink-secondary);
+  max-width: 34rem;
+  margin: 0;
+  color: var(--ink);
+  font-family: "WPCNA Franklin Heavy", "Franklin Gothic Heavy", "Franklin Gothic Demi", "Arial Black", sans-serif;
+  font-size: clamp(1.35rem, 2vw, 1.85rem);
+  font-weight: 900;
+  line-height: 1.16;
+  letter-spacing: 0;
+  text-wrap: balance;
 }
 
 .represented-neighborhood-grid {
@@ -1215,19 +1238,20 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 .page-hero-figure {
   margin: 0;
   overflow: hidden;
+  aspect-ratio: var(--hero-image-aspect);
   box-shadow: var(--shadow-md);
 }
 
 .page-hero-figure img {
   width: 100%;
-  aspect-ratio: 16 / 7;
-  min-height: clamp(24rem, 42vw, 34rem);
+  height: 100%;
+  min-height: 0;
   object-fit: cover;
 }
 
 .page-hero-placeholder-figure {
-  aspect-ratio: 16 / 7;
-  min-height: clamp(24rem, 42vw, 34rem);
+  aspect-ratio: var(--hero-image-aspect);
+  min-height: 0;
   box-shadow: none;
 }
 
@@ -1247,7 +1271,9 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 .neighborhood-hero-bleed {
   width: 100%;
   margin: clamp(2rem, 4vw, 3rem) 0 0;
+  aspect-ratio: var(--hero-image-aspect);
   border-top: 1px solid var(--border);
+  overflow: hidden;
   background: var(--bg);
   box-shadow: none;
 }
@@ -1255,10 +1281,9 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 .neighborhood-hero-bleed img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   min-height: 0;
-  aspect-ratio: auto;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .neighborhood-hero-bleed .page-hero-credit {
@@ -1269,7 +1294,7 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 }
 
 .neighborhood-hero-placeholder {
-  aspect-ratio: 1549 / 850;
+  aspect-ratio: var(--hero-image-aspect);
   min-height: 0;
   box-shadow: none;
 }
@@ -1979,6 +2004,29 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
   gap: 2rem;
 }
 
+.posting-listing-section {
+  padding-top: clamp(2.5rem, 4.2vw, 4rem);
+}
+
+.posting-listing-section .section-header {
+  align-items: flex-start;
+  margin-bottom: clamp(1.1rem, 2vw, 1.55rem);
+  padding-top: 0;
+  border-top: 0;
+}
+
+.posting-listing-section .section-header h2 {
+  margin-bottom: 0.45rem;
+}
+
+.posting-listing-section .section-header p {
+  margin: 0;
+}
+
+.posting-listing-section .archive-count {
+  margin-top: 0.35rem;
+}
+
 .posting-intro,
 .posting-include {
   max-width: 52rem;
@@ -2355,12 +2403,15 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 }
 
 .neighborhood-map-lead {
-  max-width: 35rem;
+  max-width: 34rem;
   margin: 0;
   color: var(--ink);
-  font-size: clamp(1.08rem, 1.5vw, 1.28rem);
-  font-weight: 700;
-  line-height: 1.45;
+  font-family: "WPCNA Franklin Heavy", "Franklin Gothic Heavy", "Franklin Gothic Demi", "Arial Black", sans-serif;
+  font-size: clamp(1.35rem, 2vw, 1.85rem);
+  font-weight: 900;
+  line-height: 1.16;
+  letter-spacing: 0;
+  text-wrap: balance;
 }
 
 .map-tile-grid {
@@ -2600,12 +2651,11 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
   .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
   .page-hero-media { grid-template-columns: 1fr; }
   .page-hero-figure img {
-    aspect-ratio: 4 / 3;
-    min-height: 18rem;
+    height: 100%;
+    min-height: 0;
   }
   .neighborhood-hero-bleed img {
-    height: auto;
-    aspect-ratio: auto;
+    height: 100%;
     min-height: 0;
   }
   .neighborhood-hero-placeholder {
@@ -2657,7 +2707,7 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
     justify-content: center;
     padding: 0 0.28rem;
     color: #fff;
-    font-size: clamp(1rem, 1.55vw, 2rem);
+    font-size: 16pt;
     line-height: 1.08;
     text-align: center;
   }
@@ -2674,19 +2724,22 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 }
 
 @media (max-width: 1199px) {
-  :root { --header-h: 104px; }
+  :root {
+    --header-h: 104px;
+    --mobile-nav-inset: clamp(1rem, 3vw, 1.75rem);
+  }
 
   .header-inner {
     height: auto;
     min-height: var(--header-h);
-    padding: 0.9rem 0;
+    padding: 0.9rem var(--mobile-nav-inset) 0.9rem 0;
     gap: 1rem;
   }
 
   .site-brand-stack {
     flex: 1 1 auto;
     min-width: 0;
-    max-width: calc(100% - 4.5rem);
+    max-width: calc(100% - 4.5rem - var(--mobile-nav-inset));
     min-height: var(--header-h);
     border-right: 0;
   }
@@ -2699,9 +2752,9 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
 
   .site-nav {
     top: calc(100% - 1px);
-    right: 0;
+    right: var(--mobile-nav-inset);
     left: auto;
-    width: min(360px, calc(100vw - 2rem));
+    width: min(360px, calc(100vw - (var(--mobile-nav-inset) * 2)));
     padding: 0;
     border: 2px solid var(--ink);
     box-shadow: var(--shadow-lg);
@@ -2742,7 +2795,7 @@ h3 { font-size: clamp(1.12rem, 1.8vw, 1.38rem); }
     bottom: 1rem;
     max-width: calc(50% - 1rem);
     padding: 0.8rem 1rem;
-    font-size: clamp(1rem, 4.2vw, 16pt);
+    font-size: clamp(27pt, 6.6vw, 30pt);
   }
 
   .image-hero-home .image-hero-label {

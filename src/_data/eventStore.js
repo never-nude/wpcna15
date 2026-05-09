@@ -90,6 +90,12 @@ function cleanParagraphText(value = "") {
     .join("\n\n");
 }
 
+function normalizeEventCategory(category = "") {
+  const cleaned = cleanVisibleText(category);
+
+  return cleaned === "Community" ? "Local" : cleaned;
+}
+
 function normalizeImportedTitle(title = "") {
   return cleanVisibleText(title)
     .replace(/^See details\s+/i, "")
@@ -292,7 +298,7 @@ function normalizeEventCopy(event) {
     title: normalizeImportedTitle(event.title),
     shortSummary: normalizeShortSummary(event),
     fullDescription: normalizeFullDescription(event),
-    category: cleanVisibleText(event.category),
+    category: normalizeEventCategory(event.category),
     organizer: cleanVisibleText(event.organizer),
     locationName: normalizeLocationName(event),
     locationAddress: normalizeLocationAddress(event),
@@ -473,7 +479,7 @@ function scoreUpcomingSelection(event) {
     score += 11;
   } else if (event.category === "Workshop") {
     score += 10;
-  } else if (event.category === "Community") {
+  } else if (event.category === "Local") {
     score += 9;
   } else if (event.category === "Learning") {
     score += 8;
