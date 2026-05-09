@@ -76,9 +76,9 @@ eleventyExcludeFromCollections: true
 
       <form class="contact-form" action="{{ site.contactFormAction }}" method="POST">
         <input type="hidden" name="_subject" value="WPCNA community posting submission">
-        <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_next" value="{{ site.baseUrl }}/posting/">
+        <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
 
         {# Honeypot hidden from real users; catches automated submissions. #}
         <div class="form-honeypot" hidden aria-hidden="true">

@@ -16,9 +16,9 @@ metaDescription: Send questions, corrections, meeting information, or neighborho
   <div class="wrap contact-page">
     <form class="contact-form contact-page-form" action="{{ site.contactFormAction }}" method="POST">
       <input type="hidden" name="_subject" value="{{ site.contactFormSubject }}">
-      <input type="hidden" name="_captcha" value="false">
       <input type="hidden" name="_template" value="table">
       <input type="hidden" name="_next" value="{{ site.baseUrl }}/contact/">
+      <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
 
       <div class="form-field">
         <label for="contact-name">Name</label>
