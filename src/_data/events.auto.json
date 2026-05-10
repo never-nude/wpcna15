@@ -1864,7 +1864,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4306&month=5&year=2026&day=9&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -1891,7 +1891,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4307&month=5&year=2026&day=9&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -1956,6 +1956,33 @@
     ],
     "organizer": "City of White Plains",
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4309&month=5&year=2026&day=11&calType=0",
+    "sourceLabel": "City calendar",
+    "importSource": "city"
+  },
+  {
+    "id": "city-design-review-board-2026-05-11",
+    "slug": "city-design-review-board-2026-05-11",
+    "title": "Design Review Board",
+    "category": "Civic",
+    "shortSummary": "Design Review Board is listed on the official White Plains city calendar.",
+    "fullDescription": "Design Review Board is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
+    "startDate": "2026-05-11",
+    "endDate": "2026-05-11",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "locationName": "White Plains",
+    "locationAddress": "White Plains, NY",
+    "image": "/assets/img/events/civic.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4333&month=5&year=2026&day=11&calType=0",
+    "ctaLabel": "Open city page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "city calendar"
+    ],
+    "organizer": "City of White Plains",
+    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4333&month=5&year=2026&day=11&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
   },
@@ -2585,7 +2612,7 @@
     "title": "Creating a Compelling College Application this Summer",
     "category": "Learning",
     "shortSummary": "Program for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and…",
-    "fullDescription": "Program for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and their parents understand how to use the upcoming summer productively to create a compelling college application. We will cover the college application process, including current admissions trends, writing the personal statement and supplemental essays, securing strong teacher recommendations, and understanding how students can position themselves to increase their chances of admission. We will also explore why a student?s ability to express insights, experiences, and personal growth through their essays is more important than ever. Our presentation will include application strategies, such as the advantages and disadvantages of early decision, early action, and regular decision. We will review the factors students should consider when deciding whether to submit standardized test scores for test optional colleges and universities. We will also explain the different pathways through which students can be admitted to a particular school. We will examine the holistic admissions review process, what admissions officers consider important when evaluating applicants, and how students can develop a compelling narrative that strengthens their applications. We will also discuss the importance of community service and how it offers opportunities for personal growth and character development. Admissions officers place significant emphasis on a student?s character and the ways they have contributed to their communities. This program provides a detailed and strategic overview of what students should focus on to make their college applications as compelling as possible. The presentation will be led by Ron Feuchs and Jackie Tepper, partners at Stand Out For College, LLC (www.standoutforcollege.com). Check the library page for registration, tickets, and any schedule updates.",
+    "fullDescription": "Program for High School Juniors: Creating a Compelling College Application this Summer We are offering this Zoom presentation to help high school juniors and their parents understand how to use the upcoming summer productively to create a compelling college application. We will cover the college application process, including current admissions trends, writing the personal statement and supplemental essays, securing strong teacher recommendations, and understanding how students can position themselves to increase their chances of admission. We will also explore why a student's ability to express insights, experiences, and personal growth through their essays is more important than ever. Our presentation will include application strategies, such as the advantages and disadvantages of early decision, early action, and regular decision. We will review the factors students should consider when deciding whether to submit standardized test scores for test optional colleges and universities. We will also explain the different pathways through which students can be admitted to a particular school. We will examine the holistic admissions review process, what admissions officers consider important when evaluating applicants, and how students can develop a compelling narrative that strengthens their applications. We will also discuss the importance of community service and how it offers opportunities for personal growth and character development. Admissions officers place significant emphasis on a student's character and the ways they have contributed to their communities. This program provides a detailed and strategic overview of what students should focus on to make their college applications as compelling as possible. The presentation will be led by Ron Feuchs and Jackie Tepper, partners at Stand Out For College, LLC (www.standoutforcollege.com). Check the library page for registration, tickets, and any schedule updates.",
     "startDate": "2026-05-20",
     "endDate": "2026-05-20",
     "startTime": "19:30",
@@ -3833,7 +3860,7 @@
     "endDate": "2026-06-16",
     "startTime": "14:00",
     "endTime": "15:00",
-    "locationName": "White Plains Public Library, Community Room",
+    "locationName": "White Plains Public Library, Community Room,Virtual",
     "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
     "image": "/assets/img/events/learning.svg",
     "flyerPdf": null,
