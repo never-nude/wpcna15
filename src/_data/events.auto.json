@@ -1,32 +1,5 @@
 [
   {
-    "id": "city-design-review-board-2026-03-11",
-    "slug": "city-design-review-board-2026-03-11",
-    "title": "Design Review Board",
-    "category": "Civic",
-    "shortSummary": "Design Review Board is listed on the official White Plains city calendar.",
-    "fullDescription": "Design Review Board is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-03-11",
-    "endDate": "2026-03-11",
-    "startTime": "19:00",
-    "endTime": "21:00",
-    "locationName": "White Plains",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/civic.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4280&month=3&year=2026&day=11&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4280&month=3&year=2026&day=11&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
     "id": "city-st-patrick-s-day-celebration-2026-03-13",
     "slug": "city-st-patrick-s-day-celebration-2026-03-13",
     "title": "St. Patrick's Day Celebration",
@@ -3223,35 +3196,6 @@
     "importSource": "city"
   },
   {
-    "id": "library-sustainable-eating-in-the-hudson-valley-2026-06-09",
-    "slug": "library-sustainable-eating-in-the-hudson-valley-2026-06-09",
-    "title": "Sustainable Eating in the Hudson Valley",
-    "category": "Learning",
-    "shortSummary": "Globalization has transformed the way we eat.",
-    "fullDescription": "Globalization has transformed the way we eat. The limitations of seasonality, geography, weather, and availability have largely been eliminated, allowing us to access foods from around the world without a second thought. But what effect does this have on the environment, local communities, regional cuisine, and culinary innovation? In this discussion, we will explore what it means to live and eat in the Hudson Valley. We will examine the power of food to catalyze change and to cultivate a deeper, more grounded sense of place. Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-06-09",
-    "endDate": "2026-06-09",
-    "startTime": "18:30",
-    "endTime": "19:30",
-    "locationName": "White Plains Public Library, Auditorium",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/15922220",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "educational presentations",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/15922220",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
     "id": "city-music-at-the-market-2026-06-10",
     "slug": "city-music-at-the-market-2026-06-10",
     "title": "Music at the Market",
@@ -4134,6 +4078,39 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4298&month=6&year=2026&day=24&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-powerful-public-speaking-and-presentation-skills-2026-06-24",
+    "slug": "library-powerful-public-speaking-and-presentation-skills-2026-06-24",
+    "title": "Powerful Public Speaking & Presentation Skills",
+    "category": "Workshop",
+    "shortSummary": "We will be hosting the following program in partnership with The College of Westchester This seminar is designed to help students overcome their fear of…",
+    "fullDescription": "We will be hosting the following program in partnership with The College of Westchester This seminar is designed to help students overcome their fear of speaking in public and take them to next level presentation skills. Students will learn specific tools for improving their public speaking, presentation ability and will be given techniques to create effective presentation slides. Proper positioning on-camera in the online environment will also be reviewed. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-06-24",
+    "endDate": "2026-06-24",
+    "startTime": "18:00",
+    "endTime": "19:00",
+    "locationName": "White Plains Public Library, Rotary Room",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/workshop.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/15937499",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "training and course instruction",
+      "educational presentations",
+      "teens",
+      "parents",
+      "adults about 55 and over",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/15937499",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "city-soccer-fest-watch-party-2026-06-27",
