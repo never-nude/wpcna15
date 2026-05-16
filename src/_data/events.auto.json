@@ -1,32 +1,5 @@
 [
   {
-    "id": "city-spring-summer-program-registration-begins-2026-03-16",
-    "slug": "city-spring-summer-program-registration-begins-2026-03-16",
-    "title": "Spring/Summer Program Registration Begins",
-    "category": "Community",
-    "shortSummary": "Spring/Summer Program Registration Begins is listed on the official White Plains city calendar.",
-    "fullDescription": "Spring/Summer Program Registration Begins is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-03-16",
-    "endDate": "2026-03-16",
-    "startTime": "08:30",
-    "endTime": null,
-    "locationName": "White Plains",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/community.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4279&month=3&year=2026&day=16&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4279&month=3&year=2026&day=16&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
     "id": "city-transportation-commission-meeting-2026-03-17",
     "slug": "city-transportation-commission-meeting-2026-03-17",
     "title": "Transportation Commission Meeting",
@@ -2041,7 +2014,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4332&month=5&year=2026&day=15&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
