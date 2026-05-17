@@ -1,62 +1,5 @@
 [
   {
-    "id": "city-transportation-commission-meeting-2026-03-17",
-    "slug": "city-transportation-commission-meeting-2026-03-17",
-    "title": "Transportation Commission Meeting",
-    "category": "Civic",
-    "shortSummary": "Transportation Commission Meeting is listed on the official White Plains city calendar.",
-    "fullDescription": "Transportation Commission Meeting is listed on the official White Plains city calendar. It is set for City Hall Common Council Chambers, White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-03-17",
-    "endDate": "2026-03-17",
-    "startTime": "09:15",
-    "endTime": "10:15",
-    "locationName": "City Hall Common Council Chambers",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/civic.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=3654&month=3&year=2026&day=17&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar",
-      "public meeting",
-      "city hall"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=3654&month=3&year=2026&day=17&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
-    "id": "city-planning-board-meeting-2026-03-17",
-    "slug": "city-planning-board-meeting-2026-03-17",
-    "title": "Planning Board Meeting",
-    "category": "Civic",
-    "shortSummary": "Planning Board Meeting is listed on the official White Plains city calendar.",
-    "fullDescription": "Planning Board Meeting is listed on the official White Plains city calendar. It is set for White Plains, NY. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-03-17",
-    "endDate": "2026-03-17",
-    "startTime": "19:00",
-    "endTime": null,
-    "locationName": "White Plains",
-    "locationAddress": "White Plains, NY",
-    "image": "/assets/img/events/civic.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4127&month=3&year=2026&day=17&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar",
-      "public meeting"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4127&month=3&year=2026&day=17&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
     "id": "city-monthly-educational-speaker-series-2026-03-18",
     "slug": "city-monthly-educational-speaker-series-2026-03-18",
     "title": "Monthly Educational Speaker Series",
@@ -2041,7 +1984,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4315&month=5&year=2026&day=16&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -2068,7 +2011,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16342870",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "parents and caregivers",
       "other city department program",
@@ -2105,7 +2048,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4316&month=5&year=2026&day=16&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -2132,7 +2075,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/15751468",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "educational presentations",
       "adults",
