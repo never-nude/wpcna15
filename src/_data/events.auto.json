@@ -2109,7 +2109,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4310&month=5&year=2026&day=18&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -2136,7 +2136,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/15450415",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "books and authors",
       "adults about 55 and over",
@@ -2166,7 +2166,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/15096883",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "training and course instruction",
       "educational presentations",
@@ -2199,7 +2199,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4141&month=5&year=2026&day=18&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "public meeting"
@@ -2653,6 +2653,35 @@
     "importSource": "city"
   },
   {
+    "id": "library-citywide-school-art-show-2026-05-27",
+    "slug": "library-citywide-school-art-show-2026-05-27",
+    "title": "Citywide School Art Show",
+    "category": "Learning",
+    "shortSummary": "Reception Details: Church Street and George Washington Schools: Thursday, May 28 Mamaroneck Ave., Post Road and Ridgeway Schools: Tuesday, June 2 Eastview,…",
+    "fullDescription": "Reception Details: Church Street and George Washington Schools: Thursday, May 28 Mamaroneck Ave., Post Road and Ridgeway Schools: Tuesday, June 2 Eastview, Highlands, Rochambeau and White Plains High School: Wednesday, June 3 Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-05-27",
+    "endDate": "2026-05-27",
+    "startTime": "00:00",
+    "endTime": "23:59",
+    "locationName": "White Plains Public Library, Auditorium,Museum Gallery",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16443334",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "art exhibit and gallery opening",
+      "families",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16443334",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
     "id": "city-music-at-the-market-2026-05-27",
     "slug": "city-music-at-the-market-2026-05-27",
     "title": "Music at the Market",
@@ -2678,6 +2707,35 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4312&month=5&year=2026&day=27&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-citywide-school-art-show-2026-05-28",
+    "slug": "library-citywide-school-art-show-2026-05-28",
+    "title": "Citywide School Art Show",
+    "category": "Learning",
+    "shortSummary": "Reception Details: Church Street and George Washington Schools: Thursday, May 28 Mamaroneck Ave., Post Road and Ridgeway Schools: Tuesday, June 2 Eastview,…",
+    "fullDescription": "Reception Details: Church Street and George Washington Schools: Thursday, May 28 Mamaroneck Ave., Post Road and Ridgeway Schools: Tuesday, June 2 Eastview, Highlands, Rochambeau and White Plains High School: Wednesday, June 3 Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-05-28",
+    "endDate": "2026-05-28",
+    "startTime": "00:00",
+    "endTime": "23:59",
+    "locationName": "White Plains Public Library, Auditorium,Museum Gallery",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16443335",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "art exhibit and gallery opening",
+      "families",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16443335",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "library-introduction-to-computers-2026-05-28",
@@ -4356,6 +4414,37 @@
     "importSource": "library"
   },
   {
+    "id": "library-free-summer-meals-at-the-library-2026-07-02",
+    "slug": "library-free-summer-meals-at-the-library-2026-07-02",
+    "title": "Free Summer Meals at the Library",
+    "category": "Learning",
+    "shortSummary": "Youth up to age 18 can get a free lunch at the Library from 11:30-1.",
+    "fullDescription": "Youth up to age 18 can get a free lunch at the Library from 11:30-1. Lunch must be eaten at the Library. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-07-02",
+    "endDate": "2026-07-02",
+    "startTime": "11:30",
+    "endTime": "13:00",
+    "locationName": "White Plains Public Library, Museum Gallery",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16163994",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "health and wellness",
+      "teens",
+      "families",
+      "children",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16163994",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
     "id": "city-independence-day-celebration-2026-07-02",
     "slug": "city-independence-day-celebration-2026-07-02",
     "title": "Independence Day Celebration",
@@ -4381,6 +4470,39 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4270&month=7&year=2026&day=2&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-revolutionary-sounds-2026-07-02",
+    "slug": "library-revolutionary-sounds-2026-07-02",
+    "title": "REVOLUTIONARY SOUNDS!",
+    "category": "Learning",
+    "shortSummary": "Revolutionary Sounds explores the rich cultural exchange between European and African music in Colonial New York.",
+    "fullDescription": "Revolutionary Sounds explores the rich cultural exchange between European and African music in Colonial New York. Through live performance, storytelling, and hands-on demonstrations, students are introduced to historical instruments like the mountain dulcimer, djembe, banjo, and shekere. The program also highlights the significance of Pinkster, one of the earliest African American holidays, and how music served as a vital thread connecting communities across cultures. With engaging songs, body percussion, and interactive call-and-response segments, Revolutionary Sounds brings history to life while illuminating the roots of American music traditions like jazz and rock and roll. #RW250 Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-07-02",
+    "endDate": "2026-07-02",
+    "startTime": "18:30",
+    "endTime": "20:00",
+    "locationName": "White Plains Public Library, Auditorium",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/14677493",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "performing arts",
+      "teens",
+      "families",
+      "children",
+      "adults about 55 and over",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/14677493",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "city-common-council-meeting-2026-07-06",
