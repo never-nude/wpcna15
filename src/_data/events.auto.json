@@ -1,33 +1,5 @@
 [
   {
-    "id": "city-the-spot-2026-03-20",
-    "slug": "city-the-spot-2026-03-20",
-    "title": "The Spot",
-    "category": "Community",
-    "shortSummary": "The Spot is listed on the official White Plains city calendar.",
-    "fullDescription": "The Spot is listed on the official White Plains city calendar. It is set for White Plains Community Center, 65 Mitchell Place, White Plains, NY 10601. Use the official city page for agendas, updates, and any location changes.",
-    "startDate": "2026-03-20",
-    "endDate": "2026-03-20",
-    "startTime": "18:00",
-    "endTime": "21:00",
-    "locationName": "White Plains Community Center",
-    "locationAddress": "65 Mitchell Place, White Plains, NY 10601",
-    "image": "/assets/img/events/community.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4285&month=3&year=2026&day=20&calType=0",
-    "ctaLabel": "Open city page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "city calendar",
-      "community center"
-    ],
-    "organizer": "City of White Plains",
-    "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4285&month=3&year=2026&day=20&calType=0",
-    "sourceLabel": "City calendar",
-    "importSource": "city"
-  },
-  {
     "id": "city-ebersole-ice-show-2026-03-21",
     "slug": "city-ebersole-ice-show-2026-03-21",
     "title": "Ebersole Ice Show",
@@ -2227,7 +2199,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=3656&month=5&year=2026&day=19&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "public meeting",
@@ -2256,7 +2228,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/15493180",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "fun and games",
       "digital technology",
@@ -2287,7 +2259,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16130176",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "books and authors",
       "grades 4 - 6",
@@ -4411,6 +4383,36 @@
     ],
     "organizer": "White Plains Public Library",
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16481408",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
+    "id": "library-virtual-poetry-open-mic-2026-07-01",
+    "slug": "library-virtual-poetry-open-mic-2026-07-01",
+    "title": "Virtual Poetry Open Mic",
+    "category": "Learning",
+    "shortSummary": "Join Zork and Tim for our monthly virtual Poetry Open Mic!",
+    "fullDescription": "Join Zork and Tim for our monthly virtual Poetry Open Mic! If you plan to share your writings and are reading for the first time, please email Tim with a short bio at the address below. This is a virtual event using the Zoom platform. To join, Click This Zoom Link . You can also use the following phone number to call in: +1 929 436 2866 US (New York). Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-07-01",
+    "endDate": "2026-07-01",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "locationName": "White Plains Public Library, Ask Staff For More Information",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16563567",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "writing and poetry",
+      "teens",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16563567",
     "sourceLabel": "Library calendar",
     "importSource": "library"
   },
