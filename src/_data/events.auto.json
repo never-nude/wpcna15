@@ -2333,36 +2333,6 @@
     "importSource": "library"
   },
   {
-    "id": "bid-downtown-white-plains-rock-the-block-2026-2026-05-20",
-    "slug": "bid-downtown-white-plains-rock-the-block-2026-2026-05-20",
-    "title": "Downtown White Plains Rock the Block 2026",
-    "category": "Music & Family",
-    "shortSummary": "Location: Mamaroneck Ave.",
-    "fullDescription": "Location: Mamaroneck Ave. (between E. Post Rd. and Maple Ave.) Rock the Block is back for its third year! Join us every third Wednesday from May through August for an evening of live music, outdoor dining, and family-friendly fun in the heart of downtown White. Use the BID page for tickets, participating businesses, and weather updates.",
-    "startDate": "2026-05-20",
-    "endDate": "2026-05-20",
-    "startTime": "17:30",
-    "endTime": "20:30",
-    "locationName": "Downtown White Plains",
-    "locationAddress": "Downtown White Plains, NY 10601",
-    "image": "/assets/img/events/music.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://wpbid.com/events/rock-the-block-2026/",
-    "ctaLabel": "Open event page",
-    "featured": false,
-    "status": "past",
-    "tags": [
-      "downtown",
-      "bid",
-      "family",
-      "music"
-    ],
-    "organizer": "White Plains Business Improvement District",
-    "sourceUrl": "https://wpbid.com/events/rock-the-block-2026/",
-    "sourceLabel": "White Plains BID",
-    "importSource": "bid"
-  },
-  {
     "id": "bid-may-20-downtown-white-plains-rock-the-block-2026-05-20",
     "slug": "bid-may-20-downtown-white-plains-rock-the-block-2026-05-20",
     "title": "May 20 — Downtown White Plains Rock the Block",
@@ -3775,6 +3745,36 @@
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16314701",
     "sourceLabel": "Library calendar",
     "importSource": "library"
+  },
+  {
+    "id": "bid-downtown-white-plains-rock-the-block-2026-2026-06-17",
+    "slug": "bid-downtown-white-plains-rock-the-block-2026-2026-06-17",
+    "title": "Downtown White Plains Rock the Block 2026",
+    "category": "Music & Family",
+    "shortSummary": "Location: Mamaroneck Ave.",
+    "fullDescription": "Location: Mamaroneck Ave. (between E. Post Rd. and Maple Ave.) Rock the Block is back for its third year! Join us every third Wednesday from May through August for an evening of live music, outdoor dining, and family-friendly fun in the heart of downtown White. Use the BID page for tickets, participating businesses, and weather updates.",
+    "startDate": "2026-06-17",
+    "endDate": "2026-06-17",
+    "startTime": "17:30",
+    "endTime": "20:30",
+    "locationName": "Downtown White Plains",
+    "locationAddress": "Downtown White Plains, NY 10601",
+    "image": "/assets/img/events/music.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://wpbid.com/events/rock-the-block-2026/",
+    "ctaLabel": "Open event page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "downtown",
+      "bid",
+      "family",
+      "music"
+    ],
+    "organizer": "White Plains Business Improvement District",
+    "sourceUrl": "https://wpbid.com/events/rock-the-block-2026/",
+    "sourceLabel": "White Plains BID",
+    "importSource": "bid"
   },
   {
     "id": "bid-june-17-downtown-white-plains-rock-the-block-2026-06-17",
