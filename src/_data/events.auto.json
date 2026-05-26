@@ -2448,7 +2448,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4252&month=5&year=2026&day=25&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -2475,7 +2475,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4227&month=5&year=2026&day=25&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
