@@ -2597,7 +2597,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/15928841",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "books and authors",
       "adults about 55 and over",
@@ -2627,7 +2627,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=3605&month=6&year=2026&day=1&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar",
       "public meeting",
@@ -2656,7 +2656,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/15097010",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "training and course instruction",
       "educational presentations",
@@ -3130,7 +3130,7 @@
     "title": "Rev250: Westchester County in the American Revolution",
     "category": "Learning",
     "shortSummary": "Local historian Stephen Paul Devillo will discuss his latest book, Westchester County in the American Revolution: Neutral Ground.",
-    "fullDescription": "Local historian Stephen Paul Devillo will discuss his latest book, Westchester County in the American Revolution: Neutral Ground. After the 1776 Battle of White Plains, Westchester County became known as the \"Neutral Ground.\" But there would be no peace here. Occupied by neither side, it was a place where no one could remain neutral amid clashes by detachments of the contending armies, as well as violence by groups of bandits, vigilantes and partisans... Local historian Stephen Paul DeVillo details the colorful personalities and diverse military units that shaped the course of the conflict (Publisher's website). Check the library page for registration, tickets, and any schedule updates.",
+    "fullDescription": "Local historian Stephen Paul Devillo will discuss his latest book, Westchester County in the American Revolution: Neutral Ground. \"After the 1776 Battle of White Plains, Westchester County became known as the 'Neutral Ground.' But there would be no peace here. Occupied by neither side, it was a place where no one could remain neutral amid clashes by detachments of the contending armies, as well as violence by groups of bandits, vigilantes and partisans... Stephen Paul DeVillo details the colorful personalities and diverse military units that shaped the course of the conflict\" (Publisher's website). Check the library page for registration, tickets, and any schedule updates.",
     "startDate": "2026-06-11",
     "endDate": "2026-06-11",
     "startTime": "19:00",
@@ -3552,6 +3552,35 @@
     "importSource": "library"
   },
   {
+    "id": "library-uncovering-westchester-lgbtq-history-virtual-program-2026-06-16",
+    "slug": "library-uncovering-westchester-lgbtq-history-virtual-program-2026-06-16",
+    "title": "Uncovering Westchester LGBTQ+ History - Virtual Program",
+    "category": "Learning",
+    "shortSummary": "Join librarian and researcher Allee Manning for a celebration and deep dive into some of the true stories of the LGBTQ+ individuals who shaped Westchester…",
+    "fullDescription": "Join librarian and researcher Allee Manning for a celebration and deep dive into some of the true stories of the LGBTQ+ individuals who shaped Westchester with their advocacy, art, and activism. Expect plenty of fun trivia and thoughtful research. This program takes place on Zoom and registration is required. Click here to register. The program is being presented in partnership with the Town of Pelham Public Library and several other Westchester Libraries. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-06-16",
+    "endDate": "2026-06-16",
+    "startTime": "19:00",
+    "endTime": "20:00",
+    "locationName": "White Plains Public Library, Ask Staff For More Information",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16314701",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "educational presentations",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16314701",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
     "id": "bid-downtown-white-plains-rock-the-block-2026-2026-06-17",
     "slug": "bid-downtown-white-plains-rock-the-block-2026-2026-06-17",
     "title": "Downtown White Plains Rock the Block 2026",
@@ -3636,6 +3665,36 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4318&month=6&year=2026&day=17&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-george-washington-carver-genius-behind-the-peanut-man-2026-06-18",
+    "slug": "library-george-washington-carver-genius-behind-the-peanut-man-2026-06-18",
+    "title": "George Washington Carver: Genius Behind \"The Peanut Man\"",
+    "category": "Learning",
+    "shortSummary": "Born in Missouri to enslaved parents just two weeks before the Civil War ended, Carver was one of the most prominent black scientists of the 20th century.",
+    "fullDescription": "Born in Missouri to enslaved parents just two weeks before the Civil War ended, Carver was one of the most prominent black scientists of the 20th century. He developed farming techniques to prevent soil depletion, encouraged poor farmers to grow peanuts and sweet potatoes to improve their quality of life, and was an early promoter of environmentalism. Registration for this Zoom program is required. Sign up here! This presentation is offered in collaboration with the Town of Pelham Public Library and other Westchester Libraries. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-06-18",
+    "endDate": "2026-06-18",
+    "startTime": "11:00",
+    "endTime": "12:00",
+    "locationName": "White Plains Public Library",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16549450",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "history & genealogy",
+      "educational presentations",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16549450",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "city-summer-solstice-yoga-2026-06-18",
