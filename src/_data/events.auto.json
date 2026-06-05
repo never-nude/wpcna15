@@ -2832,7 +2832,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16558075",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "art exhibit and gallery opening",
       "families",
@@ -2862,7 +2862,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/15422708",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "books and authors",
       "adults",
@@ -2891,7 +2891,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/15739191",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "history & genealogy",
       "educational presentations",
@@ -3069,6 +3069,36 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4321&month=6&year=2026&day=10&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-beat-the-stress-of-finals-with-c2-2026-06-10",
+    "slug": "library-beat-the-stress-of-finals-with-c2-2026-06-10",
+    "title": "Beat the Stress of Finals with C2",
+    "category": "Workshop",
+    "shortSummary": "High school can feel like a balancing act&mdash;classes, activities, friendships, family expectations, and the pressure to plan for the future.",
+    "fullDescription": "High school can feel like a balancing act&mdash;classes, activities, friendships, family expectations, and the pressure to plan for the future. With so much to juggle, it&rsquo;s easy for stress to creep in. This interactive workshop, led by Shinara Sunderlal, Center Director at C2 Education of Scarsdale, invites students to pause, reset, and learn practical strategies for supporting their own well-being while still striving for and achieving academic success. Together, we&rsquo;ll explore simple, evidence-based tools to manage stress, build resilience, and create healthy habits that strengthen both emotional balance and performance in and out of school. Hosted in partnership with the C2 Education of Scarsdale. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-06-10",
+    "endDate": "2026-06-10",
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "locationName": "White Plains Public Library",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/workshop.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/15340690",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "educational presentations",
+      "teens",
+      "parents",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/15340690",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "library-powerful-public-speaking-and-presentation-skills-2026-06-10",
@@ -3646,6 +3676,35 @@
     "importSource": "library"
   },
   {
+    "id": "library-uncovering-westchester-lgbtq-history-virtual-program-2026-06-16",
+    "slug": "library-uncovering-westchester-lgbtq-history-virtual-program-2026-06-16",
+    "title": "Uncovering Westchester LGBTQ+ History - Virtual Program",
+    "category": "Learning",
+    "shortSummary": "Join librarian and researcher Allee Manning for a celebration and deep dive into some of the true stories of the LGBTQ+ individuals who shaped Westchester…",
+    "fullDescription": "Join librarian and researcher Allee Manning for a celebration and deep dive into some of the true stories of the LGBTQ+ individuals who shaped Westchester with their advocacy, art, and activism. Expect plenty of fun trivia and thoughtful research. This program takes place on Zoom and registration is required. Click here to register. The program is being presented in partnership with the Town of Pelham Public Library and several other Westchester Libraries. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-06-16",
+    "endDate": "2026-06-16",
+    "startTime": "19:00",
+    "endTime": "20:00",
+    "locationName": "White Plains Public Library, Ask Staff For More Information",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16314701",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "educational presentations",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16314701",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
     "id": "bid-downtown-white-plains-rock-the-block-2026-2026-06-17",
     "slug": "bid-downtown-white-plains-rock-the-block-2026-2026-06-17",
     "title": "Downtown White Plains Rock the Block 2026",
@@ -3730,6 +3789,36 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4318&month=6&year=2026&day=17&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-george-washington-carver-genius-behind-the-peanut-man-2026-06-18",
+    "slug": "library-george-washington-carver-genius-behind-the-peanut-man-2026-06-18",
+    "title": "George Washington Carver: Genius Behind \"The Peanut Man\"",
+    "category": "Learning",
+    "shortSummary": "Born in Missouri to enslaved parents just two weeks before the Civil War ended, Carver was one of the most prominent black scientists of the 20th century.",
+    "fullDescription": "Born in Missouri to enslaved parents just two weeks before the Civil War ended, Carver was one of the most prominent black scientists of the 20th century. He developed farming techniques to prevent soil depletion, encouraged poor farmers to grow peanuts and sweet potatoes to improve their quality of life, and was an early promoter of environmentalism. Registration for this Zoom program is required. Sign up here! This presentation is offered in collaboration with the Town of Pelham Public Library and other Westchester Libraries. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-06-18",
+    "endDate": "2026-06-18",
+    "startTime": "11:00",
+    "endTime": "12:00",
+    "locationName": "White Plains Public Library",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16549450",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "history & genealogy",
+      "educational presentations",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16549450",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "city-summer-solstice-yoga-2026-06-18",
