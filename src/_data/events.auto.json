@@ -2894,7 +2894,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4253&month=6&year=2026&day=6&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -2984,35 +2984,6 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4329&month=6&year=2026&day=8&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
-  },
-  {
-    "id": "library-sustainable-eating-in-the-hudson-valley-2026-06-09",
-    "slug": "library-sustainable-eating-in-the-hudson-valley-2026-06-09",
-    "title": "Sustainable Eating in the Hudson Valley",
-    "category": "Learning",
-    "shortSummary": "Globalization has transformed the way we eat.",
-    "fullDescription": "Globalization has transformed the way we eat. The limitations of seasonality, geography, weather, and availability have largely been eliminated, allowing us to access foods from around the world without a second thought. But what effect does this have on the environment, local communities, regional cuisine, and culinary innovation? In this discussion, we will explore what it means to live and eat in the Hudson Valley. We will examine the power of food to catalyze change and to cultivate a deeper, more grounded sense of place. Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-06-09",
-    "endDate": "2026-06-09",
-    "startTime": "18:30",
-    "endTime": "19:30",
-    "locationName": "White Plains Public Library, Auditorium",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/15922220",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "educational presentations",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/15922220",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
   },
   {
     "id": "city-music-at-the-market-2026-06-10",
@@ -3935,6 +3906,36 @@
     "importSource": "city"
   },
   {
+    "id": "library-america-250-the-importance-of-revolutionary-war-pensions-2026-06-23",
+    "slug": "library-america-250-the-importance-of-revolutionary-war-pensions-2026-06-23",
+    "title": "America 250: The Importance of Revolutionary War Pensions",
+    "category": "Learning",
+    "shortSummary": "It's America's 250th birthday, and for researchers across the country, Revolutionary War Pensions offer up valuable information about a veteran's life,…",
+    "fullDescription": "It's America's 250th birthday, and for researchers across the country, Revolutionary War Pensions offer up valuable information about a veteran's life, family, and service. This program shares how to find pensions, the information often available, and interpretation tips that are helpful to genealogists and researchers alike! Presented in collaboration with Ruth Keeler Memorial Library, White Plains Public Library, Eastchester Public Library and The Field Library. Registration is required. Click Here To Register. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-06-23",
+    "endDate": "2026-06-23",
+    "startTime": "19:00",
+    "endTime": "20:00",
+    "locationName": "White Plains Public Library, Ask Staff For More Information",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16692151",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "history & genealogy",
+      "educational presentations",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16692151",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
     "id": "city-music-at-the-market-2026-06-24",
     "slug": "city-music-at-the-market-2026-06-24",
     "title": "Music at the Market",
@@ -4414,8 +4415,8 @@
     "slug": "library-revolutionary-sounds-2026-07-02",
     "title": "REVOLUTIONARY SOUNDS!",
     "category": "Learning",
-    "shortSummary": "Revolutionary Sounds explores the rich cultural exchange between European and African music in Colonial New York.",
-    "fullDescription": "Revolutionary Sounds explores the rich cultural exchange between European and African music in Colonial New York. Through live performance, storytelling, and hands-on demonstrations, students are introduced to historical instruments like the mountain dulcimer, djembe, banjo, and shekere. The program also highlights the significance of Pinkster, one of the earliest African American holidays, and how music served as a vital thread connecting communities across cultures. With engaging songs, body percussion, and interactive call-and-response segments, Revolutionary Sounds brings history to life while illuminating the roots of American music traditions like jazz and rock and roll. #RW250 Check the library page for registration, tickets, and any schedule updates.",
+    "shortSummary": "Revolutionary Sounds explores the rich cultural exchange between European and African music in colonial New York.",
+    "fullDescription": "Revolutionary Sounds explores the rich cultural exchange between European and African music in colonial New York. Through live performance, storytelling, and hands-on demonstrations, students are introduced to historical instruments like the mountain dulcimer, djembe, banjo, and shekere. The program also highlights the significance of Pinkster, one of the earliest African American holidays, and how music served as a vital thread connecting communities across cultures. With engaging songs, body percussion, and interactive call-and-response segments, Revolutionary Sounds brings history to life while illuminating the roots of American music traditions like jazz and rock and roll. #RW250 Check the library page for registration, tickets, and any schedule updates.",
     "startDate": "2026-07-02",
     "endDate": "2026-07-02",
     "startTime": "18:30",
