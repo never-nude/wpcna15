@@ -2909,7 +2909,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4321&month=6&year=2026&day=10&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -2936,7 +2936,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/16695882",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "health and wellness",
       "teens",
@@ -2967,7 +2967,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/15937475",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "training and course instruction",
       "educational presentations",
@@ -3550,6 +3550,36 @@
     ],
     "organizer": "White Plains Public Library",
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16314701",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
+    "id": "library-reading-buddies-volunteer-training-2026-06-17",
+    "slug": "library-reading-buddies-volunteer-training-2026-06-17",
+    "title": "Reading Buddies Volunteer Training",
+    "category": "Workshop",
+    "shortSummary": "A training session for teen volunteers accepted into the Reading Buddies program.",
+    "fullDescription": "A training session for teen volunteers accepted into the Reading Buddies program. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-06-17",
+    "endDate": "2026-06-17",
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "locationName": "White Plains Public Library, Galaxy Hall",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/workshop.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16457419",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "volunteering",
+      "teens",
+      "high school (grades 9 - 12)",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16457419",
     "sourceLabel": "Library calendar",
     "importSource": "library"
   },
@@ -4165,6 +4195,36 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4263&month=6&year=2026&day=29&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-graphic-novel-chat-and-bingo-carousel-summer-by-kathleen-gros-2026-06-30",
+    "slug": "library-graphic-novel-chat-and-bingo-carousel-summer-by-kathleen-gros-2026-06-30",
+    "title": "Graphic Novel Chat & BINGO: Carousel Summer by Kathleen Gros",
+    "category": "Learning",
+    "shortSummary": "Join us for some fun by talking about Carousel Summer by Kathleen Gros!",
+    "fullDescription": "Join us for some fun by talking about Carousel Summer by Kathleen Gros! The first 4 students to register will receive a free copy of the graphic novel. Upon registration, please come to the Trove reference desk to pick up your free copy of the graphic novel. Other participants can have a copy placed on hold for them. For best discussion results, please make sure to read the graphic novel before coming to the program. We will also be playing a BINGO game based on Carousel Summer and snacking on treats. About Carousel Summer: With her best friend away at camp, tons of chores to do, and her dad always on her case for being such a tomboy, Lucy is dreading summer. That is, until Milforth's plan to revive an old carousel for the town's 150th anniversary brings artist Ray and her daughter, Ana&iuml;s, to town. Ana&iuml;s is smart, funny, and easy to talk to, and Lucy--who's used to being judged for her looks and interests--finally feels at ease in her own skin. And she thinks she may feel something for Ana&iuml;s, too. Leading up to Milforth's big birthday, tensions begin rising with locals, thanks to a shifty development company trying to overrun the town. Things also come to a breaking point at home, when Lucy butts heads with her dad over how she wants to express herself as a girl. Can Lucy find the courage to be true to who she is? She's got the whole summer to find out... Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-06-30",
+    "endDate": "2026-06-30",
+    "startTime": "17:00",
+    "endTime": "18:00",
+    "locationName": "White Plains Public Library, Galaxy Hall",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16200276",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "books and authors",
+      "grades 4 - 6",
+      "children",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16200276",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "library-robert-the-guitar-guy-2026-07-01",
@@ -5071,6 +5131,35 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4350&month=7&year=2026&day=23&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-r-and-b-soul-line-dancing-2026-07-25",
+    "slug": "library-r-and-b-soul-line-dancing-2026-07-25",
+    "title": "R&B Soul Line Dancing",
+    "category": "Learning",
+    "shortSummary": "R&amp;B Soul Line Dancing",
+    "fullDescription": "R&amp;B Soul Line Dancing Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-07-25",
+    "endDate": "2026-07-25",
+    "startTime": "13:00",
+    "endTime": "14:00",
+    "locationName": "White Plains Public Library, Library Plaza,Museum Gallery",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16078998",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "health and wellness",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16078998",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "city-peruvian-flag-raising-2026-07-26",
