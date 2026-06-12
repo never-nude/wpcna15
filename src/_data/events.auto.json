@@ -3000,7 +3000,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4289&month=6&year=2026&day=11&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3027,7 +3027,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4290&month=6&year=2026&day=11&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3054,7 +3054,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4291&month=6&year=2026&day=11&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3081,7 +3081,7 @@
     "externalUrl": "https://calendar.whiteplainslibrary.org/event/15321863",
     "ctaLabel": "Open library page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "history & genealogy",
       "educational presentations",
@@ -3111,7 +3111,7 @@
     "externalUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4292&month=6&year=2026&day=11&calType=0",
     "ctaLabel": "Open city page",
     "featured": false,
-    "status": "upcoming",
+    "status": "past",
     "tags": [
       "city calendar"
     ],
@@ -3811,6 +3811,36 @@
     ],
     "organizer": "White Plains Public Library",
     "sourceUrl": "https://calendar.whiteplainslibrary.org/event/14610202",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
+  },
+  {
+    "id": "library-wellness-connection-2026-06-22",
+    "slug": "library-wellness-connection-2026-06-22",
+    "title": "Wellness Connection",
+    "category": "Learning",
+    "shortSummary": "Join Jeffrey from Inclure , a program developed by the Harris Project &amp; WJCS that brings teens together for fun, supportive, and wellness-centered…",
+    "fullDescription": "Join Jeffrey from Inclure , a program developed by the Harris Project &amp; WJCS that brings teens together for fun, supportive, and wellness-centered programming. Each week, we&rsquo;ll explore different ways to improve physical, mental, and emotional well-being. Whether it's through stress management techniques, light movement, or guided breathing exercises, teens will develop skills to build confidence, foster positive relationships, and enhance their overall sense of well-being. For teens in grades 7-12 on a first-come, first-served basis. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-06-22",
+    "endDate": "2026-06-22",
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "locationName": "White Plains Public Library, Auditorium",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/15962889",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "health and wellness",
+      "fun and games",
+      "teens",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/15962889",
     "sourceLabel": "Library calendar",
     "importSource": "library"
   },
@@ -5133,35 +5163,6 @@
     "importSource": "city"
   },
   {
-    "id": "library-r-and-b-soul-line-dancing-2026-07-25",
-    "slug": "library-r-and-b-soul-line-dancing-2026-07-25",
-    "title": "R&B Soul Line Dancing",
-    "category": "Learning",
-    "shortSummary": "R&amp;B Soul Line Dancing",
-    "fullDescription": "R&amp;B Soul Line Dancing Check the library page for registration, tickets, and any schedule updates.",
-    "startDate": "2026-07-25",
-    "endDate": "2026-07-25",
-    "startTime": "13:00",
-    "endTime": "14:00",
-    "locationName": "White Plains Public Library, Library Plaza,Museum Gallery",
-    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
-    "image": "/assets/img/events/learning.svg",
-    "flyerPdf": null,
-    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16078998",
-    "ctaLabel": "Open library page",
-    "featured": false,
-    "status": "upcoming",
-    "tags": [
-      "health and wellness",
-      "adults",
-      "library"
-    ],
-    "organizer": "White Plains Public Library",
-    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16078998",
-    "sourceLabel": "Library calendar",
-    "importSource": "library"
-  },
-  {
     "id": "city-peruvian-flag-raising-2026-07-26",
     "slug": "city-peruvian-flag-raising-2026-07-26",
     "title": "Peruvian Flag Raising",
@@ -5187,6 +5188,37 @@
     "sourceUrl": "https://www.cityofwhiteplains.com/Calendar.aspx?EID=4271&month=7&year=2026&day=26&calType=0",
     "sourceLabel": "City calendar",
     "importSource": "city"
+  },
+  {
+    "id": "library-musical-bingo-a-self-care-sound-session-2026-07-26",
+    "slug": "library-musical-bingo-a-self-care-sound-session-2026-07-26",
+    "title": "Musical BINGO: A Self-Care Sound Session",
+    "category": "Learning",
+    "shortSummary": "Join us for the ultimate stress relief at our 90s &amp; 2000s Musical Bingo event!",
+    "fullDescription": "Join us for the ultimate stress relief at our 90s &amp; 2000s Musical Bingo event! This high-energy experience boosts happiness by combining nostalgic throwbacks with the excitement of BINGO. You'll have the chance to showcase your pop culture trivia skills, enjoy a rush of happiness with every song you recognize, and compete for fantastic prizes. Come for the ultimate millennial soundtrack, and leave with great memories and bragging rights! Why Musical Bingo is the Ultimate Self-Care: The Ultimate Mood Booster: Music is scientifically proven to lower cortisol (the stress hormone) and release dopamine. We&rsquo;re channeling that science into pure fun! Nostalgia &amp; Connection: Belt out the lyrics to songs you forgot you loved, share laughs with great company, and celebrate each other's wins. Zero Pressure: No singing talent required, no complex rules to follow, and absolutely no stress. Just show up, listen, and play. Prizes &amp; Surprises: Yes, there will be bingo! But more importantly, there will be awesome self-care prizes up for grabs. Check the library page for registration, tickets, and any schedule updates.",
+    "startDate": "2026-07-26",
+    "endDate": "2026-07-26",
+    "startTime": "14:00",
+    "endTime": "15:30",
+    "locationName": "White Plains Public Library, Auditorium",
+    "locationAddress": "100 Martine Avenue, White Plains, NY 10601",
+    "image": "/assets/img/events/learning.svg",
+    "flyerPdf": null,
+    "externalUrl": "https://calendar.whiteplainslibrary.org/event/16580716",
+    "ctaLabel": "Open library page",
+    "featured": false,
+    "status": "upcoming",
+    "tags": [
+      "fun and games",
+      "arts and crafts",
+      "adults about 55 and over",
+      "adults",
+      "library"
+    ],
+    "organizer": "White Plains Public Library",
+    "sourceUrl": "https://calendar.whiteplainslibrary.org/event/16580716",
+    "sourceLabel": "Library calendar",
+    "importSource": "library"
   },
   {
     "id": "city-common-council-work-session-2026-07-27",
